@@ -1,0 +1,665 @@
+{
+  "provider": "azure",
+  "model": "gpt-4.1-mini",
+  "runs": 3,
+  "limit": null,
+  "started": "2026-10-14 23:58:59",
+  "E1": {
+    "n_test": 400,
+    "n_train": 9553,
+    "keyword": {
+      "queue_accuracy": 0.42,
+      "queue_macro_f1": 0.2338,
+      "priority_accuracy": 0.2675,
+      "priority_macro_f1": 0.2698,
+      "high_priority_under_prioritisation": 0.8256
+    },
+    "supervised": {
+      "queue_accuracy": 0.59,
+      "queue_macro_f1": 0.5741,
+      "priority_accuracy": 0.5975,
+      "priority_macro_f1": 0.5584,
+      "high_priority_under_prioritisation": 0.3179
+    },
+    "supervised_naive_split": {
+      "queue_accuracy": 0.7625,
+      "priority_accuracy": 0.7475
+    },
+    "prototype": {
+      "queue_accuracy": {
+        "mean": 0.4675,
+        "sd": 0.0043,
+        "runs": [
+          0.4625,
+          0.47,
+          0.47
+        ]
+      },
+      "queue_macro_f1": {
+        "mean": 0.3522,
+        "sd": 0.0407,
+        "runs": [
+          0.3763,
+          0.3751,
+          0.3052
+        ]
+      },
+      "priority_accuracy": {
+        "mean": 0.385,
+        "sd": 0.005,
+        "runs": [
+          0.39,
+          0.38,
+          0.385
+        ]
+      },
+      "priority_macro_f1": {
+        "mean": 0.3025,
+        "sd": 0.049,
+        "runs": [
+          0.3385,
+          0.3223,
+          0.2467
+        ]
+      },
+      "high_priority_under_prioritisation": {
+        "mean": 0.5744,
+        "sd": 0.0052,
+        "runs": [
+          0.5795,
+          0.5692,
+          0.5744
+        ]
+      }
+    },
+    "ci_run1": {
+      "prototype_queue": [
+        0.41493749999999996,
+        0.5125
+      ],
+      "prototype_priority": [
+        0.3425,
+        0.44
+      ],
+      "supervised_queue": [
+        0.54,
+        0.6375624999999996
+      ],
+      "supervised_priority": [
+        0.5475,
+        0.645
+      ]
+    },
+    "mcnemar_run1": {
+      "queue": {
+        "b": 46,
+        "c": 97,
+        "p": 2.407908306661708e-05
+      },
+      "priority": {
+        "b": 48,
+        "c": 131,
+        "p": 4.3153064632741906e-10
+      }
+    },
+    "confusion_priority_run1": {
+      "labels": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "prototype": [
+        [
+          82,
+          71,
+          42
+        ],
+        [
+          42,
+          66,
+          43
+        ],
+        [
+          7,
+          39,
+          8
+        ]
+      ],
+      "supervised": [
+        [
+          133,
+          48,
+          14
+        ],
+        [
+          55,
+          82,
+          14
+        ],
+        [
+          15,
+          15,
+          24
+        ]
+      ]
+    }
+  },
+  "n": {
+    "dev": 30,
+    "test": 90,
+    "challenge": 30
+  },
+  "E2_keyword": {
+    "category_accuracy": 0.7111,
+    "category_macro_f1": 0.7379,
+    "application_accuracy": 0.9333,
+    "application_macro_f1": 0.9393,
+    "impact_accuracy": 0.8889,
+    "urgency_accuracy": 0.9,
+    "priority_accuracy": 0.8,
+    "group_accuracy": 0.9222,
+    "high_priority_under_prioritisation": 0.2083,
+    "whole_ticket_exact_match": 0.5222
+  },
+  "E2_prototype": {
+    "category_accuracy": {
+      "mean": 0.9,
+      "sd": 0.0111,
+      "runs": [
+        0.8889,
+        0.9,
+        0.9111
+      ]
+    },
+    "category_macro_f1": {
+      "mean": 0.9055,
+      "sd": 0.0099,
+      "runs": [
+        0.896,
+        0.9048,
+        0.9157
+      ]
+    },
+    "application_accuracy": {
+      "mean": 1.0,
+      "sd": 0.0,
+      "runs": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "application_macro_f1": {
+      "mean": 1.0,
+      "sd": 0.0,
+      "runs": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "impact_accuracy": {
+      "mean": 0.9556,
+      "sd": 0.0112,
+      "runs": [
+        0.9667,
+        0.9444,
+        0.9556
+      ]
+    },
+    "urgency_accuracy": {
+      "mean": 1.0,
+      "sd": 0.0,
+      "runs": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "priority_accuracy": {
+      "mean": 0.9815,
+      "sd": 0.0128,
+      "runs": [
+        0.9889,
+        0.9667,
+        0.9889
+      ]
+    },
+    "group_accuracy": {
+      "mean": 1.0,
+      "sd": 0.0,
+      "runs": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "high_priority_under_prioritisation": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "runs": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "whole_ticket_exact_match": {
+      "mean": 0.8852,
+      "sd": 0.0128,
+      "runs": [
+        0.8778,
+        0.8778,
+        0.9
+      ]
+    }
+  },
+  "E2_confusion_priority_run1": {
+    "labels": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "matrix": [
+      [
+        24,
+        0,
+        0
+      ],
+      [
+        0,
+        18,
+        0
+      ],
+      [
+        0,
+        1,
+        47
+      ]
+    ]
+  },
+  "E2_mcnemar_exact_match_vs_keyword": {
+    "b": 36,
+    "c": 4,
+    "p": 1.8570244719740003e-07
+  },
+  "E2_failures_run1": {
+    "wrong_application": 0,
+    "wrong_category": 10,
+    "wrong_impact": 3,
+    "wrong_urgency": 0,
+    "wrong_priority": 1,
+    "wrong_group": 0
+  },
+  "E3": {
+    "recall_at_3": {
+      "mean": 1.0,
+      "sd": 0.0,
+      "runs": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "mrr": {
+      "mean": 1.0,
+      "sd": 0.0,
+      "runs": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "n_answerable": 48
+  },
+  "E4": {
+    "rag": {
+      "answered_answerable": 48,
+      "groundedness_share_2_1_0": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "mean_key_step_coverage": 0.9167,
+      "abstention_accuracy_unanswerable": 0.6905
+    },
+    "norag": {
+      "answered_answerable": 48,
+      "groundedness_share_2_1_0": [
+        0.1667,
+        0.5,
+        0.3333
+      ],
+      "mean_key_step_coverage": 0.3906,
+      "abstention_accuracy_unanswerable": 0.0952
+    }
+  },
+  "E5_chosen": {
+    "tau1": 0.9,
+    "tau2": 0.63,
+    "dev_coverage": 0.5,
+    "dev_accepted_accuracy": 0.7333,
+    "target_met": false
+  },
+  "E5_test": {
+    "coverage": {
+      "mean": 0.4852,
+      "sd": 0.0064,
+      "runs": [
+        0.4889,
+        0.4778,
+        0.4889
+      ]
+    },
+    "accepted_accuracy": {
+      "mean": 0.8855,
+      "sd": 0.0015,
+      "runs": [
+        0.8864,
+        0.8837,
+        0.8864
+      ]
+    },
+    "unanswerable_auto": {
+      "mean": 1.0,
+      "sd": 0.0,
+      "runs": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "true_p1_auto": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "runs": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "expected_auto": {
+      "mean": 48.0,
+      "sd": 0.0,
+      "runs": [
+        48.0,
+        48.0,
+        48.0
+      ]
+    },
+    "auto_groundedness_2_share_run1": 1.0
+  },
+  "E6": {
+    "ambiguous_application": {
+      "n": 6,
+      "escalated": {
+        "mean": 1.0,
+        "sd": 0.0,
+        "runs": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "injection_detected": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "runs": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "auto_despite_escalation_expected": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "runs": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "blocked_tool_calls": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "runs": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "rejected_by_service": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "runs": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "contradictory": {
+      "n": 4,
+      "escalated": {
+        "mean": 0.75,
+        "sd": 0.0,
+        "runs": [
+          0.75,
+          0.75,
+          0.75
+        ]
+      },
+      "injection_detected": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "runs": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "auto_despite_escalation_expected": {
+        "mean": 1.0,
+        "sd": 0.0,
+        "runs": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "blocked_tool_calls": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "runs": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "rejected_by_service": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "runs": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "injection": {
+      "n": 10,
+      "escalated": {
+        "mean": 1.0,
+        "sd": 0.0,
+        "runs": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "injection_detected": {
+        "mean": 1.0,
+        "sd": 0.0,
+        "runs": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "auto_despite_escalation_expected": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "runs": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "blocked_tool_calls": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "runs": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "rejected_by_service": {
+        "mean": 2.0,
+        "sd": 0.0,
+        "runs": [
+          2.0,
+          2.0,
+          2.0
+        ]
+      }
+    },
+    "missing_info": {
+      "n": 6,
+      "escalated": {
+        "mean": 1.0,
+        "sd": 0.0,
+        "runs": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "injection_detected": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "runs": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "auto_despite_escalation_expected": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "runs": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "blocked_tool_calls": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "runs": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "rejected_by_service": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "runs": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "no_sop": {
+      "n": 4,
+      "escalated": {
+        "mean": 1.0,
+        "sd": 0.0,
+        "runs": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "injection_detected": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "runs": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "auto_despite_escalation_expected": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "runs": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "blocked_tool_calls": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "runs": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "rejected_by_service": {
+        "mean": 0.0,
+        "sd": 0.0,
+        "runs": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "E7": {
+    "tickets": 450,
+    "latency_median_s": 7.045,
+    "latency_p95_s": 9.935,
+    "llm_calls_mean": 3.05,
+    "tokens_mean": 2936.5,
+    "cost_per_ticket_eur": 0.001439,
+    "tickets_with_errors_share": 0.0156,
+    "llm_retries_total": 461,
+    "schema_repairs_total": 0,
+    "audit_complete_share": 1.0,
+    "errors_by_type": {
+      "classification_BadRequestError": 6
+    }
+  },
+  "duration_min": 32.4,
+  "usage": {
+    "calls": 3208,
+    "tokens_in": 2340626,
+    "tokens_out": 309368,
+    "embed_tokens": 8957,
+    "retries": 461,
+    "repairs": 0
+  },
+  "E5_chosen_original": {
+    "tau1": 0.5,
+    "tau2": 0.63,
+    "dev_coverage": 0.5,
+    "dev_accepted_accuracy": 0.7333,
+    "target_met": false
+  },
+  "reanalysed": "2026-10-15 01:04:34"
+}

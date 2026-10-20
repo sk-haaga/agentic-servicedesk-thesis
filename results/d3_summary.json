@@ -1,0 +1,33 @@
+{
+  "events": 141712,
+  "incidents": 24918,
+  "priority_share": {
+    "1 - Critical": 0.0108,
+    "2 - High": 0.0164,
+    "3 - Moderate": 0.9417,
+    "4 - Low": 0.0311
+  },
+  "impact_share": {
+    "1 - High": 0.0169,
+    "2 - Medium": 0.953,
+    "3 - Low": 0.0301
+  },
+  "urgency_share": {
+    "1 - High": 0.0213,
+    "2 - Medium": 0.9507,
+    "3 - Low": 0.028
+  },
+  "reassigned_at_least_once": 0.4563,
+  "mean_reassignments_if_reassigned": 2.06,
+  "reassigned_3_or_more": 0.1143,
+  "assignment_groups": 71,
+  "made_sla": 0.6342,
+  "priority_confirmed": 0.7682,
+  "reopened_at_least_once": 0.011,
+  "mean_reassignments_by_priority": {
+    "1 - Critical": 1.16,
+    "2 - High": 1.46,
+    "3 - Moderate": 0.93,
+    "4 - Low": 0.81
+  }
+}

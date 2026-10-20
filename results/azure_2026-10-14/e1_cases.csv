@@ -1,0 +1,1201 @@
+id,pred_category,pred_application,pred_impact,pred_urgency,pred_priority,pred_group,confidence,llm_injection,guard_hits,retrieved,top_similarity,answerable,sop_ids,self_check,response,human_requested,blocked_tools,errors,route_run,number,llm_calls,tokens_in,tokens_out,latency_s,run,queue,priority_p
+13862,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010001,1,629,73,1.833,0,Technical Support,P1
+79,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010002,1,708,96,2.213,0,Technical Support,P1
+9758,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010004,1,696,111,1.981,0,Technical Support,P1
+27587,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010003,1,685,79,1.885,0,Technical Support,P1
+22852,Problem,Product Support,medium,medium,P2,Product Support,0.85,False,0,[],0.0,,[],,,False,0,,human,INC0010005,1,661,70,1.214,0,Technical Support,P1
+11528,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010006,1,646,91,1.678,0,Technical Support,P1
+13137,Incident,Technical Support,medium,medium,P2,Technical Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010007,1,615,55,1.786,0,Technical Support,P1
+22328,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010008,1,642,81,2.258,0,Technical Support,P1
+6073,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010009,1,658,85,1.269,0,Technical Support,P1
+1186,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010010,1,651,85,1.415,0,Technical Support,P1
+28451,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010011,1,706,105,1.916,0,Technical Support,P1
+10576,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010012,1,637,82,1.364,0,Technical Support,P1
+18648,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010013,1,684,109,2.196,0,Technical Support,P1
+26194,Incident,Service Outages and Maintenance,medium,medium,P2,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010014,1,629,76,1.747,0,Technical Support,P1
+28453,Incident,Technical Support,low,medium,P3,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010015,1,700,87,1.708,0,Technical Support,P1
+27500,Incident,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010016,1,714,83,1.254,0,Technical Support,P1
+2580,Request,Product Support,medium,medium,P2,Product Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010017,1,622,66,1.133,0,Technical Support,P1
+11765,Incident,Technical Support,low,medium,P3,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010018,1,628,74,1.128,0,Technical Support,P1
+14855,Incident,Product Support,medium,high,P1,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010019,1,671,81,1.144,0,Technical Support,P1
+709,Incident,Technical Support,medium,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010020,1,708,93,2.012,0,Technical Support,P1
+16938,Incident,Technical Support,low,medium,P3,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010021,1,708,101,1.62,0,Technical Support,P1
+13062,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010022,1,699,95,1.548,0,Technical Support,P1
+6010,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010023,1,665,91,1.662,0,Technical Support,P1
+15813,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010024,1,613,56,1.126,0,Technical Support,P1
+7778,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010025,1,629,78,1.35,0,Technical Support,P1
+11143,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010026,1,624,63,1.533,0,Technical Support,P1
+14196,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010027,1,631,60,1.135,0,Technical Support,P1
+26943,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010028,1,618,69,1.165,0,Technical Support,P1
+590,Problem,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010029,1,711,111,1.623,0,Technical Support,P1
+5069,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010030,1,698,95,1.471,0,Technical Support,P1
+8324,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010031,1,645,98,1.455,0,Technical Support,P1
+17896,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010032,1,706,103,1.718,0,Technical Support,P1
+24805,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010033,1,635,82,1.285,0,Technical Support,P1
+16561,Incident,Technical Support,medium,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010034,1,693,89,1.4,0,Technical Support,P1
+4110,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010035,1,672,82,1.285,0,Technical Support,P1
+24367,Incident,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010036,1,620,71,2.476,0,Technical Support,P1
+8253,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010037,1,714,96,1.319,0,Technical Support,P1
+24497,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010038,1,685,121,2.723,0,Technical Support,P1
+306,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010039,1,694,88,1.596,0,Technical Support,P1
+4330,Incident,Service Outages and Maintenance,medium,medium,P2,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010040,1,618,57,1.479,0,Technical Support,P1
+25675,Incident,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010041,1,656,92,1.215,0,Technical Support,P1
+19921,Incident,Technical Support,high,medium,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010042,1,706,91,1.948,0,Technical Support,P1
+9536,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010043,1,662,107,1.609,0,Technical Support,P1
+2434,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010044,1,683,90,1.511,0,Technical Support,P1
+13787,Problem,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010045,1,693,98,1.569,0,Technical Support,P1
+16546,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010046,1,696,109,2.047,0,Technical Support,P1
+4066,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010047,1,689,105,1.518,0,Technical Support,P1
+6227,Change,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010048,1,622,68,1.41,0,Technical Support,P1
+8046,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010049,1,696,69,1.27,0,Technical Support,P1
+7366,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010050,1,711,108,1.689,0,Technical Support,P1
+16645,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010051,1,682,88,1.397,0,Technical Support,P1
+4517,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010052,1,697,93,1.376,0,Technical Support,P1
+12344,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010053,1,624,66,1.242,0,Technical Support,P1
+17661,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010054,1,644,94,1.63,0,Technical Support,P1
+5839,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010055,1,657,75,1.464,0,Technical Support,P1
+2618,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010056,1,697,95,1.297,0,Technical Support,P1
+17825,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010057,1,681,96,1.356,0,Technical Support,P1
+12751,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010058,1,652,94,1.652,0,Technical Support,P1
+273,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010059,1,699,94,1.568,0,Technical Support,P1
+3785,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010060,1,630,75,1.536,0,Technical Support,P1
+17527,Incident,Technical Support,high,medium,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010061,1,714,84,1.484,0,Technical Support,P1
+11131,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010062,1,668,84,1.501,0,Technical Support,P1
+22874,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010063,1,708,108,1.615,0,Technical Support,P1
+12974,Incident,Technical Support,high,medium,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010064,1,706,86,1.516,0,Technical Support,P1
+25716,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010065,1,668,101,1.524,0,Technical Support,P1
+12784,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010066,1,635,82,1.556,0,Technical Support,P1
+15528,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010067,1,701,106,1.856,0,Technical Support,P1
+22878,Request,Product Support,low,medium,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010068,1,654,77,1.443,0,Technical Support,P1
+224,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010069,1,700,80,1.412,0,Technical Support,P1
+24100,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010070,1,646,82,1.267,0,Technical Support,P1
+20525,Incident,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010071,1,691,90,1.317,0,Technical Support,P1
+15682,Problem,Product Support,medium,medium,P2,Product Support,0.85,False,0,[],0.0,,[],,,False,0,,human,INC0010072,1,675,91,1.398,0,Technical Support,P1
+2638,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010073,1,706,109,1.691,0,Technical Support,P1
+6707,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010074,1,693,90,1.571,0,Technical Support,P1
+11045,Incident,Service Outages and Maintenance,medium,high,P1,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010075,1,648,91,1.468,0,Technical Support,P1
+6766,Incident,Technical Support,high,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010076,1,636,72,1.358,0,Technical Support,P1
+12228,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010077,1,639,85,1.179,0,Technical Support,P1
+21234,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010078,1,657,95,1.474,0,Technical Support,P1
+13887,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010079,1,692,94,1.421,0,Technical Support,P1
+6278,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010080,1,642,69,1.398,0,Technical Support,P1
+23846,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010081,1,669,91,1.402,0,Technical Support,P1
+7891,Problem,Product Support,medium,medium,P2,Product Support,0.85,False,0,[],0.0,,[],,,False,0,,human,INC0010082,1,670,97,1.481,0,Technical Support,P1
+244,Incident,Product Support,low,medium,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010083,1,719,96,1.972,0,Technical Support,P1
+11790,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010084,1,655,94,1.89,0,Technical Support,P1
+5299,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010085,1,726,99,1.422,0,Technical Support,P1
+17032,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010086,1,621,70,1.329,0,Technical Support,P1
+27177,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010087,1,626,61,1.037,0,Technical Support,P1
+24151,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010088,1,693,82,1.336,0,Technical Support,P1
+7166,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010089,1,646,70,1.231,0,Technical Support,P1
+14988,Request,Product Support,low,medium,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010090,1,640,82,1.343,0,Technical Support,P1
+17319,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010091,1,666,87,1.727,0,Technical Support,P1
+1257,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010092,1,688,95,1.855,0,Technical Support,P1
+2668,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010093,1,628,77,1.285,0,Technical Support,P1
+2790,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010094,1,692,108,1.586,0,Technical Support,P1
+15134,Incident,Technical Support,high,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010095,1,619,53,1.127,0,Technical Support,P1
+12669,Incident,Technical Support,medium,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010096,1,694,99,1.68,0,Technical Support,P1
+12493,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010097,1,710,114,1.839,0,Technical Support,P1
+22387,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010098,1,712,87,1.532,0,Technical Support,P1
+3625,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010099,1,694,111,1.93,0,Technical Support,P1
+2612,Problem,Service Outages and Maintenance,high,medium,P1,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010100,1,658,72,1.37,0,Technical Support,P1
+19848,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010101,1,658,94,1.541,0,Technical Support,P1
+759,Request,Service Outages and Maintenance,high,medium,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010102,1,714,107,1.538,0,Technical Support,P1
+26006,Incident,Technical Support,medium,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010103,1,683,105,1.6,0,Technical Support,P1
+296,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010104,1,660,95,1.676,0,Technical Support,P1
+3383,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010105,1,663,97,1.435,0,Technical Support,P1
+1081,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010106,1,699,91,1.643,0,Technical Support,P1
+21370,Problem,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010107,1,688,86,1.503,0,Product Support,P2
+9494,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010108,1,702,109,1.565,0,Product Support,P2
+7650,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010109,1,700,144,1.682,0,Product Support,P2
+22962,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010110,1,720,97,1.163,0,Product Support,P2
+2600,Request,Technical Support,high,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010111,1,695,97,2.278,0,Product Support,P2
+6752,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010112,1,700,98,2.156,0,Product Support,P2
+13150,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010113,1,651,77,1.5,0,Product Support,P2
+3420,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010114,1,681,74,1.49,0,Product Support,P2
+4197,Incident,Service Outages and Maintenance,medium,medium,P2,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010115,1,666,92,1.772,0,Product Support,P2
+28153,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010116,1,690,83,1.735,0,Product Support,P2
+16542,Request,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010117,1,623,71,1.327,0,Product Support,P2
+13791,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010118,1,705,120,1.976,0,Product Support,P2
+15924,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010119,1,638,88,1.22,0,Product Support,P2
+25446,Request,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010120,1,711,80,1.304,0,Product Support,P2
+28388,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010121,1,712,116,1.409,0,Product Support,P2
+7315,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010122,1,711,86,1.257,0,Product Support,P2
+16228,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010123,1,648,85,1.237,0,Product Support,P2
+26489,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010124,1,648,91,2.05,0,Product Support,P2
+1274,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010125,1,657,109,2.04,0,Product Support,P2
+9959,Change,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010126,1,683,96,1.906,0,Product Support,P2
+11432,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010127,1,632,74,1.845,0,Product Support,P2
+14979,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010128,1,652,75,1.639,0,Product Support,P2
+13235,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010129,1,641,77,1.58,0,Product Support,P2
+27917,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010130,1,652,76,1.525,0,Product Support,P2
+27957,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010131,1,688,82,1.373,0,Product Support,P2
+752,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010132,1,688,75,1.567,0,Product Support,P2
+16455,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010134,1,645,79,1.616,0,Product Support,P2
+22981,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010133,1,701,99,1.752,0,Product Support,P2
+16882,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010135,1,662,93,1.541,0,Product Support,P2
+2296,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010136,1,703,85,1.244,0,Product Support,P2
+10204,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010137,1,654,88,1.61,0,Product Support,P2
+12090,Request,Product Support,medium,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010138,1,701,93,1.322,0,Product Support,P2
+3314,Problem,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010139,1,694,116,1.466,0,Product Support,P2
+2252,Problem,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010140,1,705,84,1.319,0,Product Support,P2
+16124,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010141,1,662,88,1.758,0,Product Support,P2
+4064,Problem,Product Support,medium,medium,P2,Product Support,0.85,False,0,[],0.0,,[],,,False,0,,human,INC0010142,1,707,91,2.085,0,Product Support,P2
+21509,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010143,1,705,101,1.97,0,Product Support,P2
+12855,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010144,1,712,92,1.639,0,Product Support,P2
+21675,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010145,1,629,83,1.34,0,Product Support,P2
+15732,Incident,Technical Support,medium,medium,P2,Technical Support,0.85,False,0,[],0.0,,[],,,False,0,,human,INC0010146,1,629,73,1.704,0,Product Support,P2
+15486,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010147,1,698,108,2.332,0,Product Support,P2
+5184,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010148,1,670,79,1.875,0,Product Support,P2
+6611,Request,Product Support,low,medium,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010149,1,692,117,1.587,0,Product Support,P2
+14585,Incident,Technical Support,medium,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010150,1,659,89,1.467,0,Product Support,P2
+2803,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010151,1,703,91,1.639,0,Product Support,P2
+1320,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010152,1,696,85,1.622,0,Product Support,P2
+7751,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010153,1,701,96,1.748,0,Product Support,P2
+10691,Request,Product Support,medium,medium,P2,Product Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010154,1,671,78,1.533,0,Product Support,P2
+25994,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010155,1,640,74,1.432,0,Product Support,P2
+16887,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010156,1,637,77,1.477,0,Product Support,P2
+28075,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010157,1,644,87,2.292,0,Product Support,P2
+24131,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010158,1,720,131,2.872,0,Product Support,P2
+24961,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010159,1,709,74,1.163,0,Product Support,P2
+15068,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010160,1,660,98,2.15,0,Product Support,P2
+19294,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010161,1,707,93,1.537,0,Product Support,P2
+22757,Incident,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010162,1,714,96,1.738,0,Product Support,P2
+9240,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010163,1,646,72,1.245,0,Product Support,P2
+19059,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010164,1,669,82,1.458,0,Product Support,P2
+13604,Incident,Technical Support,high,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010165,1,613,55,1.097,0,Product Support,P2
+21829,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010166,1,651,74,1.482,0,Product Support,P2
+5737,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010167,1,657,80,1.378,0,Technical Support,P2
+11064,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010168,1,675,75,1.473,0,Technical Support,P2
+23543,Incident,Technical Support,high,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010169,1,653,74,1.39,0,Technical Support,P2
+15144,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010170,1,639,90,2.084,0,Technical Support,P2
+84,Incident,Service Outages and Maintenance,medium,medium,P2,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010171,1,712,96,2.219,0,Technical Support,P2
+23240,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010172,1,671,101,1.391,0,Technical Support,P2
+708,Incident,Product Support,low,medium,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010173,1,706,84,1.839,0,Technical Support,P2
+18985,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010174,1,679,101,1.946,0,Technical Support,P2
+11026,Incident,Technical Support,low,medium,P3,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010175,1,682,100,1.649,0,Technical Support,P2
+26339,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010176,1,649,87,1.341,0,Technical Support,P2
+9367,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010177,1,693,89,1.4,0,Technical Support,P2
+1773,Problem,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010178,1,698,100,1.796,0,Technical Support,P2
+4555,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010179,1,672,90,1.39,0,Technical Support,P2
+4288,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010180,1,694,109,1.665,0,Technical Support,P2
+15077,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010181,1,656,93,1.565,0,Technical Support,P2
+26089,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010182,1,659,102,2.581,0,Technical Support,P2
+8312,Incident,Service Outages and Maintenance,medium,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010183,1,653,92,2.04,0,Technical Support,P2
+17884,Incident,Technical Support,medium,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010184,1,666,101,2.095,0,Technical Support,P2
+26676,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010185,1,630,76,1.814,0,Technical Support,P2
+9394,Incident,Technical Support,medium,low,P3,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010186,1,637,81,1.57,0,Technical Support,P2
+26776,Request,Product Support,low,medium,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010187,1,709,100,1.979,0,Technical Support,P2
+15034,Incident,IT Support,medium,medium,P2,IT Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010188,1,702,90,1.916,0,Technical Support,P2
+25918,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010189,1,653,79,1.695,0,Technical Support,P2
+19320,Incident,Technical Support,medium,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010190,1,691,87,1.606,0,Technical Support,P2
+18417,Incident,Technical Support,low,medium,P3,Technical Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010191,1,617,58,1.556,0,Technical Support,P2
+19860,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010192,1,651,94,1.794,0,Technical Support,P2
+23592,Incident,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010193,1,637,84,1.662,0,Technical Support,P2
+2288,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010194,1,713,95,1.5,0,Technical Support,P2
+1993,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010195,1,655,88,1.346,0,Technical Support,P2
+7702,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010196,1,711,70,1.281,0,Technical Support,P2
+11260,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010197,1,676,123,1.711,0,Technical Support,P2
+7796,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010198,1,639,83,1.838,0,Technical Support,P2
+17624,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010199,1,673,84,1.617,0,Technical Support,P2
+17768,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010200,1,665,103,1.857,0,Technical Support,P2
+25470,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010201,1,635,77,1.356,0,Technical Support,P2
+10724,Incident,Technical Support,medium,medium,P2,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010202,1,728,104,1.615,0,Technical Support,P2
+11833,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010203,1,641,86,1.474,0,Technical Support,P2
+16723,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010204,1,697,94,1.561,0,Technical Support,P2
+12444,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010205,1,699,76,1.379,0,Technical Support,P2
+18901,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010206,1,615,61,1.164,0,Technical Support,P2
+1224,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010207,1,697,82,1.261,0,Technical Support,P2
+7664,Incident,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010208,1,709,101,1.562,0,Technical Support,P2
+19681,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010209,1,694,89,1.526,0,Technical Support,P2
+14291,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010210,1,672,89,1.728,0,Technical Support,P2
+9324,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010211,1,683,86,1.607,0,Technical Support,P2
+193,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010212,1,683,83,1.529,0,Technical Support,P2
+28108,Incident,IT Support,low,medium,P3,IT Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010213,1,709,106,1.853,0,Technical Support,P2
+5575,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010214,1,649,88,1.938,0,Technical Support,P2
+10312,Request,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010215,1,688,97,1.98,0,Technical Support,P2
+23250,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010216,1,702,101,2.16,0,Technical Support,P2
+26219,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010217,1,671,95,2.602,0,Technical Support,P2
+14038,Incident,Service Outages and Maintenance,medium,medium,P2,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010218,1,624,67,1.536,0,Technical Support,P2
+881,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010219,1,662,122,1.621,0,Technical Support,P2
+14739,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010220,1,712,122,1.74,0,Technical Support,P2
+10949,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010221,1,616,55,1.295,0,Technical Support,P2
+28306,Request,Product Support,low,medium,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010222,1,656,91,1.529,0,IT Support,P1
+1725,Request,Product Support,medium,medium,P2,Product Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010223,1,620,63,1.451,0,IT Support,P1
+24637,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010224,1,697,112,1.729,0,IT Support,P1
+23794,Change,Technical Support,high,medium,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010225,1,685,92,1.749,0,IT Support,P1
+13944,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010226,1,669,84,1.595,0,IT Support,P1
+12295,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010227,1,646,69,1.459,0,IT Support,P1
+27534,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010228,1,635,75,1.682,0,IT Support,P1
+27837,Incident,Technical Support,high,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010229,1,612,57,1.269,0,IT Support,P1
+9622,Change,Technical Support,medium,medium,P2,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010230,1,700,88,1.332,0,IT Support,P1
+15110,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010231,1,665,108,1.693,0,IT Support,P1
+17597,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010232,1,663,94,1.733,0,IT Support,P1
+7757,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010233,1,694,107,2.238,0,IT Support,P1
+22172,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010234,1,661,76,1.664,0,IT Support,P1
+16594,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010235,1,678,112,1.734,0,IT Support,P1
+13259,Request,Product Support,low,medium,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010236,1,651,84,1.734,0,IT Support,P1
+7686,Change,Technical Support,high,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010237,1,699,95,1.797,0,IT Support,P1
+8041,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010238,1,641,106,1.763,0,IT Support,P1
+17811,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010239,1,662,83,1.724,0,IT Support,P1
+18885,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010240,1,644,80,1.522,0,IT Support,P1
+17513,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010241,1,646,76,1.492,0,IT Support,P1
+20630,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010242,1,654,104,1.645,0,IT Support,P1
+22049,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010243,1,670,82,1.505,0,IT Support,P1
+2675,Change,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010244,1,691,132,2.012,0,IT Support,P1
+5112,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010245,1,698,100,1.78,0,IT Support,P1
+3264,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010246,1,664,103,1.85,0,IT Support,P1
+4742,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010247,1,676,109,1.749,0,IT Support,P1
+7900,Request,Product Support,medium,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010248,1,692,86,1.522,0,IT Support,P1
+12604,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010249,1,678,112,1.896,0,IT Support,P1
+5698,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010250,1,700,112,1.551,0,IT Support,P1
+604,Incident,Technical Support,medium,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010251,1,710,115,1.891,0,IT Support,P1
+16116,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010252,1,685,104,1.666,0,IT Support,P1
+5276,Incident,Technical Support,medium,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010253,1,703,97,2.09,0,IT Support,P1
+15611,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010254,1,708,95,1.452,0,IT Support,P1
+9341,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010255,1,702,84,1.259,0,IT Support,P1
+12816,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010256,1,670,97,1.326,0,IT Support,P1
+8705,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010257,1,672,98,1.715,0,IT Support,P1
+25693,Incident,Technical Support,medium,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010258,1,704,91,1.557,0,Product Support,P1
+4320,Problem,Product Support,medium,medium,P2,Product Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010259,1,631,78,2.344,0,Product Support,P1
+28438,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010260,1,704,80,1.444,0,Product Support,P1
+21412,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010261,1,658,73,1.201,0,Product Support,P1
+731,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010262,1,717,84,1.564,0,Product Support,P1
+3831,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010263,1,696,75,1.195,0,Product Support,P1
+11624,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010264,1,643,87,1.361,0,Product Support,P1
+22635,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010265,1,629,67,1.309,0,Product Support,P1
+2390,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010266,1,708,90,1.695,0,Product Support,P1
+17005,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010267,1,681,96,1.419,0,Product Support,P1
+19525,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010268,1,672,98,1.54,0,Product Support,P1
+13015,Problem,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010269,1,703,123,1.548,0,Product Support,P1
+27491,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010270,1,667,96,1.557,0,Product Support,P1
+23040,Problem,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010271,1,653,81,1.503,0,Product Support,P1
+13467,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010272,1,669,106,1.706,0,Product Support,P1
+24014,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010273,1,658,93,1.486,0,Product Support,P1
+27974,Incident,Product Support,medium,medium,P2,Product Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010274,1,621,63,1.21,0,Product Support,P1
+8283,Incident,Technical Support,medium,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010275,1,671,114,1.592,0,Product Support,P1
+24995,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010276,1,696,95,1.332,0,Product Support,P1
+26413,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010277,1,666,85,1.405,0,Product Support,P1
+14339,Incident,Technical Support,high,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010278,1,613,54,1.16,0,Product Support,P1
+24506,Incident,Service Outages and Maintenance,medium,medium,P2,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010279,1,641,93,1.537,0,Product Support,P1
+5311,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010280,1,683,109,1.435,0,Product Support,P1
+9831,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010281,1,684,78,2.104,0,Product Support,P1
+16790,Request,Product Support,medium,medium,P2,Product Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010282,1,619,60,1.221,0,Product Support,P1
+12515,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010283,1,664,104,1.457,0,Product Support,P1
+24507,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010284,1,649,79,1.332,0,Product Support,P1
+27770,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010285,1,641,92,1.332,0,Product Support,P1
+19096,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010286,1,668,70,1.332,0,Product Support,P1
+18364,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010287,1,631,75,1.616,0,Product Support,P1
+28533,Incident,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010288,1,695,86,1.434,0,Product Support,P1
+19007,Request,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010289,1,672,102,1.672,0,Product Support,P1
+7254,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010290,1,706,104,1.674,0,Product Support,P1
+815,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010291,1,693,120,1.673,0,Product Support,P1
+12798,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010292,1,623,58,1.154,0,Product Support,P1
+17407,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010293,1,718,101,1.416,0,IT Support,P2
+2897,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010294,1,685,95,1.933,0,IT Support,P2
+1594,Request,Technical Support,high,medium,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010295,1,619,60,1.807,0,IT Support,P2
+20406,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010296,1,656,89,1.666,0,IT Support,P2
+24021,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010297,1,663,91,2.574,0,IT Support,P2
+27846,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010298,1,625,68,2.465,0,IT Support,P2
+9175,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010299,1,714,91,1.51,0,IT Support,P2
+5504,Incident,Technical Support,high,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010300,1,707,92,4.117,0,IT Support,P2
+1603,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010301,1,674,106,2.736,0,IT Support,P2
+17665,Incident,Technical Support,low,medium,P3,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010302,1,713,97,2.219,0,IT Support,P2
+6894,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010303,1,693,88,2.19,0,IT Support,P2
+13891,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010304,1,665,98,1.727,0,IT Support,P2
+12110,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010305,1,673,94,3.101,0,IT Support,P2
+5231,Request,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010306,1,695,83,1.734,0,IT Support,P2
+2445,Incident,Technical Support,high,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010307,1,646,93,3.867,0,IT Support,P2
+16930,Request,Product Support,low,medium,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010308,1,667,86,1.645,0,IT Support,P2
+10728,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010309,1,660,102,2.429,0,IT Support,P2
+1390,Incident,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010310,1,637,90,2.485,0,IT Support,P2
+19891,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010311,1,704,81,2.123,0,IT Support,P2
+7370,Request,Product Support,medium,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010312,1,704,91,2.222,0,IT Support,P2
+4576,Change,Product Support,medium,medium,P2,Product Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010313,1,620,61,1.202,0,IT Support,P2
+7689,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010314,1,623,78,2.674,0,IT Support,P2
+6723,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010315,1,672,130,3.884,0,IT Support,P2
+23978,Request,Technical Support,low,medium,P3,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010316,1,692,106,1.93,0,IT Support,P2
+7697,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010317,1,662,83,1.733,0,IT Support,P2
+4407,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010318,1,673,103,2.612,0,IT Support,P2
+5531,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010319,1,709,105,1.865,0,IT Support,P2
+11990,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010320,1,671,96,2.305,0,IT Support,P2
+11912,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010321,1,705,97,3.653,0,IT Support,P2
+4955,Request,Product Support,low,medium,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010322,1,676,89,1.779,0,IT Support,P2
+25524,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010323,1,694,76,1.61,0,IT Support,P2
+7934,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010324,1,662,117,2.316,0,IT Support,P2
+5927,Incident,Technical Support,high,medium,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010325,1,617,67,2.081,0,Product Support,P3
+21530,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010326,1,654,95,2.912,0,Product Support,P3
+3103,Incident,IT Support,medium,medium,P2,IT Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010327,1,627,69,1.929,0,Product Support,P3
+3681,Request,Product Support,medium,medium,P2,Product Support,0.85,False,0,[],0.0,,[],,,False,0,,human,INC0010328,1,659,105,3.904,0,Product Support,P3
+21888,Request,Product Support,medium,medium,P2,Product Support,0.85,False,0,[],0.0,,[],,,False,0,,human,INC0010329,1,672,74,1.773,0,Product Support,P3
+5197,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010330,1,699,95,1.337,0,Product Support,P3
+2314,Incident,Product Support,medium,medium,P2,Product Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010331,1,624,63,3.27,0,Product Support,P3
+17571,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010332,1,725,106,2.246,0,Product Support,P3
+1256,Incident,Technical Support,medium,medium,P2,Technical Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010333,1,616,57,1.57,0,Product Support,P3
+15436,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010334,1,694,71,3.164,0,Product Support,P3
+13840,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010335,1,656,97,1.411,0,Product Support,P3
+1143,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010336,1,633,72,2.254,0,Product Support,P3
+1151,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010337,1,654,90,4.117,0,Product Support,P3
+2676,Problem,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010338,1,696,94,2.16,0,Product Support,P3
+11473,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010339,1,617,66,3.399,0,Product Support,P3
+24083,Incident,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010340,1,646,76,2.489,0,Product Support,P3
+13859,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010341,1,627,75,1.407,0,Product Support,P3
+23936,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010342,1,719,103,2.525,0,Product Support,P3
+7572,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010343,1,692,99,2.69,0,Product Support,P3
+4426,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010344,1,641,87,2.137,0,Product Support,P3
+17950,Request,Product Support,medium,medium,P2,Product Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010345,1,621,59,2.164,0,Product Support,P3
+13689,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010346,1,698,88,3.874,0,Product Support,P3
+11452,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010347,1,712,134,1.882,0,Product Support,P3
+28078,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010348,1,666,83,2.166,0,Technical Support,P3
+13792,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010349,1,666,112,2.0,0,Technical Support,P3
+7831,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010350,1,646,91,2.326,0,Technical Support,P3
+1275,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010351,1,619,63,1.655,0,Technical Support,P3
+9872,Request,Product Support,medium,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010352,1,707,101,3.287,0,Technical Support,P3
+14744,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010353,1,637,78,2.777,0,Technical Support,P3
+18557,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010354,1,655,77,1.665,0,Technical Support,P3
+7415,Incident,Service Outages and Maintenance,medium,medium,P2,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010355,1,700,87,2.619,0,Technical Support,P3
+19930,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010356,1,651,79,3.381,0,Technical Support,P3
+19774,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010357,1,664,78,1.529,0,Technical Support,P3
+22321,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010358,1,710,96,1.51,0,Technical Support,P3
+28366,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010359,1,705,98,2.426,0,Technical Support,P3
+12383,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010360,1,642,76,3.432,0,Technical Support,P3
+3487,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010361,1,673,92,1.755,0,Technical Support,P3
+18114,Request,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010362,1,677,107,1.691,0,Technical Support,P3
+26740,Incident,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010363,1,654,91,3.521,0,Technical Support,P3
+19422,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010364,1,664,78,1.76,0,Technical Support,P3
+27716,Request,Technical Support,low,low,P3,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010365,1,649,75,1.308,0,Technical Support,P3
+13047,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010366,1,643,83,2.51,0,Technical Support,P3
+22704,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010367,1,664,82,3.527,0,Technical Support,P3
+13310,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010368,1,633,81,2.379,0,Technical Support,P3
+2760,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010369,1,656,103,2.265,0,Service Outages and Maintenance,P1
+92,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010370,1,715,101,2.947,0,Service Outages and Maintenance,P1
+25016,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010371,1,667,97,1.894,0,Service Outages and Maintenance,P1
+14555,Incident,Technical Support,medium,medium,P2,Technical Support,0.85,False,0,[],0.0,,[],,,False,0,,human,INC0010372,1,632,66,1.994,0,Service Outages and Maintenance,P1
+3556,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010373,1,682,97,2.362,0,Service Outages and Maintenance,P1
+9621,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010374,1,676,68,1.769,0,Service Outages and Maintenance,P1
+8668,Change,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010375,1,695,94,3.945,0,Service Outages and Maintenance,P1
+27323,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010376,1,658,76,1.978,0,Service Outages and Maintenance,P1
+22965,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010377,1,650,90,2.102,0,Service Outages and Maintenance,P1
+7618,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010378,1,656,81,7.056,0,Service Outages and Maintenance,P1
+22877,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010379,1,719,82,1.626,0,Service Outages and Maintenance,P1
+15311,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010380,1,709,93,1.929,0,Service Outages and Maintenance,P1
+26602,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010381,1,633,74,1.275,0,Service Outages and Maintenance,P1
+381,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010382,1,684,91,2.177,0,Service Outages and Maintenance,P1
+2189,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010383,1,690,121,2.305,0,Service Outages and Maintenance,P1
+19164,Incident,Service Outages and Maintenance,medium,high,P1,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010384,1,677,107,2.101,0,Service Outages and Maintenance,P1
+18224,Incident,Service Outages and Maintenance,medium,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010385,1,702,104,1.51,0,Service Outages and Maintenance,P1
+28519,Request,Product Support,medium,medium,P2,Product Support,0.85,False,0,[],0.0,,[],,,False,0,,human,INC0010386,1,710,91,1.952,0,Service Outages and Maintenance,P1
+16630,Request,Product Support,medium,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010387,1,653,82,3.637,0,IT Support,P3
+4432,Incident,Product Support,medium,high,P1,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010388,1,651,80,1.648,0,IT Support,P3
+9651,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010389,1,655,85,1.331,0,IT Support,P3
+24862,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010390,1,648,81,2.976,0,IT Support,P3
+20930,Change,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010391,1,652,100,2.369,0,IT Support,P3
+15795,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010392,1,642,101,2.316,0,IT Support,P3
+2929,Problem,Technical Support,medium,medium,P2,Technical Support,0.85,False,0,[],0.0,,[],,,False,0,,human,INC0010393,1,642,80,2.228,0,IT Support,P3
+20517,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010394,1,620,60,3.572,0,Service Outages and Maintenance,P2
+17243,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010395,1,706,81,2.343,0,Service Outages and Maintenance,P2
+16748,Incident,Service Outages and Maintenance,medium,high,P1,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010396,1,660,93,1.782,0,Service Outages and Maintenance,P2
+19811,Incident,Service Outages and Maintenance,medium,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010397,1,680,84,2.171,0,Service Outages and Maintenance,P2
+24927,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010398,1,722,130,2.475,0,Service Outages and Maintenance,P3
+15353,Change,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010399,1,692,90,3.582,0,Service Outages and Maintenance,P3
+18050,Incident,Service Outages and Maintenance,medium,medium,P2,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010400,1,638,80,1.604,0,Service Outages and Maintenance,P3
+13862,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010001,1,629,73,1.358,1,Technical Support,P1
+79,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010002,1,708,96,1.799,1,Technical Support,P1
+9758,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010004,1,696,112,1.748,1,Technical Support,P1
+27587,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010003,1,685,79,1.372,1,Technical Support,P1
+22852,Problem,Product Support,medium,medium,P2,Product Support,0.85,False,0,[],0.0,,[],,,False,0,,human,INC0010005,1,661,70,1.532,1,Technical Support,P1
+11528,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010006,1,646,91,1.508,1,Technical Support,P1
+13137,Incident,Technical Support,medium,medium,P2,Technical Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010007,1,615,57,2.034,1,Technical Support,P1
+22328,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010008,1,642,83,1.472,1,Technical Support,P1
+6073,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010009,1,658,84,1.635,1,Technical Support,P1
+1186,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010010,1,651,85,2.321,1,Technical Support,P1
+28451,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010011,1,706,105,3.79,1,Technical Support,P1
+10576,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010012,1,637,82,1.924,1,Technical Support,P1
+18648,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010013,1,684,109,2.233,1,Technical Support,P1
+26194,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010014,1,629,72,2.24,1,Technical Support,P1
+28453,Incident,Technical Support,low,medium,P3,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010015,1,700,87,2.477,1,Technical Support,P1
+27500,Incident,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010016,1,714,83,3.935,1,Technical Support,P1
+2580,Request,Product Support,medium,medium,P2,Product Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010017,1,622,66,1.509,1,Technical Support,P1
+11765,Incident,Technical Support,low,medium,P3,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010018,1,628,74,1.769,1,Technical Support,P1
+14855,Incident,Product Support,medium,high,P1,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010019,1,671,81,4.217,1,Technical Support,P1
+709,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010020,1,708,106,1.665,1,Technical Support,P1
+16938,Incident,IT Support,low,medium,P3,IT Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010021,1,708,101,2.432,1,Technical Support,P1
+13062,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010022,1,699,90,1.638,1,Technical Support,P1
+6010,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010023,1,665,91,2.359,1,Technical Support,P1
+15813,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010024,1,613,56,3.459,1,Technical Support,P1
+7778,Request,Technical Support,low,low,P3,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010025,1,629,78,1.58,1,Technical Support,P1
+11143,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010026,1,624,63,2.028,1,Technical Support,P1
+14196,Incident,Service Outages and Maintenance,medium,high,P1,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010027,1,631,59,2.001,1,Technical Support,P1
+26943,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010028,1,618,69,4.374,1,Technical Support,P1
+590,Problem,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010029,1,711,113,1.751,1,Technical Support,P1
+5069,Incident,Technical Support,high,medium,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010030,1,698,91,1.55,1,Technical Support,P1
+8324,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010031,1,645,98,2.289,1,Technical Support,P1
+17896,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010032,1,706,103,2.442,1,Technical Support,P1
+24805,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010033,1,635,82,3.598,1,Technical Support,P1
+16561,Incident,Technical Support,medium,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010034,1,693,94,1.615,1,Technical Support,P1
+4110,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010035,1,672,82,2.14,1,Technical Support,P1
+24367,Incident,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010036,1,620,72,3.28,1,Technical Support,P1
+8253,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010037,1,714,96,1.965,1,Technical Support,P1
+24497,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010038,1,685,121,1.994,1,Technical Support,P1
+306,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010039,1,694,88,3.855,1,Technical Support,P1
+4330,Incident,Service Outages and Maintenance,medium,medium,P2,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010040,1,618,58,1.388,1,Technical Support,P1
+25675,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010041,1,656,92,1.638,1,Technical Support,P1
+19921,Incident,Technical Support,high,medium,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010042,1,706,91,2.252,1,Technical Support,P1
+9536,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010043,1,662,98,2.697,1,Technical Support,P1
+2434,Request,Product Support,medium,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010044,1,683,90,2.772,1,Technical Support,P1
+13787,Problem,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010045,1,693,98,1.54,1,Technical Support,P1
+16546,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010046,1,696,97,3.838,1,Technical Support,P1
+4066,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010047,1,689,105,2.197,1,Technical Support,P1
+6227,Change,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010048,1,622,68,1.676,1,Technical Support,P1
+8046,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010049,1,696,74,2.313,1,Technical Support,P1
+7366,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010050,1,711,114,3.761,1,Technical Support,P1
+16645,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010051,1,682,88,2.013,1,Technical Support,P1
+4517,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010052,1,697,91,1.851,1,Technical Support,P1
+12344,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010053,1,624,68,2.085,1,Technical Support,P1
+17661,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010054,1,644,88,4.715,1,Technical Support,P1
+5839,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010055,1,657,89,1.65,1,Technical Support,P1
+2618,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010056,1,697,116,1.94,1,Technical Support,P1
+17825,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010057,1,681,88,1.96,1,Technical Support,P1
+12751,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010058,1,652,101,2.028,1,Technical Support,P1
+273,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010059,1,699,90,4.295,1,Technical Support,P1
+3785,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010060,1,630,75,1.261,1,Technical Support,P1
+17527,Incident,Technical Support,high,medium,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010061,1,714,84,1.471,1,Technical Support,P1
+11131,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010062,1,668,84,3.699,1,Technical Support,P1
+22874,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010063,1,708,116,1.452,1,Technical Support,P1
+12974,Incident,Technical Support,high,medium,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010064,1,706,86,1.885,1,Technical Support,P1
+25716,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010065,1,668,106,2.674,1,Technical Support,P1
+12784,Problem,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010066,1,635,85,4.191,1,Technical Support,P1
+15528,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010067,1,701,106,2.078,1,Technical Support,P1
+22878,Request,Product Support,low,medium,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010068,1,654,71,1.503,1,Technical Support,P1
+224,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010069,1,700,90,1.624,1,Technical Support,P1
+24100,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010070,1,646,79,1.515,1,Technical Support,P1
+20525,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010071,1,691,90,2.512,1,Technical Support,P1
+15682,Problem,Product Support,medium,medium,P2,Product Support,0.85,False,0,[],0.0,,[],,,False,0,,human,INC0010072,1,675,95,3.802,1,Technical Support,P1
+2638,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010073,1,706,107,1.817,1,Technical Support,P1
+6707,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010074,1,693,78,1.91,1,Technical Support,P1
+11045,Incident,Service Outages and Maintenance,medium,high,P1,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010075,1,648,84,2.743,1,Technical Support,P1
+6766,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010076,1,636,77,2.606,1,Technical Support,P1
+12228,Incident,Technical Support,high,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010077,1,639,85,3.394,1,Technical Support,P1
+21234,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010078,1,657,95,1.605,1,Technical Support,P1
+13887,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010079,1,692,94,1.613,1,Technical Support,P1
+6278,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010080,1,642,72,3.419,1,Technical Support,P1
+23846,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010081,1,669,90,1.792,1,Technical Support,P1
+7891,Problem,Product Support,medium,medium,P2,Product Support,0.85,False,0,[],0.0,,[],,,False,0,,human,INC0010082,1,670,97,2.341,1,Technical Support,P1
+244,Incident,Product Support,low,medium,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010083,1,719,96,3.896,1,Technical Support,P1
+11790,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010084,1,655,94,2.173,1,Technical Support,P1
+5299,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010085,1,726,89,1.674,1,Technical Support,P1
+17032,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010086,1,621,70,2.162,1,Technical Support,P1
+27177,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010087,1,626,61,1.711,1,Technical Support,P1
+24151,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010088,1,693,76,3.664,1,Technical Support,P1
+7166,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010089,1,646,70,1.534,1,Technical Support,P1
+14988,Request,Product Support,low,medium,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010090,1,640,89,3.163,1,Technical Support,P1
+17319,Request,Product Support,low,medium,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010091,1,666,87,1.534,1,Technical Support,P1
+1257,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010092,1,688,95,4.046,1,Technical Support,P1
+2668,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010093,1,628,77,1.648,1,Technical Support,P1
+2790,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010094,1,692,98,2.615,1,Technical Support,P1
+15134,Incident,Technical Support,high,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010095,1,619,53,1.305,1,Technical Support,P1
+12669,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010096,1,694,90,2.996,1,Technical Support,P1
+12493,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010097,1,710,80,2.493,1,Technical Support,P1
+22387,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010098,1,712,87,2.767,1,Technical Support,P1
+3625,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010099,1,694,94,1.657,1,Technical Support,P1
+2612,Problem,Service Outages and Maintenance,high,medium,P1,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010100,1,658,72,1.908,1,Technical Support,P1
+19848,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010101,1,658,94,2.325,1,Technical Support,P1
+759,Request,Service Outages and Maintenance,high,medium,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010102,1,714,113,2.886,1,Technical Support,P1
+26006,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010103,1,683,105,2.518,1,Technical Support,P1
+296,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010104,1,660,94,2.909,1,Technical Support,P1
+3383,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010105,1,663,100,2.734,1,Technical Support,P1
+1081,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010106,1,699,89,2.963,1,Technical Support,P1
+21370,Problem,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010107,1,688,86,1.666,1,Product Support,P2
+9494,Request,Product Support,medium,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010108,1,702,120,2.511,1,Product Support,P2
+7650,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010109,1,700,149,2.835,1,Product Support,P2
+22962,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010110,1,720,104,2.58,1,Product Support,P2
+2600,Change,Technical Support,high,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010111,1,695,98,2.063,1,Product Support,P2
+6752,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010112,1,700,98,1.784,1,Product Support,P2
+13150,Incident,Technical Support,high,medium,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010113,1,651,84,1.861,1,Product Support,P2
+3420,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010114,1,681,74,1.993,1,Product Support,P2
+4197,Incident,Service Outages and Maintenance,medium,medium,P2,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010115,1,666,93,3.513,1,Product Support,P2
+28153,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010116,1,690,81,1.749,1,Product Support,P2
+16542,Request,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010117,1,623,71,1.453,1,Product Support,P2
+13791,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010118,1,705,120,2.797,1,Product Support,P2
+15924,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010119,1,638,88,2.542,1,Product Support,P2
+25446,Request,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010120,1,711,80,2.746,1,Product Support,P2
+28388,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010121,1,712,116,3.672,1,Product Support,P2
+7315,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010122,1,711,86,1.379,1,Product Support,P2
+16228,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010123,1,648,85,1.916,1,Product Support,P2
+26489,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010124,1,648,90,2.247,1,Product Support,P2
+1274,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010125,1,657,109,4.192,1,Product Support,P2
+9959,Change,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010126,1,683,96,2.294,1,Product Support,P2
+11432,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010127,1,632,74,1.658,1,Product Support,P2
+14979,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010128,1,652,90,2.76,1,Product Support,P2
+13235,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010129,1,641,78,1.87,1,Product Support,P2
+27917,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010130,1,652,76,2.439,1,Product Support,P2
+27957,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010131,1,688,82,2.021,1,Product Support,P2
+752,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010132,1,688,70,2.626,1,Product Support,P2
+16455,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010133,1,645,79,3.526,1,Product Support,P2
+22981,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010134,1,701,96,2.331,1,Product Support,P2
+16882,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010135,1,662,94,2.067,1,Product Support,P2
+2296,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010136,1,703,85,1.614,1,Product Support,P2
+10204,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010137,1,654,88,2.595,1,Product Support,P2
+12090,Request,Product Support,medium,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010138,1,701,93,1.507,1,Product Support,P2
+3314,Problem,Product Support,medium,medium,P2,Product Support,0.85,False,0,[],0.0,,[],,,False,0,,human,INC0010139,1,694,98,3.18,1,Product Support,P2
+2252,Problem,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010140,1,705,84,3.346,1,Product Support,P2
+16124,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010141,1,662,92,3.704,1,Product Support,P2
+4064,Request,Product Support,medium,low,P3,Product Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010142,1,707,95,1.774,1,Product Support,P2
+21509,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010143,1,705,110,1.782,1,Product Support,P2
+12855,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010144,1,712,94,2.02,1,Product Support,P2
+21675,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010145,1,629,83,2.252,1,Product Support,P2
+15732,Incident,Technical Support,medium,medium,P2,Technical Support,0.85,False,0,[],0.0,,[],,,False,0,,human,INC0010146,1,629,73,2.152,1,Product Support,P2
+15486,Request,Product Support,low,medium,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010147,1,698,101,2.794,1,Product Support,P2
+5184,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010148,1,670,79,2.459,1,Product Support,P2
+6611,Request,Product Support,low,medium,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010149,1,692,117,1.732,1,Product Support,P2
+14585,Incident,Technical Support,medium,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010150,1,659,93,2.459,1,Product Support,P2
+2803,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010151,1,703,90,1.957,1,Product Support,P2
+1320,Incident,Technical Support,high,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010152,1,696,85,3.316,1,Product Support,P2
+7751,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010153,1,701,95,2.667,1,Product Support,P2
+10691,Request,Product Support,medium,medium,P2,Product Support,0.85,False,0,[],0.0,,[],,,False,0,,human,INC0010154,1,671,78,1.525,1,Product Support,P2
+25994,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010155,1,640,74,1.994,1,Product Support,P2
+16887,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010156,1,637,77,3.158,1,Product Support,P2
+28075,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010157,1,644,87,1.421,1,Product Support,P2
+24131,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010158,1,720,115,2.657,1,Product Support,P2
+24961,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010159,1,709,74,1.452,1,Product Support,P2
+15068,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010160,1,660,98,2.552,1,Product Support,P2
+19294,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010161,1,707,96,3.848,1,Product Support,P2
+22757,Incident,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010162,1,714,116,2.217,1,Product Support,P2
+9240,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010163,1,646,72,2.061,1,Product Support,P2
+19059,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010164,1,669,82,3.498,1,Product Support,P2
+13604,Incident,Technical Support,high,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010165,1,613,60,3.645,1,Product Support,P2
+21829,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010166,1,651,74,1.729,1,Product Support,P2
+5737,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010167,1,657,80,1.617,1,Technical Support,P2
+11064,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010168,1,675,75,1.337,1,Technical Support,P2
+23543,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010169,1,653,80,2.16,1,Technical Support,P2
+15144,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010170,1,639,90,2.426,1,Technical Support,P2
+84,Incident,Service Outages and Maintenance,medium,medium,P2,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010171,1,712,93,2.625,1,Technical Support,P2
+23240,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010172,1,671,92,3.557,1,Technical Support,P2
+708,Incident,Product Support,low,medium,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010173,1,706,100,2.118,1,Technical Support,P2
+18985,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010174,1,679,101,1.812,1,Technical Support,P2
+11026,Incident,Technical Support,low,medium,P3,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010175,1,682,91,2.161,1,Technical Support,P2
+26339,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010176,1,649,87,2.091,1,Technical Support,P2
+9367,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010177,1,693,76,2.779,1,Technical Support,P2
+1773,Problem,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010178,1,698,107,3.797,1,Technical Support,P2
+4555,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010179,1,672,97,1.674,1,Technical Support,P2
+4288,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010180,1,694,109,1.465,1,Technical Support,P2
+15077,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010181,1,656,82,3.757,1,Technical Support,P2
+26089,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010182,1,659,102,2.515,1,Technical Support,P2
+8312,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010183,1,653,70,1.736,1,Technical Support,P2
+17884,Incident,Technical Support,medium,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010184,1,666,89,1.989,1,Technical Support,P2
+26676,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010185,1,630,76,3.626,1,Technical Support,P2
+9394,Incident,Technical Support,medium,low,P3,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010186,1,637,81,1.631,1,Technical Support,P2
+26776,Request,Product Support,low,medium,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010187,1,709,88,1.541,1,Technical Support,P2
+15034,Incident,IT Support,medium,medium,P2,IT Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010188,1,702,93,2.37,1,Technical Support,P2
+25918,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010189,1,653,79,3.633,1,Technical Support,P2
+19320,Incident,Technical Support,medium,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010190,1,691,87,1.637,1,Technical Support,P2
+18417,Incident,Technical Support,low,medium,P3,Technical Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010191,1,617,57,1.25,1,Technical Support,P2
+19860,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010192,1,651,94,2.763,1,Technical Support,P2
+23592,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010193,1,637,84,3.574,1,Technical Support,P2
+2288,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010194,1,713,103,2.05,1,Technical Support,P2
+1993,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010195,1,655,88,1.896,1,Technical Support,P2
+7702,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010196,1,711,70,2.031,1,Technical Support,P2
+11260,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010197,1,676,125,2.639,1,Technical Support,P2
+7796,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010198,1,639,81,3.47,1,Technical Support,P2
+17624,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010199,1,673,72,1.862,1,Technical Support,P2
+17768,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010200,1,665,103,1.973,1,Technical Support,P2
+25470,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010201,1,635,77,1.819,1,Technical Support,P2
+10724,Incident,Technical Support,medium,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010202,1,728,109,3.956,1,Technical Support,P2
+11833,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010203,1,641,87,1.709,1,Technical Support,P2
+16723,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010204,1,697,112,2.366,1,Technical Support,P2
+12444,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010205,1,699,76,3.396,1,Technical Support,P2
+18901,Request,Product Support,low,low,P3,Product Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010206,1,615,61,1.499,1,Technical Support,P2
+1224,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010207,1,697,78,1.27,1,Technical Support,P2
+7664,Incident,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010208,1,709,116,2.299,1,Technical Support,P2
+19681,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010209,1,694,97,3.746,1,Technical Support,P2
+14291,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010210,1,672,90,2.476,1,Technical Support,P2
+9324,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010211,1,683,95,1.541,1,Technical Support,P2
+193,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010212,1,683,83,2.172,1,Technical Support,P2
+28108,Incident,IT Support,low,medium,P3,IT Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010213,1,709,106,2.324,1,Technical Support,P2
+5575,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010214,1,649,75,3.637,1,Technical Support,P2
+10312,Request,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010215,1,688,104,2.265,1,Technical Support,P2
+23250,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010216,1,702,101,2.239,1,Technical Support,P2
+26219,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010217,1,671,95,3.734,1,Technical Support,P2
+14038,Incident,Service Outages and Maintenance,medium,medium,P2,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010218,1,624,67,1.38,1,Technical Support,P2
+881,Incident,Technical Support,medium,medium,P2,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010219,1,662,122,2.055,1,Technical Support,P2
+14739,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010220,1,712,125,4.088,1,Technical Support,P2
+10949,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010221,1,616,55,1.908,1,Technical Support,P2
+28306,Request,Product Support,low,medium,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010222,1,656,91,1.601,1,IT Support,P1
+1725,Request,Product Support,medium,medium,P2,Product Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010223,1,620,63,3.204,1,IT Support,P1
+24637,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010224,1,697,107,1.742,1,IT Support,P1
+23794,Change,Technical Support,high,medium,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010225,1,685,92,1.802,1,IT Support,P1
+13944,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010226,1,669,94,2.081,1,IT Support,P1
+12295,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010227,1,646,63,3.896,1,IT Support,P1
+27534,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010228,1,635,75,1.413,1,IT Support,P1
+27837,Incident,Technical Support,high,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010229,1,612,56,1.766,1,IT Support,P1
+9622,Change,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010230,1,700,82,2.217,1,IT Support,P1
+15110,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010231,1,665,108,3.757,1,IT Support,P1
+17597,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010232,1,663,94,1.873,1,IT Support,P1
+7757,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010233,1,694,114,1.64,1,IT Support,P1
+22172,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010234,1,661,76,2.266,1,IT Support,P1
+16594,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010235,1,678,115,4.001,1,IT Support,P1
+13259,Request,Product Support,low,medium,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010236,1,651,84,1.844,1,IT Support,P1
+7686,Change,Technical Support,high,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010237,1,699,95,1.986,1,IT Support,P1
+8041,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010238,1,641,104,4.014,1,IT Support,P1
+17811,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010239,1,662,83,1.417,1,IT Support,P1
+18885,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010240,1,644,83,1.609,1,IT Support,P1
+17513,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010241,1,646,76,2.598,1,IT Support,P1
+20630,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010242,1,654,108,2.124,1,IT Support,P1
+22049,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010243,1,670,80,3.459,1,IT Support,P1
+2675,Change,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010244,1,691,100,1.949,1,IT Support,P1
+5112,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010245,1,698,100,2.125,1,IT Support,P1
+3264,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010246,1,664,103,2.642,1,IT Support,P1
+4742,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010247,1,676,109,3.015,1,IT Support,P1
+7900,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010248,1,692,82,2.465,1,IT Support,P1
+12604,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010249,1,678,112,2.346,1,IT Support,P1
+5698,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010250,1,700,148,3.217,1,IT Support,P1
+604,Incident,Technical Support,medium,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010251,1,710,127,2.422,1,IT Support,P1
+16116,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010252,1,685,94,1.636,1,IT Support,P1
+5276,Incident,Technical Support,medium,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010253,1,703,97,2.527,1,IT Support,P1
+15611,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010254,1,708,100,2.41,1,IT Support,P1
+9341,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010255,1,702,74,1.261,1,IT Support,P1
+12816,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010256,1,670,78,3.583,1,IT Support,P1
+8705,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010257,1,672,98,2.279,1,IT Support,P1
+25693,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010258,1,704,84,1.995,1,Product Support,P1
+4320,Problem,Product Support,medium,medium,P2,Product Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010259,1,631,77,1.371,1,Product Support,P1
+28438,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010260,1,704,80,1.681,1,Product Support,P1
+21412,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010261,1,658,71,3.176,1,Product Support,P1
+731,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010262,1,717,84,1.992,1,Product Support,P1
+3831,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010263,1,696,75,1.608,1,Product Support,P1
+11624,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010264,1,643,84,3.804,1,Product Support,P1
+22635,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010265,1,629,67,2.781,1,Product Support,P1
+2390,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010266,1,708,92,1.525,1,Product Support,P1
+17005,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010267,1,681,96,3.482,1,Product Support,P1
+19525,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010268,1,672,98,1.784,1,Product Support,P1
+13015,Problem,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010269,1,703,125,2.265,1,Product Support,P1
+27491,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010270,1,667,96,2.663,1,Product Support,P1
+23040,Incident,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010271,1,653,81,4.12,1,Product Support,P1
+13467,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010272,1,669,105,1.916,1,Product Support,P1
+24014,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010273,1,658,93,1.85,1,Product Support,P1
+27974,Incident,Product Support,medium,medium,P2,Product Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010274,1,621,63,1.153,1,Product Support,P1
+8283,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010275,1,671,93,3.871,1,Product Support,P1
+24995,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010276,1,696,84,1.677,1,Product Support,P1
+26413,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010277,1,666,85,1.974,1,Product Support,P1
+14339,Incident,Technical Support,high,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010278,1,613,54,2.305,1,Product Support,P1
+24506,Incident,Service Outages and Maintenance,medium,medium,P2,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010279,1,641,92,3.444,1,Product Support,P1
+5311,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010280,1,683,109,2.11,1,Product Support,P1
+9831,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010281,1,684,78,1.267,1,Product Support,P1
+16790,Request,Product Support,medium,medium,P2,Product Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010282,1,619,60,3.465,1,Product Support,P1
+12515,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010283,1,664,104,1.551,1,Product Support,P1
+24507,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010284,1,649,79,1.746,1,Product Support,P1
+27770,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010285,1,641,96,4.062,1,Product Support,P1
+19096,Request,Product Support,medium,medium,P2,Product Support,0.85,False,0,[],0.0,,[],,,False,0,,human,INC0010286,1,668,70,1.786,1,Product Support,P1
+18364,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010287,1,631,75,3.764,1,Product Support,P1
+28533,Incident,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010288,1,695,86,1.418,1,Product Support,P1
+19007,Request,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010289,1,672,102,2.377,1,Product Support,P1
+7254,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010290,1,706,104,2.518,1,Product Support,P1
+815,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010291,1,693,120,3.07,1,Product Support,P1
+12798,Incident,Technical Support,high,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010292,1,623,58,1.551,1,Product Support,P1
+17407,Incident,Service Outages and Maintenance,medium,medium,P2,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010293,1,718,104,2.453,1,IT Support,P2
+2897,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010294,1,685,98,3.529,1,IT Support,P2
+1594,Request,Technical Support,high,medium,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010295,1,619,60,0.923,1,IT Support,P2
+20406,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010296,1,656,84,1.294,1,IT Support,P2
+24021,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010297,1,663,104,4.345,1,IT Support,P2
+27846,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010298,1,625,68,2.156,1,IT Support,P2
+9175,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010299,1,714,91,2.191,1,IT Support,P2
+5504,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010300,1,707,89,2.507,1,IT Support,P2
+1603,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010301,1,674,110,3.874,1,IT Support,P2
+17665,Incident,Technical Support,low,medium,P3,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010302,1,713,97,1.341,1,IT Support,P2
+6894,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010303,1,693,94,1.586,1,IT Support,P2
+13891,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010304,1,665,98,2.331,1,IT Support,P2
+12110,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010305,1,673,94,2.506,1,IT Support,P2
+5231,Request,Technical Support,medium,low,P3,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010306,1,695,83,2.186,1,IT Support,P2
+2445,Incident,Technical Support,high,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010307,1,646,93,2.783,1,IT Support,P2
+16930,Request,Product Support,low,medium,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010308,1,667,86,3.362,1,IT Support,P2
+10728,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010309,1,660,102,2.002,1,IT Support,P2
+1390,Incident,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010310,1,637,92,1.398,1,IT Support,P2
+19891,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010311,1,704,84,4.058,1,IT Support,P2
+7370,Request,Product Support,medium,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010312,1,704,91,1.584,1,IT Support,P2
+4576,Request,Product Support,medium,medium,P2,Product Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010313,1,620,61,1.683,1,IT Support,P2
+7689,Request,Technical Support,low,low,P3,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010314,1,623,78,1.825,1,IT Support,P2
+6723,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010315,1,672,127,2.698,1,IT Support,P2
+23978,Request,Technical Support,low,medium,P3,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010316,1,692,106,4.085,1,IT Support,P2
+7697,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010317,1,662,82,1.863,1,IT Support,P2
+4407,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010318,1,673,100,1.445,1,IT Support,P2
+5531,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010319,1,709,105,2.877,1,IT Support,P2
+11990,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010320,1,671,96,1.796,1,IT Support,P2
+11912,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010321,1,705,97,2.439,1,IT Support,P2
+4955,Request,Product Support,low,medium,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010322,1,676,89,2.157,1,IT Support,P2
+25524,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010323,1,694,76,2.311,1,IT Support,P2
+7934,Incident,Technical Support,medium,medium,P2,Technical Support,0.85,False,0,[],0.0,,[],,,False,0,,human,INC0010324,1,662,117,3.238,1,IT Support,P2
+5927,Incident,Technical Support,high,medium,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010325,1,617,67,3.686,1,Product Support,P3
+21530,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010326,1,654,95,2.231,1,Product Support,P3
+3103,Incident,IT Support,medium,medium,P2,IT Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010327,1,627,69,1.858,1,Product Support,P3
+3681,Request,Product Support,medium,medium,P2,Product Support,0.85,False,0,[],0.0,,[],,,False,0,,human,INC0010328,1,659,104,1.768,1,Product Support,P3
+21888,Request,Product Support,medium,medium,P2,Product Support,0.85,False,0,[],0.0,,[],,,False,0,,human,INC0010329,1,672,74,2.436,1,Product Support,P3
+5197,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010330,1,699,96,2.001,1,Product Support,P3
+2314,Incident,Product Support,medium,medium,P2,Product Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010331,1,624,63,2.178,1,Product Support,P3
+17571,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010332,1,725,94,1.975,1,Product Support,P3
+1256,Incident,Technical Support,medium,medium,P2,Technical Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010333,1,616,57,2.108,1,Product Support,P3
+15436,Request,Product Support,medium,medium,P2,Product Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010334,1,694,75,3.588,1,Product Support,P3
+13840,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010335,1,656,97,2.499,1,Product Support,P3
+1143,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010336,1,633,72,1.764,1,Product Support,P3
+1151,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010337,1,654,90,2.449,1,Product Support,P3
+2676,Incident,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010338,1,696,94,2.015,1,Product Support,P3
+11473,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010339,1,617,66,2.461,1,Product Support,P3
+24083,Incident,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010340,1,646,76,2.821,1,Product Support,P3
+13859,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010341,1,627,75,2.428,1,Product Support,P3
+23936,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010342,1,719,103,4.175,1,Product Support,P3
+7572,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010343,1,692,103,2.006,1,Product Support,P3
+4426,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010344,1,641,87,2.087,1,Product Support,P3
+17950,Request,Product Support,medium,medium,P2,Product Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010345,1,621,59,1.631,1,Product Support,P3
+13689,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010346,1,698,88,3.89,1,Product Support,P3
+11452,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010347,1,712,134,1.844,1,Product Support,P3
+28078,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010348,1,666,83,2.153,1,Technical Support,P3
+13792,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010349,1,666,110,2.563,1,Technical Support,P3
+7831,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010350,1,646,87,2.877,1,Technical Support,P3
+1275,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010351,1,619,63,1.268,1,Technical Support,P3
+9872,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010352,1,707,101,4.832,1,Technical Support,P3
+14744,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010353,1,637,78,2.3,1,Technical Support,P3
+18557,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010354,1,655,74,1.74,1,Technical Support,P3
+7415,Incident,Service Outages and Maintenance,medium,medium,P2,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010355,1,700,90,1.829,1,Technical Support,P3
+19930,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010356,1,651,79,1.549,1,Technical Support,P3
+19774,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010357,1,664,77,3.085,1,Technical Support,P3
+22321,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010358,1,710,96,1.728,1,Technical Support,P3
+28366,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010359,1,705,98,2.066,1,Technical Support,P3
+12383,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010360,1,642,76,2.35,1,Technical Support,P3
+3487,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010361,1,673,92,4.225,1,Technical Support,P3
+18114,Request,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010362,1,677,106,2.342,1,Technical Support,P3
+26740,Incident,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010363,1,654,92,1.491,1,Technical Support,P3
+19422,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010364,1,664,78,2.093,1,Technical Support,P3
+27716,Request,Technical Support,low,low,P3,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010365,1,649,78,4.143,1,Technical Support,P3
+13047,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010366,1,643,83,1.573,1,Technical Support,P3
+22704,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010367,1,664,87,1.743,1,Technical Support,P3
+13310,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010368,1,633,81,1.436,1,Technical Support,P3
+2760,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010369,1,656,104,2.78,1,Service Outages and Maintenance,P1
+92,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010370,1,715,98,3.027,1,Service Outages and Maintenance,P1
+25016,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010371,1,667,97,1.751,1,Service Outages and Maintenance,P1
+14555,Incident,Technical Support,medium,medium,P2,Technical Support,0.85,False,0,[],0.0,,[],,,False,0,,human,INC0010372,1,632,66,3.558,1,Service Outages and Maintenance,P1
+3556,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010373,1,682,91,1.313,1,Service Outages and Maintenance,P1
+9621,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010374,1,676,84,1.667,1,Service Outages and Maintenance,P1
+8668,Change,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010375,1,695,102,2.104,1,Service Outages and Maintenance,P1
+27323,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010376,1,658,76,3.501,1,Service Outages and Maintenance,P1
+22965,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010377,1,650,95,2.296,1,Service Outages and Maintenance,P1
+7618,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010378,1,656,81,2.052,1,Service Outages and Maintenance,P1
+22877,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010379,1,719,82,2.302,1,Service Outages and Maintenance,P1
+15311,Request,Product Support,low,medium,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010380,1,709,93,3.673,1,Service Outages and Maintenance,P1
+26602,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010381,1,633,74,1.546,1,Service Outages and Maintenance,P1
+381,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010382,1,684,91,1.964,1,Service Outages and Maintenance,P1
+2189,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010383,1,690,121,2.186,1,Service Outages and Maintenance,P1
+19164,Incident,Service Outages and Maintenance,medium,high,P1,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010384,1,677,109,3.03,1,Service Outages and Maintenance,P1
+18224,Incident,Service Outages and Maintenance,medium,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010385,1,702,104,2.468,1,Service Outages and Maintenance,P1
+28519,Request,Product Support,medium,medium,P2,Product Support,0.85,False,0,[],0.0,,[],,,False,0,,human,INC0010386,1,710,91,2.038,1,Service Outages and Maintenance,P1
+16630,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010387,1,653,82,3.762,1,IT Support,P3
+4432,Incident,Product Support,medium,high,P1,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010388,1,651,82,2.949,1,IT Support,P3
+9651,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010389,1,655,89,2.343,1,IT Support,P3
+24862,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010390,1,648,81,2.118,1,IT Support,P3
+20930,Change,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010391,1,652,100,1.751,1,IT Support,P3
+15795,Request,Product Support,medium,medium,P2,Product Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010392,1,642,101,2.221,1,IT Support,P3
+2929,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010393,1,642,76,2.311,1,IT Support,P3
+20517,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010394,1,620,62,2.589,1,Service Outages and Maintenance,P2
+17243,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010395,1,706,85,2.704,1,Service Outages and Maintenance,P2
+16748,Incident,Service Outages and Maintenance,medium,high,P1,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010396,1,660,75,3.284,1,Service Outages and Maintenance,P2
+19811,Incident,Service Outages and Maintenance,medium,high,P1,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010397,1,680,84,1.751,1,Service Outages and Maintenance,P2
+24927,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010398,1,722,131,2.552,1,Service Outages and Maintenance,P3
+15353,Change,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010399,1,692,90,1.247,1,Service Outages and Maintenance,P3
+18050,Incident,Service Outages and Maintenance,medium,medium,P2,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010400,1,638,80,1.989,1,Service Outages and Maintenance,P3
+13862,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010001,1,629,73,1.236,2,Technical Support,P1
+79,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010003,1,708,97,2.789,2,Technical Support,P1
+9758,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010002,1,696,112,2.194,2,Technical Support,P1
+27587,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010004,1,685,79,1.742,2,Technical Support,P1
+22852,Problem,Product Support,medium,medium,P2,Product Support,0.85,False,0,[],0.0,,[],,,False,0,,human,INC0010005,1,661,70,1.684,2,Technical Support,P1
+11528,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010006,1,646,92,1.921,2,Technical Support,P1
+13137,Incident,Technical Support,medium,medium,P2,Technical Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010007,1,615,57,3.541,2,Technical Support,P1
+22328,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010008,1,642,81,1.443,2,Technical Support,P1
+6073,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010009,1,658,85,1.813,2,Technical Support,P1
+1186,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010010,1,651,85,4.027,2,Technical Support,P1
+28451,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010011,1,706,101,3.913,2,Technical Support,P1
+10576,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010012,1,637,82,2.442,2,Technical Support,P1
+18648,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010013,1,684,109,2.398,2,Technical Support,P1
+26194,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010014,1,629,72,1.434,2,Technical Support,P1
+28453,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010015,1,700,96,1.623,2,Technical Support,P1
+27500,Incident,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010016,1,714,83,1.44,2,Technical Support,P1
+2580,Request,Product Support,medium,medium,P2,Product Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010017,1,622,66,1.998,2,Technical Support,P1
+11765,Incident,Technical Support,low,medium,P3,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010018,1,628,74,3.223,2,Technical Support,P1
+14855,Incident,Product Support,medium,high,P1,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010019,1,671,81,1.587,2,Technical Support,P1
+709,Incident,Technical Support,medium,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010020,1,708,115,2.099,2,Technical Support,P1
+16938,Incident,Technical Support,low,medium,P3,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010021,1,708,101,2.762,2,Technical Support,P1
+13062,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010022,1,699,90,3.569,2,Technical Support,P1
+6010,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010023,1,665,91,1.628,2,Technical Support,P1
+15813,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010024,1,613,56,2.028,2,Technical Support,P1
+7778,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010025,1,629,78,2.104,2,Technical Support,P1
+11143,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010026,1,624,63,3.467,2,Technical Support,P1
+14196,Incident,Service Outages and Maintenance,medium,high,P1,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010027,1,631,59,1.528,2,Technical Support,P1
+26943,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010028,1,618,69,1.57,2,Technical Support,P1
+590,Problem,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010029,1,711,113,3.783,2,Technical Support,P1
+5069,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010030,1,698,89,2.086,2,Technical Support,P1
+8324,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010031,1,645,103,2.578,2,Technical Support,P1
+17896,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010032,1,706,105,2.81,2,Technical Support,P1
+24805,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010033,1,635,82,2.46,2,Technical Support,P1
+16561,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010034,1,693,94,2.187,2,Technical Support,P1
+4110,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010035,1,672,82,3.314,2,Technical Support,P1
+24367,Incident,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010036,1,620,72,1.3,2,Technical Support,P1
+8253,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010037,1,714,96,1.839,2,Technical Support,P1
+24497,Incident,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010038,1,685,108,2.43,2,Technical Support,P1
+306,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010039,1,694,88,3.833,2,Technical Support,P1
+4330,Incident,Service Outages and Maintenance,medium,medium,P2,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010040,1,618,57,1.378,2,Technical Support,P1
+25675,Incident,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010041,1,656,92,2.268,2,Technical Support,P1
+19921,Incident,Technical Support,high,medium,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010042,1,706,91,2.126,2,Technical Support,P1
+9536,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010043,1,662,98,4.098,2,Technical Support,P1
+2434,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010044,1,683,90,1.57,2,Technical Support,P1
+13787,Problem,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010045,1,693,111,2.108,2,Technical Support,P1
+16546,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010046,1,696,109,2.481,2,Technical Support,P1
+4066,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010047,1,689,104,3.729,2,Technical Support,P1
+6227,Change,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010048,1,622,69,1.25,2,Technical Support,P1
+8046,Incident,Technical Support,medium,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010049,1,696,74,1.34,2,Technical Support,P1
+7366,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010050,1,711,109,3.489,2,Technical Support,P1
+16645,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010051,1,682,88,2.071,2,Technical Support,P1
+4517,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010052,1,697,91,2.098,2,Technical Support,P1
+12344,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010053,1,624,66,2.606,2,Technical Support,P1
+17661,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010054,1,644,88,3.328,2,Technical Support,P1
+5839,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010055,1,657,75,1.603,2,Technical Support,P1
+2618,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010056,1,697,95,1.788,2,Technical Support,P1
+17825,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010057,1,681,88,3.665,2,Technical Support,P1
+12751,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010058,1,652,102,2.233,2,Technical Support,P1
+273,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010059,1,699,90,2.023,2,Technical Support,P1
+3785,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010060,1,630,70,1.827,2,Technical Support,P1
+17527,Incident,Technical Support,high,medium,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010061,1,714,84,1.945,2,Technical Support,P1
+11131,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010062,1,668,94,3.382,2,Technical Support,P1
+22874,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010063,1,708,116,2.18,2,Technical Support,P1
+12974,Incident,Technical Support,high,medium,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010064,1,706,86,2.119,2,Technical Support,P1
+25716,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010065,1,668,106,3.011,2,Technical Support,P1
+12784,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010066,1,635,82,2.099,2,Technical Support,P1
+15528,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010067,1,701,106,2.322,2,Technical Support,P1
+22878,Request,Product Support,low,medium,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010068,1,654,71,2.321,2,Technical Support,P1
+224,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010069,1,700,80,1.951,2,Technical Support,P1
+24100,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010070,1,646,79,2.9,2,Technical Support,P1
+20525,Incident,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010071,1,691,90,3.318,2,Technical Support,P1
+15682,Problem,Product Support,medium,medium,P2,Product Support,0.85,False,0,[],0.0,,[],,,False,0,,human,INC0010072,1,675,115,2.255,2,Technical Support,P1
+2638,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010073,1,706,107,1.816,2,Technical Support,P1
+6707,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010074,1,693,90,2.195,2,Technical Support,P1
+11045,Incident,Service Outages and Maintenance,medium,high,P1,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010075,1,648,91,2.531,2,Technical Support,P1
+6766,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010076,1,636,77,3.205,2,Technical Support,P1
+12228,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010077,1,639,80,1.663,2,Technical Support,P1
+21234,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010078,1,657,95,1.862,2,Technical Support,P1
+13887,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010079,1,692,94,4.196,2,Technical Support,P1
+6278,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010080,1,642,72,1.763,2,Technical Support,P1
+23846,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010081,1,669,89,1.633,2,Technical Support,P1
+7891,Problem,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010082,1,670,97,2.485,2,Technical Support,P1
+244,Incident,Product Support,low,medium,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010083,1,719,96,2.682,2,Technical Support,P1
+11790,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010084,1,655,94,2.366,2,Technical Support,P1
+5299,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010085,1,726,99,3.829,2,Technical Support,P1
+17032,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010086,1,621,70,1.516,2,Technical Support,P1
+27177,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010087,1,626,61,1.364,2,Technical Support,P1
+24151,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010088,1,693,77,1.647,2,Technical Support,P1
+7166,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010089,1,646,70,2.063,2,Technical Support,P1
+14988,Request,Product Support,low,medium,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010090,1,640,89,2.693,2,Technical Support,P1
+17319,Request,Product Support,low,medium,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010091,1,666,87,3.459,2,Technical Support,P1
+1257,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010092,1,688,95,2.486,2,Technical Support,P1
+2668,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010093,1,628,77,1.744,2,Technical Support,P1
+2790,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010094,1,692,98,4.091,2,Technical Support,P1
+15134,Incident,Technical Support,high,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010095,1,619,53,1.229,2,Technical Support,P1
+12669,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010096,1,694,88,1.591,2,Technical Support,P1
+12493,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010097,1,710,132,3.987,2,Technical Support,P1
+22387,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010098,1,712,86,1.429,2,Technical Support,P1
+3625,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010099,1,694,102,2.414,2,Technical Support,P1
+2612,Problem,Service Outages and Maintenance,high,medium,P1,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010100,1,658,76,2.198,2,Technical Support,P1
+19848,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010101,1,658,94,2.557,2,Technical Support,P1
+759,Request,Service Outages and Maintenance,high,medium,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010102,1,714,113,2.642,2,Technical Support,P1
+26006,Incident,Technical Support,medium,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010103,1,683,105,3.328,2,Technical Support,P1
+296,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010104,1,660,95,1.475,2,Technical Support,P1
+3383,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010105,1,663,97,1.795,2,Technical Support,P1
+1081,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010106,1,699,89,4.045,2,Technical Support,P1
+21370,Problem,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010107,1,688,86,1.904,2,Product Support,P2
+9494,Request,Product Support,medium,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010108,1,702,115,2.531,2,Product Support,P2
+7650,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010109,1,700,145,4.198,2,Product Support,P2
+22962,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010110,1,720,122,1.727,2,Product Support,P2
+2600,Request,Technical Support,high,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010111,1,695,98,1.545,2,Product Support,P2
+6752,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010112,1,700,88,2.505,2,Product Support,P2
+13150,Incident,Technical Support,high,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010113,1,651,77,1.646,2,Product Support,P2
+3420,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010114,1,681,74,2.036,2,Product Support,P2
+4197,Incident,Service Outages and Maintenance,medium,medium,P2,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010115,1,666,92,3.601,2,Product Support,P2
+28153,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010116,1,690,71,1.521,2,Product Support,P2
+16542,Request,Product Support,medium,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010117,1,623,71,1.703,2,Product Support,P2
+13791,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010118,1,705,120,3.806,2,Product Support,P2
+15924,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010119,1,638,88,1.389,2,Product Support,P2
+25446,Request,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010120,1,711,80,1.806,2,Product Support,P2
+28388,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010121,1,712,116,3.68,2,Product Support,P2
+7315,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010122,1,711,86,2.261,2,Product Support,P2
+16228,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010123,1,648,85,1.967,2,Product Support,P2
+26489,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010124,1,648,87,1.947,2,Product Support,P2
+1274,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010125,1,657,109,4.168,2,Product Support,P2
+9959,Change,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010126,1,683,96,2.02,2,Product Support,P2
+11432,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010127,1,632,74,2.929,2,Product Support,P2
+14979,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010128,1,652,90,1.902,2,Product Support,P2
+13235,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010129,1,641,78,1.911,2,Product Support,P2
+27917,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010130,1,652,77,1.701,2,Product Support,P2
+27957,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010131,1,688,83,2.429,2,Product Support,P2
+752,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010132,1,688,90,3.703,2,Product Support,P2
+16455,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010133,1,645,79,1.369,2,Product Support,P2
+22981,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010134,1,701,96,2.08,2,Product Support,P2
+16882,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010135,1,662,104,2.238,2,Product Support,P2
+2296,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010136,1,703,85,4.039,2,Product Support,P2
+10204,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010137,1,654,88,1.546,2,Product Support,P2
+12090,Request,Product Support,medium,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010138,1,701,95,1.446,2,Product Support,P2
+3314,Request,Product Support,medium,medium,P2,Product Support,0.85,False,0,[],0.0,,[],,,False,0,,human,INC0010139,1,694,104,4.015,2,Product Support,P2
+2252,Problem,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010140,1,705,84,2.175,2,Product Support,P2
+16124,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010141,1,662,98,2.149,2,Product Support,P2
+4064,Problem,Product Support,medium,medium,P2,Product Support,0.85,False,0,[],0.0,,[],,,False,0,,human,INC0010142,1,707,91,3.649,2,Product Support,P2
+21509,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010143,1,705,101,1.639,2,Product Support,P2
+12855,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010144,1,712,94,1.848,2,Product Support,P2
+21675,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010145,1,629,83,1.842,2,Product Support,P2
+15732,Incident,Technical Support,medium,medium,P2,Technical Support,0.85,False,0,[],0.0,,[],,,False,0,,human,INC0010146,1,629,73,2.376,2,Product Support,P2
+15486,Request,Product Support,low,medium,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010147,1,698,108,3.768,2,Product Support,P2
+5184,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010148,1,670,79,1.456,2,Product Support,P2
+6611,Request,Product Support,low,medium,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010149,1,692,117,2.042,2,Product Support,P2
+14585,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010150,1,659,89,1.551,2,Product Support,P2
+2803,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010151,1,703,84,2.644,2,Product Support,P2
+1320,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010152,1,696,85,3.379,2,Product Support,P2
+7751,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010153,1,701,95,2.059,2,Product Support,P2
+10691,Request,Product Support,medium,medium,P2,Product Support,0.85,False,0,[],0.0,,[],,,False,0,,human,INC0010154,1,671,78,1.721,2,Product Support,P2
+25994,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010155,1,640,74,3.409,2,Product Support,P2
+16887,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010156,1,637,77,1.495,2,Product Support,P2
+28075,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010157,1,644,97,2.174,2,Product Support,P2
+24131,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010158,1,720,115,3.926,2,Product Support,P2
+24961,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010159,1,709,74,1.786,2,Product Support,P2
+15068,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010160,1,660,98,1.582,2,Product Support,P2
+19294,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010161,1,707,95,3.532,2,Product Support,P2
+22757,Incident,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010162,1,714,94,2.204,2,Product Support,P2
+9240,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010163,1,646,72,2.084,2,Product Support,P2
+19059,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010164,1,669,82,2.042,2,Product Support,P2
+13604,Incident,Technical Support,high,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010165,1,613,59,2.964,2,Product Support,P2
+21829,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010166,1,651,74,1.312,2,Product Support,P2
+5737,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010167,1,657,81,1.739,2,Technical Support,P2
+11064,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010168,1,675,79,2.394,2,Technical Support,P2
+23543,Incident,Technical Support,high,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010169,1,653,73,3.687,2,Technical Support,P2
+15144,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010170,1,639,86,1.862,2,Technical Support,P2
+84,Incident,Service Outages and Maintenance,medium,medium,P2,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010171,1,712,93,2.28,2,Technical Support,P2
+23240,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010172,1,671,91,3.54,2,Technical Support,P2
+708,Incident,Product Support,low,medium,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010173,1,706,84,2.099,2,Technical Support,P2
+18985,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010174,1,679,96,1.616,2,Technical Support,P2
+11026,Incident,Technical Support,low,medium,P3,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010175,1,682,102,4.063,2,Technical Support,P2
+26339,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010176,1,649,87,1.755,2,Technical Support,P2
+9367,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010177,1,693,89,1.864,2,Technical Support,P2
+1773,Problem,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010178,1,698,107,2.819,2,Technical Support,P2
+4555,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010179,1,672,97,2.273,2,Technical Support,P2
+4288,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010180,1,694,106,2.496,2,Technical Support,P2
+15077,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010181,1,656,93,2.779,2,Technical Support,P2
+26089,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010182,1,659,102,1.794,2,Technical Support,P2
+8312,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010183,1,653,68,3.348,2,Technical Support,P2
+17884,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010184,1,666,88,1.615,2,Technical Support,P2
+26676,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010185,1,630,76,1.64,2,Technical Support,P2
+9394,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010186,1,637,80,2.178,2,Technical Support,P2
+26776,Request,Product Support,low,medium,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010187,1,709,90,2.589,2,Technical Support,P2
+15034,Incident,IT Support,medium,medium,P2,IT Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010188,1,702,90,3.559,2,Technical Support,P2
+25918,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010189,1,653,79,1.862,2,Technical Support,P2
+19320,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010190,1,691,90,1.915,2,Technical Support,P2
+18417,Incident,Technical Support,low,medium,P3,Technical Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010191,1,617,57,2.028,2,Technical Support,P2
+19860,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010192,1,651,90,3.541,2,Technical Support,P2
+23592,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010193,1,637,84,1.884,2,Technical Support,P2
+2288,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010194,1,713,103,3.561,2,Technical Support,P2
+1993,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010195,1,655,88,2.614,2,Technical Support,P2
+7702,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010196,1,711,70,1.49,2,Technical Support,P2
+11260,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010197,1,676,108,2.495,2,Technical Support,P2
+7796,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010198,1,639,83,2.483,2,Technical Support,P2
+17624,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010199,1,673,72,1.905,2,Technical Support,P2
+17768,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010200,1,665,103,3.035,2,Technical Support,P2
+25470,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010201,1,635,77,2.149,2,Technical Support,P2
+10724,Incident,Technical Support,medium,medium,P2,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010202,1,728,109,3.939,2,Technical Support,P2
+11833,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010203,1,641,84,1.87,2,Technical Support,P2
+16723,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010204,1,697,93,1.653,2,Technical Support,P2
+12444,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010205,1,699,76,2.032,2,Technical Support,P2
+18901,Request,Product Support,low,low,P3,Product Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010206,1,615,61,2.426,2,Technical Support,P2
+1224,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010207,1,697,78,1.757,2,Technical Support,P2
+7664,Incident,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010208,1,709,116,2.317,2,Technical Support,P2
+19681,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010209,1,694,89,2.468,2,Technical Support,P2
+14291,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010210,1,672,85,2.482,2,Technical Support,P2
+9324,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010211,1,683,95,3.932,2,Technical Support,P2
+193,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010212,1,683,83,1.316,2,Technical Support,P2
+28108,Incident,IT Support,low,medium,P3,IT Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010213,1,709,106,2.085,2,Technical Support,P2
+5575,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010214,1,649,88,3.727,2,Technical Support,P2
+10312,Request,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010215,1,688,97,2.143,2,Technical Support,P2
+23250,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010216,1,702,101,1.671,2,Technical Support,P2
+26219,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010217,1,671,95,3.377,2,Technical Support,P2
+14038,Incident,Service Outages and Maintenance,medium,medium,P2,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010218,1,624,67,1.467,2,Technical Support,P2
+881,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010219,1,662,119,1.807,2,Technical Support,P2
+14739,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010220,1,712,125,2.654,2,Technical Support,P2
+10949,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010221,1,616,55,2.48,2,Technical Support,P2
+28306,Request,Product Support,low,medium,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010222,1,656,91,2.313,2,IT Support,P1
+1725,Request,Product Support,medium,medium,P2,Product Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010223,1,620,63,2.542,2,IT Support,P1
+24637,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010224,1,697,94,1.923,2,IT Support,P1
+23794,Change,Technical Support,high,medium,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010225,1,685,93,2.688,2,IT Support,P1
+13944,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010226,1,669,94,3.636,2,IT Support,P1
+12295,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010227,1,646,69,1.653,2,IT Support,P1
+27534,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010228,1,635,75,1.671,2,IT Support,P1
+27837,Incident,Technical Support,high,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010229,1,612,56,1.979,2,IT Support,P1
+9622,Change,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010230,1,700,82,2.419,2,IT Support,P1
+15110,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010231,1,665,108,3.859,2,IT Support,P1
+17597,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010232,1,663,94,1.824,2,IT Support,P1
+7757,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010233,1,694,114,2.457,2,IT Support,P1
+22172,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010234,1,661,75,2.444,2,IT Support,P1
+16594,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010235,1,678,115,2.433,2,IT Support,P1
+13259,Request,Product Support,low,medium,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010236,1,651,84,2.267,2,IT Support,P1
+7686,Change,Technical Support,high,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010237,1,699,93,1.717,2,IT Support,P1
+8041,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010238,1,641,106,3.316,2,IT Support,P1
+17811,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010239,1,662,83,1.622,2,IT Support,P1
+18885,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010240,1,644,78,3.281,2,IT Support,P1
+17513,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010241,1,646,76,1.422,2,IT Support,P1
+20630,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010242,1,654,104,2.016,2,IT Support,P1
+22049,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010243,1,670,82,2.388,2,IT Support,P1
+2675,Change,Technical Support,high,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010244,1,691,92,3.941,2,IT Support,P1
+5112,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010245,1,698,100,2.302,2,IT Support,P1
+3264,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010246,1,664,103,1.586,2,IT Support,P1
+4742,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010247,1,676,109,2.536,2,IT Support,P1
+7900,Request,Product Support,medium,medium,P2,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010248,1,692,86,2.296,2,IT Support,P1
+12604,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010249,1,678,109,3.724,2,IT Support,P1
+5698,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010250,1,700,127,3.792,2,IT Support,P1
+604,Incident,Technical Support,medium,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010251,1,710,127,2.037,2,IT Support,P1
+16116,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010252,1,685,94,2.602,2,IT Support,P1
+5276,Incident,Technical Support,medium,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010253,1,703,97,1.494,2,IT Support,P1
+15611,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010254,1,708,95,1.621,2,IT Support,P1
+9341,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010255,1,702,74,2.101,2,IT Support,P1
+12816,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010256,1,670,74,1.44,2,IT Support,P1
+8705,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010257,1,672,98,2.59,2,IT Support,P1
+25693,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010258,1,704,91,2.655,2,Product Support,P1
+4320,Problem,Product Support,medium,medium,P2,Product Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010259,1,631,78,3.525,2,Product Support,P1
+28438,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010260,1,704,80,1.731,2,Product Support,P1
+21412,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010261,1,658,71,1.576,2,Product Support,P1
+731,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010262,1,717,84,2.072,2,Product Support,P1
+3831,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010263,1,696,75,2.193,2,Product Support,P1
+11624,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010264,1,643,88,3.667,2,Product Support,P1
+22635,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010265,1,629,67,2.001,2,Product Support,P1
+2390,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010266,1,708,90,2.08,2,Product Support,P1
+17005,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010267,1,681,96,3.387,2,Product Support,P1
+19525,Incident,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010268,1,672,97,1.848,2,Product Support,P1
+13015,Problem,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010269,1,703,125,3.483,2,Product Support,P1
+27491,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010270,1,667,96,1.77,2,Product Support,P1
+23040,Problem,Product Support,medium,medium,P2,Product Support,0.85,False,0,[],0.0,,[],,,False,0,,human,INC0010271,1,653,84,1.841,2,Product Support,P1
+13467,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010272,1,669,106,2.676,2,Product Support,P1
+24014,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010273,1,658,93,3.673,2,Product Support,P1
+27974,Incident,Product Support,medium,medium,P2,Product Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010274,1,621,63,1.584,2,Product Support,P1
+8283,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010275,1,671,93,1.803,2,Product Support,P1
+24995,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010276,1,696,84,4.387,2,Product Support,P1
+26413,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010277,1,666,85,1.892,2,Product Support,P1
+14339,Incident,Technical Support,high,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010278,1,613,54,1.342,2,Product Support,P1
+24506,Incident,Service Outages and Maintenance,medium,medium,P2,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010279,1,641,92,2.048,2,Product Support,P1
+5311,Incident,Technical Support,high,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010280,1,683,95,3.766,2,Product Support,P1
+9831,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010281,1,684,78,1.435,2,Product Support,P1
+16790,Request,Product Support,medium,medium,P2,Product Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010282,1,619,60,1.337,2,Product Support,P1
+12515,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010283,1,664,104,4.92,2,Product Support,P1
+24507,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010284,1,649,79,2.521,2,Product Support,P1
+27770,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010285,1,641,83,2.055,2,Product Support,P1
+19096,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010286,1,668,70,1.325,2,Product Support,P1
+18364,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010287,1,631,75,2.333,2,Product Support,P1
+28533,Incident,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010288,1,695,95,3.551,2,Product Support,P1
+19007,Request,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010289,1,672,102,1.953,2,Product Support,P1
+7254,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010290,1,706,96,1.689,2,Product Support,P1
+815,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010291,1,693,120,2.957,2,Product Support,P1
+12798,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010292,1,623,58,1.628,2,Product Support,P1
+17407,Incident,Service Outages and Maintenance,medium,medium,P2,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010293,1,718,104,2.151,2,IT Support,P2
+2897,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010294,1,685,98,3.588,2,IT Support,P2
+1594,Request,Technical Support,high,medium,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010295,1,619,60,1.796,2,IT Support,P2
+20406,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010296,1,656,85,1.47,2,IT Support,P2
+24021,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010297,1,663,86,3.911,2,IT Support,P2
+27846,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010298,1,625,68,1.792,2,IT Support,P2
+9175,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010299,1,714,91,1.67,2,IT Support,P2
+5504,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010300,1,707,89,3.575,2,IT Support,P2
+1603,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010301,1,674,106,1.63,2,IT Support,P2
+17665,Incident,Technical Support,low,medium,P3,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010302,1,713,111,2.039,2,IT Support,P2
+6894,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010303,1,693,90,2.309,2,IT Support,P2
+13891,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010304,1,665,115,2.504,2,IT Support,P2
+12110,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010305,1,673,90,2.536,2,IT Support,P2
+5231,Request,Technical Support,medium,low,P3,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010306,1,695,87,2.278,2,IT Support,P2
+2445,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010307,1,646,93,3.649,2,IT Support,P2
+16930,Request,Product Support,low,medium,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010308,1,667,86,1.717,2,IT Support,P2
+10728,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010309,1,660,102,1.796,2,IT Support,P2
+1390,Incident,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010310,1,637,90,2.791,2,IT Support,P2
+19891,,,,,,,,,0,[],0.0,,[],,,False,0,classification_RateLimitError,human,INC0010311,0,0,0,6.628,2,IT Support,P2
+7370,Request,Product Support,medium,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010312,1,704,91,1.569,2,IT Support,P2
+4576,Request,Product Support,medium,medium,P2,Product Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010313,1,620,61,1.784,2,IT Support,P2
+7689,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010314,1,623,78,1.252,2,IT Support,P2
+6723,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010315,1,672,125,2.05,2,IT Support,P2
+23978,Request,Technical Support,low,medium,P3,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010316,1,692,101,2.477,2,IT Support,P2
+7697,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010317,1,662,96,1.553,2,IT Support,P2
+4407,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010318,1,673,103,1.586,2,IT Support,P2
+5531,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010319,1,709,95,1.497,2,IT Support,P2
+11990,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010320,1,671,117,1.979,2,IT Support,P2
+11912,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010321,1,705,97,2.541,2,IT Support,P2
+4955,Request,Product Support,low,medium,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010322,1,676,89,1.495,2,IT Support,P2
+25524,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010323,1,694,76,2.264,2,IT Support,P2
+7934,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010324,1,662,117,2.212,2,IT Support,P2
+5927,Incident,Technical Support,high,medium,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010325,1,617,67,3.18,2,Product Support,P3
+21530,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010326,1,654,95,1.896,2,Product Support,P3
+3103,Incident,IT Support,medium,medium,P2,IT Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010327,1,627,69,2.015,2,Product Support,P3
+3681,Request,Product Support,medium,medium,P2,Product Support,0.85,False,0,[],0.0,,[],,,False,0,,human,INC0010328,1,659,104,3.471,2,Product Support,P3
+21888,Request,Product Support,medium,medium,P2,Product Support,0.85,False,0,[],0.0,,[],,,False,0,,human,INC0010329,1,672,74,1.633,2,Product Support,P3
+5197,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010330,1,699,99,3.513,2,Product Support,P3
+2314,Problem,Product Support,medium,medium,P2,Product Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010331,1,624,64,1.344,2,Product Support,P3
+17571,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010332,1,725,106,1.742,2,Product Support,P3
+1256,Incident,Technical Support,medium,medium,P2,Technical Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010333,1,616,57,2.479,2,Product Support,P3
+15436,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010334,1,694,71,3.413,2,Product Support,P3
+13840,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010335,1,656,97,1.862,2,Product Support,P3
+1143,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010336,1,633,72,1.64,2,Product Support,P3
+1151,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010337,1,654,90,3.712,2,Product Support,P3
+2676,Problem,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010338,1,696,94,1.883,2,Product Support,P3
+11473,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010339,1,617,66,1.846,2,Product Support,P3
+24083,Incident,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010340,1,646,76,4.122,2,Product Support,P3
+13859,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010341,1,627,75,1.506,2,Product Support,P3
+23936,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010342,1,719,103,2.722,2,Product Support,P3
+7572,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010343,1,692,97,1.958,2,Product Support,P3
+4426,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010344,1,641,86,2.421,2,Product Support,P3
+17950,Request,Product Support,medium,medium,P2,Product Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010345,1,621,59,1.464,2,Product Support,P3
+13689,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010346,1,698,88,3.403,2,Product Support,P3
+11452,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010347,1,712,134,4.595,2,Product Support,P3
+28078,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010348,1,666,83,1.765,2,Technical Support,P3
+13792,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010349,1,666,102,3.0,2,Technical Support,P3
+7831,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010350,1,646,83,1.905,2,Technical Support,P3
+1275,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010351,1,619,63,1.539,2,Technical Support,P3
+9872,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010352,1,707,100,1.802,2,Technical Support,P3
+14744,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010353,1,637,78,3.432,2,Technical Support,P3
+18557,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010354,1,655,77,2.33,2,Technical Support,P3
+7415,Problem,Service Outages and Maintenance,medium,medium,P2,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010355,1,700,101,1.673,2,Technical Support,P3
+19930,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010356,1,651,79,1.29,2,Technical Support,P3
+19774,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010357,1,664,78,2.378,2,Technical Support,P3
+22321,Incident,Technical Support,medium,high,P1,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010358,1,710,96,3.468,2,Technical Support,P3
+28366,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010359,1,705,98,1.959,2,Technical Support,P3
+12383,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010360,1,642,76,2.014,2,Technical Support,P3
+3487,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010361,1,673,92,2.131,2,Technical Support,P3
+18114,Request,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010362,1,677,107,3.951,2,Technical Support,P3
+26740,Incident,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010363,1,654,91,1.767,2,Technical Support,P3
+19422,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010364,1,664,78,1.765,2,Technical Support,P3
+27716,Request,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010365,1,649,81,3.59,2,Technical Support,P3
+13047,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010366,1,643,83,1.867,2,Technical Support,P3
+22704,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010367,1,664,82,1.858,2,Technical Support,P3
+13310,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010368,1,633,81,1.939,2,Technical Support,P3
+2760,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010369,1,656,103,3.582,2,Service Outages and Maintenance,P1
+92,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010370,1,715,101,2.241,2,Service Outages and Maintenance,P1
+25016,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010371,1,667,102,2.392,2,Service Outages and Maintenance,P1
+14555,Incident,Technical Support,medium,medium,P2,Technical Support,0.85,False,0,[],0.0,,[],,,False,0,,human,INC0010372,1,632,66,2.323,2,Service Outages and Maintenance,P1
+3556,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010373,1,682,81,1.846,2,Service Outages and Maintenance,P1
+9621,Incident,Technical Support,high,high,P1,Technical Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010374,1,676,68,1.845,2,Service Outages and Maintenance,P1
+8668,Change,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010375,1,695,94,3.417,2,Service Outages and Maintenance,P1
+27323,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010376,1,658,76,2.06,2,Service Outages and Maintenance,P1
+22965,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010377,1,650,97,1.812,2,Service Outages and Maintenance,P1
+7618,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010378,1,656,84,3.541,2,Service Outages and Maintenance,P1
+22877,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010379,1,719,82,1.826,2,Service Outages and Maintenance,P1
+15311,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010380,1,709,93,1.819,2,Service Outages and Maintenance,P1
+26602,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010381,1,633,74,3.406,2,Service Outages and Maintenance,P1
+381,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010382,1,684,91,1.542,2,Service Outages and Maintenance,P1
+2189,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010383,1,690,119,2.055,2,Service Outages and Maintenance,P1
+19164,Incident,Service Outages and Maintenance,medium,high,P1,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010384,1,677,112,3.353,2,Service Outages and Maintenance,P1
+18224,Incident,Service Outages and Maintenance,medium,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010385,1,702,122,3.725,2,Service Outages and Maintenance,P1
+28519,Request,Product Support,medium,medium,P2,Product Support,0.85,False,0,[],0.0,,[],,,False,0,,human,INC0010386,1,710,91,2.071,2,Service Outages and Maintenance,P1
+16630,Request,Product Support,medium,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010387,1,653,82,1.35,2,IT Support,P3
+4432,Incident,Product Support,medium,high,P1,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010388,1,651,80,3.748,2,IT Support,P3
+9651,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010389,1,655,89,1.464,2,IT Support,P3
+24862,Request,Product Support,low,low,P3,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010390,1,648,81,1.768,2,IT Support,P3
+20930,Request,Product Support,medium,medium,P2,Product Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010391,1,652,100,2.04,2,IT Support,P3
+15795,Request,Product Support,medium,medium,P2,Product Support,0.8,False,0,[],0.0,,[],,,False,0,,human,INC0010392,1,642,102,7.571,2,IT Support,P3
+2929,Incident,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010393,1,642,76,1.908,2,IT Support,P3
+20517,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010394,1,620,60,1.567,2,Service Outages and Maintenance,P2
+17243,Incident,Service Outages and Maintenance,high,high,P1,Service Outages and Maintenance,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010395,1,706,85,1.884,2,Service Outages and Maintenance,P2
+16748,Incident,Service Outages and Maintenance,medium,high,P1,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010396,1,660,75,1.891,2,Service Outages and Maintenance,P2
+19811,Incident,Service Outages and Maintenance,medium,high,P1,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010397,1,680,84,1.8,2,Service Outages and Maintenance,P2
+24927,Request,Product Support,low,low,P3,Product Support,0.95,False,0,[],0.0,,[],,,False,0,,human,INC0010398,1,722,139,2.4,2,Service Outages and Maintenance,P3
+15353,Change,Technical Support,medium,medium,P2,Technical Support,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010399,1,692,90,1.76,2,Service Outages and Maintenance,P3
+18050,Incident,Service Outages and Maintenance,medium,medium,P2,Service Outages and Maintenance,0.9,False,0,[],0.0,,[],,,False,0,,human,INC0010400,1,638,80,1.862,2,Service Outages and Maintenance,P3

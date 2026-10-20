@@ -1,0 +1,27 @@
+{
+  "source_rows": 28587,
+  "english": 16338,
+  "it_queues": 10416,
+  "after_cleaning": 10416,
+  "near_duplicate_groups": 7662,
+  "tickets_in_groups_of_2_or_more": 4607,
+  "train": 9553,
+  "dev": 100,
+  "test": 400,
+  "queue_distribution": {
+    "Technical Support": 4737,
+    "Product Support": 3073,
+    "IT Support": 1942,
+    "Service Outages and Maintenance": 664
+  },
+  "priority_distribution": {
+    "P1": 5065,
+    "P2": 3957,
+    "P3": 1394
+  },
+  "test_priority_distribution": {
+    "P1": 195,
+    "P2": 151,
+    "P3": 54
+  }
+}
