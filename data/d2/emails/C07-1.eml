@@ -1,0 +1,9 @@
+From: user.c07@aurora-retail.example
+To: servicedesk@aurora-retail.example
+Subject: Emails stuck in outbox
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hi, my emails are stuck in the Outbox since this morning and I don't receive =
+new ones either. Could you help today?

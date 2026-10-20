@@ -1,0 +1,8 @@
+From: user.x15@aurora-retail.example
+To: servicedesk@aurora-retail.example
+Subject: Report error
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+The report I run every Monday shows an error now. Can someone check today?

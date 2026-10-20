@@ -1,0 +1,9 @@
+From: user.x23@aurora-retail.example
+To: servicedesk@aurora-retail.example
+Subject: SAP intercompany reconciliation mismatch
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hi, the intercompany reconciliation in SAP shows a difference of 3,214.50 EUR=
+ between our two entities. Could you check today?

@@ -1,0 +1,9 @@
+From: user.x24@aurora-retail.example
+To: servicedesk@aurora-retail.example
+Subject: Salesforce Flow
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hello, how do I build a Salesforce Flow that sends a Slack message when an op=
+portunity is won? No rush.

@@ -1,0 +1,8 @@
+From: user.c18@aurora-retail.example
+To: servicedesk@aurora-retail.example
+Subject: new phone mfa
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+new phone, authenticator gone. need to set up mfa again today

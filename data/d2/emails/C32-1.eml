@@ -1,0 +1,9 @@
+From: user.c32@aurora-retail.example
+To: servicedesk@aurora-retail.example
+Subject: Dashboard shows old data
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hi, my Salesforce pipeline dashboard still shows last week's numbers. Not urg=
+ent.

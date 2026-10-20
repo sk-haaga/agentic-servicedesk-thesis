@@ -1,0 +1,9 @@
+From: user.c19@aurora-retail.example
+To: servicedesk@aurora-retail.example
+Subject: SSO outage
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hello, single sign-on is down for all users. No one can log in to email, SAP =
+or Teams. Please act immediately.

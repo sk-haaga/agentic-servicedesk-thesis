@@ -1,0 +1,10 @@
+From: user.c10@aurora-retail.example
+To: servicedesk@aurora-retail.example
+Subject: Salesforce access denied for sales team
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hi, several of our sales reps get 'insufficient privileges' in Salesforce sin=
+ce this morning and cannot open customer accounts. We have customer visits to=
+day, they are blocked.

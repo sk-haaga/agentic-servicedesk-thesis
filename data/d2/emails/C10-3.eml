@@ -1,0 +1,9 @@
+From: user.c10@aurora-retail.example
+To: servicedesk@aurora-retail.example
+Subject: salesforce insufficient privileges
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Team of 6 people can't open accounts in salesforce anymore, insufficient priv=
+ileges error. blocked right now

@@ -1,0 +1,9 @@
+From: user.c19@aurora-retail.example
+To: servicedesk@aurora-retail.example
+Subject: Nobody can sign in
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hi, since 7:45 nobody in the company can sign in to any application - single =
+sign-on shows an error for everyone. All stores are affected. Critical!

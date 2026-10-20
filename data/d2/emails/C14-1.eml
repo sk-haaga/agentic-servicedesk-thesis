@@ -1,0 +1,9 @@
+From: user.c14@aurora-retail.example
+To: servicedesk@aurora-retail.example
+Subject: Cannot post invoice in SAP
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hi, when I try to post a supplier invoice in SAP I get the error 'posting per=
+iod 10 2026 is not open'. Only this invoice so far. Can you help today?

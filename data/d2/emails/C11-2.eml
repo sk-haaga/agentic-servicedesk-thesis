@@ -1,0 +1,9 @@
+From: user.c11@aurora-retail.example
+To: servicedesk@aurora-retail.example
+Subject: Company-wide VPN outage
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hello, the VPN gateway seems to be down for all users - no one working from h=
+ome can get in. This is critical.
