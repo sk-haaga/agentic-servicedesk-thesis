@@ -1,0 +1,71 @@
+# Service catalogue of the fictional client Aurora Retail Oy (controlled benchmark D2).
+# Keywords are used only by the keyword baseline; descriptions are given to the LLM.
+name: d2
+security_category: Security Incident
+security_group: Security Operations
+auto_categories:            # categories that may be resolved automatically if all gate conditions hold
+  - Access & Identity
+  - Outage & Error
+  - Performance & Connectivity
+  - How-to & Configuration
+
+categories:
+  - name: Access & Identity
+    description: Password reset, account lock-out, MFA or sign-in problems, missing permissions.
+    keywords: [password, locked, lock out, locked out, mfa, authenticator, sign in, sign-in, login, log in, permission, access denied]
+  - name: Outage & Error
+    description: A service is unavailable or shows an error message; a transaction or action fails.
+    keywords: [error, down, not working, fails, failed, failing, crash, unavailable, outage, cannot post, broken]
+  - name: Performance & Connectivity
+    description: Slowness, timeouts, disconnections, VPN or network problems.
+    keywords: [slow, timeout, timed out, disconnect, drops, lag, connection, connectivity, freezing, freezes]
+  - name: How-to & Configuration
+    description: Questions on how to use, set up or configure an application.
+    keywords: [how do i, how to, how can i, set up, setup, configure, where can i, guide, instructions]
+  - name: Service Request
+    description: Request for new access, software, equipment or a change.
+    keywords: [request, need access, new laptop, install, order, new user, licence, license, onboarding]
+  - name: Security Incident
+    description: Phishing, malware, suspicious activity or a possible data leak.
+    keywords: [phishing, suspicious, malware, virus, hacked, scam, spoofed, data leak, ransomware]
+
+applications:
+  - name: Microsoft Outlook / Exchange Online
+    group: Messaging & Collaboration Support
+    description: Email, mailbox, calendar and shared mailboxes.
+    keywords: [outlook, email, e-mail, mailbox, inbox, calendar, shared mailbox, exchange]
+  - name: Microsoft Teams
+    group: Messaging & Collaboration Support
+    description: Chat, meetings, calls and channels in Teams.
+    keywords: [teams, meeting, call, channel, chat, webinar]
+  - name: VPN / Remote Access
+    group: Network & Remote Access
+    description: Remote access to the corporate network with the VPN client.
+    keywords: [vpn, remote access, anyconnect, globalprotect, from home, tunnel]
+  - name: SAP S/4HANA Finance
+    group: ERP Finance Support
+    description: Finance processes such as invoices, postings, payments and financial reports.
+    keywords: [sap, invoice, posting, ledger, purchase order, vendor, fiori, s/4]
+  - name: Workday HR portal
+    group: HR Applications Support
+    description: Payslips, absences, holidays, personal data and HR requests.
+    keywords: [workday, payslip, absence, holiday, vacation, sick leave, hr portal, timesheet]
+  - name: Salesforce CRM
+    group: CRM Support
+    description: Customer accounts, opportunities, leads, reports and dashboards.
+    keywords: [salesforce, crm, opportunity, lead, dashboard, customer account, pipeline]
+  - name: Windows laptop / endpoint
+    group: End-User Computing
+    description: Laptops, operating system, docking stations, monitors, printers and peripherals.
+    keywords: [laptop, computer, pc, windows, docking, monitor, screen, printer, keyboard, mouse, battery, disk]
+  - name: Microsoft Entra ID / single sign-on
+    group: Identity & Access Management
+    description: Corporate identity, passwords, MFA and single sign-on to all applications.
+    keywords: [password, mfa, authenticator, single sign-on, sso, account locked, entra, identity]
+
+impact_keywords:
+  high: [everyone, all users, whole company, all stores, all shops, entire, whole team, nobody can, company-wide, all of us, every store]
+  medium: [team, department, several, colleagues, our office, our store, group of, few people, many users]
+urgency_keywords:
+  high: [urgent, asap, immediately, right now, blocked, cannot work, can't work, deadline today, critical, emergency, within the hour]
+  low: [no rush, not urgent, when you have time, whenever, next week, low priority, nice to have]

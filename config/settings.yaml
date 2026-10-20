@@ -1,0 +1,14 @@
+# Prototype settings. Thresholds were chosen on the development set (experiment E5, final Azure run 2026-10-15)
+# and frozen: tau_1 = 0.90, tau_2 = 0.769.
+prompt_version: v1
+temperature: 0
+max_tool_steps: 3
+retrieval_top_k: 3
+gate:
+  tau_confidence: 0.90     # tau_1: classifier confidence threshold
+  tau_similarity: 0.769     # tau_2: top SOP similarity threshold
+  auto_priorities: [P2, P3]
+hitl_mode: queue            # queue = park ticket for the review console; interrupt = LangGraph interrupt
+retries:
+  llm_attempts: 3
+  schema_repairs: 1

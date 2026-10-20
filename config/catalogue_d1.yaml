@@ -1,0 +1,45 @@
+# Catalogue used for the public ticket dataset D1 (Bueck 2025). The four IT-related queues act as
+# resolver groups; the ticket type acts as category. Descriptions were written by the author.
+name: d1
+security_category: null
+security_group: null
+auto_categories: []
+
+categories:
+  - name: Incident
+    description: Something that worked before is broken, failing or unavailable.
+    keywords: [error, issue, problem, not working, outage, crash, failure, disruption, down]
+  - name: Request
+    description: A request for information, guidance, a service or a new feature.
+    keywords: [request, could you, would like, information, guidance, details, assist]
+  - name: Problem
+    description: A recurring or underlying issue that needs investigation of its cause.
+    keywords: [recurring, repeatedly, persistent, root cause, frequent, continues, again]
+  - name: Change
+    description: A request to modify, upgrade or reconfigure a system.
+    keywords: [upgrade, change, update, modify, migrate, enhancement, integrate, integration]
+
+applications:
+  - name: Technical Support
+    group: Technical Support
+    description: Technical problems with software, systems, integrations, performance and security of the customer's environment.
+    keywords: [technical, software, system, integration, performance, configuration, security, database]
+  - name: Product Support
+    group: Product Support
+    description: Questions and issues about using, configuring or extending a specific product or its features.
+    keywords: [product, feature, functionality, documentation, tool, platform, setup]
+  - name: IT Support
+    group: IT Support
+    description: End-user IT issues such as devices, accounts, connectivity, collaboration tools and workplace IT.
+    keywords: [laptop, device, account, network, connectivity, printer, vpn, password, meeting]
+  - name: Service Outages and Maintenance
+    group: Service Outages and Maintenance
+    description: Service outages, downtime, disruptions of a service for many users, and planned maintenance.
+    keywords: [outage, down, downtime, disruption, maintenance, unavailable, offline, interrupted]
+
+impact_keywords:
+  high: [all users, entire, whole, company-wide, critical, many customers, operations, outage, all systems]
+  medium: [team, department, several, multiple, some users]
+urgency_keywords:
+  high: [urgent, immediately, asap, critical, as soon as possible, severe, significant]
+  low: [information, guidance, when possible, query, inquiry, curious, would appreciate]
