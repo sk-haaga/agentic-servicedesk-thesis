@@ -1,0 +1,1581 @@
+item,id,sop_id,sop_text,response,author_score
+1,C21-3,SOP-MSG-02,"# SOP-MSG-02 Mailbox full or over quota
+
+Applies to: Microsoft Outlook / Exchange Online
+Symptoms: mailbox full, quota exceeded, cannot send because mailbox is full
+
+Steps for the user:
+1. Empty the Deleted Items and Junk Email folders.
+2. Sort the mailbox by size and delete or save large attachments to OneDrive.
+3. Turn on the Online Archive: File > Tools > Mailbox Cleanup > Archive older items.
+4. Restart Outlook and check the mailbox size in File > Info.
+
+Escalation: Escalate to Messaging & Collaboration Support if a mailbox quota increase is needed.","To resolve the mailbox full error in Outlook, please follow these steps:
+1. Empty the Deleted Items and Junk Email folders.
+2. Sort your mailbox by size and delete or save large attachments to OneDrive.
+3. Turn on the Online Archive by going to File > Tools > Mailbox Cleanup > Archive older items.
+4. Restart Outlook and check your mailbox size in File > Info.
+If you still need a mailbox quota increase, please contact Messaging & Collaboration Support.",
+2,C28-2,SOP-HR-02,"# SOP-HR-02 Workday sign-in problems
+
+Applies to: Workday HR portal
+Symptoms: cannot log in to workday, workday access denied, workday page not loading
+
+Steps for the user:
+1. Open Workday only through the single sign-on portal, not through an old bookmark.
+2. Clear browser cookies for Workday or use a private browser window.
+3. Check that you can sign in to other applications; if not, follow SOP-IAM-02.
+4. Try again after 15 minutes if you are a new employee, as accounts are created overnight.
+
+Escalation: Escalate to HR Applications Support if only Workday fails after these steps.","Hello! Sorry to hear you're having trouble loading the Workday page after signing in. Please try clearing your browser cache and cookies, then restart your browser and try again. If the issue persists, try accessing Workday using a different browser or device. Let me know if you continue to experience problems, and I'll be happy to assist further.",
+3,C25-3,SOP-TMS-01,"# SOP-TMS-01 Teams audio or video problems in meetings
+
+Applies to: Microsoft Teams
+Symptoms: no sound, microphone not working, camera not detected, echo, others cannot hear me
+
+Steps for the user:
+1. In Teams, open Settings > Devices and select the correct speaker, microphone and camera.
+2. Make a test call from Settings > Devices > Make a test call.
+3. Close other applications that may use the camera or microphone.
+4. Unplug and reconnect the headset or docking station, then restart Teams.
+5. Check the Windows privacy settings: Settings > Privacy > Microphone and Camera must allow Teams.
+
+Escalation: Escalate to Messaging & Collaboration Support if the problem continues after a restart of the laptop.","Hi! Sorry to hear your mic isn't working in Teams. Please try these quick steps: 1) Check if your microphone is properly connected and not muted. 2) In Teams, click on your profile picture > Settings > Devices, and ensure the correct microphone is selected. 3) Test your mic in the device settings or in Teams' device settings. 4) Restart Teams and try again. If the problem persists, please let us know immediately so we can assist further. Hope this helps you get heard in your meeting!",
+4,C24-2,SOP-TMS-02,"# SOP-TMS-02 Teams sign-in loop or Teams will not start
+
+Applies to: Microsoft Teams
+Symptoms: teams keeps asking to sign in, blank white screen, teams crashes on start
+
+Steps for the user:
+1. Quit Teams completely from the system tray.
+2. Clear the Teams cache: delete the contents of %appdata%\Microsoft\Teams (classic) or reset the new Teams app in Settings > Apps.
+3. Start Teams and sign in with your work account.
+4. If the problem continues, use Teams on the web (teams.microsoft.com) while the desktop app is checked.
+
+Escalation: Escalate to Messaging & Collaboration Support if Teams on the web also fails.","Hi! Sorry to hear you're stuck in a sign-in loop on the Teams desktop app. Since the web version works, let's try clearing the Teams cache and signing out completely. Please close Teams, then navigate to %appdata%\Microsoft\Teams on your computer and delete the contents of the Cache folder. After that, restart Teams and try signing in again. This usually resolves sign-in loop issues. Let me know if you need further help!",
+5,C32-2,SOP-CRM-01,"# SOP-CRM-01 Salesforce reports or dashboards not refreshing
+
+Applies to: Salesforce CRM
+Symptoms: dashboard shows old data, report not updating, export report
+
+Steps for the user:
+1. Select Refresh on the dashboard; dashboards do not update automatically.
+2. Check the report filters, especially the date range and 'My records' versus 'All records'.
+3. To export a report, open it and select Export > Formatted report.
+4. Clear the browser cache if the page shows layout errors.
+
+Escalation: Escalate to CRM Support if data is missing for records that exist.","Hello,
+
+To resolve the issue with your Salesforce opportunity report not updating, please try the following steps:
+1. Select Refresh on the dashboard, as dashboards do not update automatically.
+2. Check the report filters, especially the date range and whether it is set to 'My records' versus 'All records'.
+3. If you want to export the report, open it and select Export > Formatted report.
+4. If you see any layout errors on the page, try clearing your browser cache.
+
+If after these steps the report still does not update and data is missing for records that exist, please let us know so we can escalate to CRM Support.
+
+Best regards,
+IT Service Desk",
+6,C18-1,SOP-IAM-02,"# SOP-IAM-02 Account locked or new phone for MFA
+
+Applies to: Microsoft Entra ID / single sign-on
+Symptoms: account locked, too many attempts, new phone authenticator, mfa not working
+
+Steps for the user:
+1. Wait 15 minutes; accounts unlock automatically after repeated failed attempts.
+2. Make sure that no old device is trying to sign in with an old password (for example a phone email app).
+3. For a new phone, sign in at mysignins.example with your old phone or a temporary access pass and add the new device.
+4. If you have no access to any registered method, contact the service desk to verify your identity.
+
+Escalation: Escalate to Identity & Access Management for a temporary access pass or if the account stays locked.","To move your MFA to the new phone, please sign in at mysignins.example using your old phone or a temporary access pass and add the new device. If you do not have access to any registered method, please contact the service desk to verify your identity so we can assist you further.",
+7,C13-2,SOP-NET-03,"# SOP-NET-03 Install and configure the VPN client on a new laptop
+
+Applies to: VPN / Remote Access
+Symptoms: how to install vpn, set up vpn on new laptop, vpn missing
+
+Steps for the user:
+1. Open the Company Portal app and install 'Aurora VPN Client'.
+2. Start the client and enter the gateway address vpn.aurora-retail.example.
+3. Select the profile 'Aurora-Staff' and sign in with your work account and MFA.
+4. Enable 'Connect automatically' if you work remotely every day.
+
+Escalation: Escalate to End-User Computing if the Company Portal does not list the VPN client.","Hello! To configure the VPN on your new laptop, please follow these steps:
+
+1. Open the Settings app and go to Network & Internet.
+2. Select VPN and click on 'Add a VPN connection.'
+3. Enter the VPN provider details, server name or address, and your login credentials as provided by your IT department.
+4. Save the configuration and connect to the VPN.
+
+If you need the specific server details or credentials, please let us know, and we'll provide them. Feel free to reach out if you need any further assistance!",
+8,C32-1,SOP-CRM-01,"# SOP-CRM-01 Salesforce reports or dashboards not refreshing
+
+Applies to: Salesforce CRM
+Symptoms: dashboard shows old data, report not updating, export report
+
+Steps for the user:
+1. Select Refresh on the dashboard; dashboards do not update automatically.
+2. Check the report filters, especially the date range and 'My records' versus 'All records'.
+3. To export a report, open it and select Export > Formatted report.
+4. Clear the browser cache if the page shows layout errors.
+
+Escalation: Escalate to CRM Support if data is missing for records that exist.","Hi, to update your Salesforce pipeline dashboard that shows old data, please try the following steps:
+1. Select Refresh on the dashboard; dashboards do not update automatically.
+2. Check the report filters, especially the date range and whether it is set to 'My records' versus 'All records'.
+3. If you want to export a report, open it and select Export > Formatted report.
+4. If you see any layout errors, try clearing your browser cache.
+If after these steps the data is still missing for records that exist, please let us know so we can escalate to CRM Support for further assistance.",
+9,C24-3,SOP-TMS-02,"# SOP-TMS-02 Teams sign-in loop or Teams will not start
+
+Applies to: Microsoft Teams
+Symptoms: teams keeps asking to sign in, blank white screen, teams crashes on start
+
+Steps for the user:
+1. Quit Teams completely from the system tray.
+2. Clear the Teams cache: delete the contents of %appdata%\Microsoft\Teams (classic) or reset the new Teams app in Settings > Apps.
+3. Start Teams and sign in with your work account.
+4. If the problem continues, use Teams on the web (teams.microsoft.com) while the desktop app is checked.
+
+Escalation: Escalate to Messaging & Collaboration Support if Teams on the web also fails.","To resolve the sign-in loop issue with Microsoft Teams on your laptop, please follow these steps:
+1. Quit Teams completely from the system tray.
+2. Clear the Teams cache by deleting the contents of %appdata%\Microsoft\Teams.
+3. Start Teams again and sign in with your work account.
+4. If the problem continues, you can use Teams on the web at teams.microsoft.com while we further investigate.
+
+If Teams on the web also fails, please let us know so we can escalate the issue to Messaging & Collaboration Support.",
+10,C28-1,SOP-HR-02,"# SOP-HR-02 Workday sign-in problems
+
+Applies to: Workday HR portal
+Symptoms: cannot log in to workday, workday access denied, workday page not loading
+
+Steps for the user:
+1. Open Workday only through the single sign-on portal, not through an old bookmark.
+2. Clear browser cookies for Workday or use a private browser window.
+3. Check that you can sign in to other applications; if not, follow SOP-IAM-02.
+4. Try again after 15 minutes if you are a new employee, as accounts are created overnight.
+
+Escalation: Escalate to HR Applications Support if only Workday fails after these steps.","Hi! To resolve the access denied issue with Workday, please open Workday only through the single sign-on portal instead of using your old bookmark. If that doesn't work, try clearing your browser cookies for Workday or use a private browser window. Also, ensure you can sign in to other applications; if not, you may need to follow further steps for identity access management. If you are a new employee, please try again after 15 minutes as accounts are created overnight. If the problem persists only with Workday after these steps, we can escalate to HR Applications Support for further help.",
+11,C17-2,SOP-IAM-02,"# SOP-IAM-02 Account locked or new phone for MFA
+
+Applies to: Microsoft Entra ID / single sign-on
+Symptoms: account locked, too many attempts, new phone authenticator, mfa not working
+
+Steps for the user:
+1. Wait 15 minutes; accounts unlock automatically after repeated failed attempts.
+2. Make sure that no old device is trying to sign in with an old password (for example a phone email app).
+3. For a new phone, sign in at mysignins.example with your old phone or a temporary access pass and add the new device.
+4. If you have no access to any registered method, contact the service desk to verify your identity.
+
+Escalation: Escalate to Identity & Access Management for a temporary access pass or if the account stays locked.","It looks like your account is locked due to too many failed sign-in attempts. Please wait 15 minutes as accounts unlock automatically after repeated failed attempts. Also, make sure that no old device is trying to sign in with an old password, such as a phone email app. If your account remains locked or you have no access to any registered method, please contact the service desk to verify your identity so we can assist you further.",
+12,C22-2,SOP-MSG-03,"# SOP-MSG-03 Add a shared mailbox or shared calendar
+
+Applies to: Microsoft Outlook / Exchange Online
+Symptoms: how to open shared mailbox, add shared calendar, access team mailbox
+
+Steps for the user:
+1. Confirm that the owner of the shared mailbox has granted you access.
+2. In Outlook, select File > Account Settings > Account Settings > Change > More Settings > Advanced > Add, and enter the mailbox name.
+3. To add a shared calendar, open Calendar > Add calendar > From address book and select the calendar.
+4. Restart Outlook if the mailbox does not appear within 30 minutes.
+
+Escalation: Escalate to Messaging & Collaboration Support if access has been granted but the mailbox still does not open after one hour.","To open your team's shared mailbox and calendar in Outlook, please follow these steps:
+
+1. Confirm that the owner of the shared mailbox has granted you access.
+2. In Outlook, go to File > Account Settings > Account Settings > Change > More Settings > Advanced > Add, and enter the mailbox name to add the shared mailbox.
+3. To add the shared calendar, open Calendar, then select Add calendar > From address book and choose the calendar.
+4. If the mailbox does not appear within 30 minutes, please restart Outlook.
+
+If you have access but still cannot open the mailbox after one hour, please contact Messaging & Collaboration Support for further assistance.",
+13,C37-3,SOP-EUC-01,"# SOP-EUC-01 Laptop is slow or the disk is full
+
+Applies to: Windows laptop / endpoint
+Symptoms: laptop slow, computer freezing, disk full, low storage
+
+Steps for the user:
+1. Restart the laptop; do not only close the lid.
+2. Install pending updates from Settings > Windows Update and restart again.
+3. Run Disk Cleanup and delete temporary files; move large personal files to OneDrive.
+4. Close applications that start automatically and are not needed (Task Manager > Startup).
+
+Escalation: Escalate to End-User Computing if the laptop is still slow after updates or the disk fails.","Hi! It looks like your laptop is running slow because the disk is full. To help improve performance, please try cleaning up some disk space by deleting unnecessary files or moving them to an external drive. You can also use the built-in Disk Cleanup tool on Windows to remove temporary files and system cache. If you need guidance on how to do this, let me know and I can provide step-by-step instructions!",
+14,C17-1,SOP-IAM-02,"# SOP-IAM-02 Account locked or new phone for MFA
+
+Applies to: Microsoft Entra ID / single sign-on
+Symptoms: account locked, too many attempts, new phone authenticator, mfa not working
+
+Steps for the user:
+1. Wait 15 minutes; accounts unlock automatically after repeated failed attempts.
+2. Make sure that no old device is trying to sign in with an old password (for example a phone email app).
+3. For a new phone, sign in at mysignins.example with your old phone or a temporary access pass and add the new device.
+4. If you have no access to any registered method, contact the service desk to verify your identity.
+
+Escalation: Escalate to Identity & Access Management for a temporary access pass or if the account stays locked.","Hi,
+
+Your account is locked due to too many failed login attempts. Please wait 15 minutes as accounts unlock automatically after repeated failed attempts. Also, ensure that no old device is trying to sign in with an old password, such as a phone email app. If your account remains locked after this time or you have no access to any registered method, please contact the service desk to verify your identity so we can assist you further.
+
+Thank you for your patience!",
+15,C15-3,SOP-ERP-02,"# SOP-ERP-02 SAP is slow or times out
+
+Applies to: SAP S/4HANA Finance
+Symptoms: sap slow, fiori loading forever, timeout, session expired
+
+Steps for the user:
+1. Close unused SAP sessions and browser tabs with Fiori apps.
+2. Clear the browser cache and sign in to the Fiori launchpad again.
+3. Try the same transaction in another browser.
+4. Note the time, transaction and number of affected users.
+
+Escalation: Escalate to ERP Finance Support if SAP is slow for several users or a critical finance process is blocked.","Hello,
+
+Thank you for reporting the issue with SAP S/4HANA Finance being slow and sessions timing out. This is often caused by network connectivity problems or high server load. Please try the following steps:
+
+1. Check your internet connection to ensure it is stable.
+2. Close any unnecessary applications that might be consuming bandwidth.
+3. Log out and log back into SAP to refresh your session.
+
+If the problem persists, please let us know so we can investigate server-side performance and connectivity issues further.
+
+Best regards,
+IT Service Desk",
+16,C35-2,SOP-EUC-02,"# SOP-EUC-02 External monitor or docking station not working
+
+Applies to: Windows laptop / endpoint
+Symptoms: second screen not detected, docking station not working, monitor black
+
+Steps for the user:
+1. Disconnect and reconnect the docking station cable to the laptop.
+2. Check that the monitor is switched on and set to the correct input.
+3. Press Windows + P and select Extend.
+4. Restart the laptop while it is connected to the docking station.
+
+Escalation: Escalate to End-User Computing if the monitor or docking station appears faulty.","Please try the following steps to resolve the issue with your docking station and monitor:
+1. Disconnect and reconnect the docking station cable to your laptop.
+2. Check that the monitor is switched on and set to the correct input.
+3. Press Windows + P on your keyboard and select Extend.
+4. Restart your laptop while it is connected to the docking station.
+If the problem persists and the monitor or docking station appears faulty, please let us know so we can escalate the issue to End-User Computing for further assistance.",
+17,C15-3,SOP-ERP-02,"# SOP-ERP-02 SAP is slow or times out
+
+Applies to: SAP S/4HANA Finance
+Symptoms: sap slow, fiori loading forever, timeout, session expired
+
+Steps for the user:
+1. Close unused SAP sessions and browser tabs with Fiori apps.
+2. Clear the browser cache and sign in to the Fiori launchpad again.
+3. Try the same transaction in another browser.
+4. Note the time, transaction and number of affected users.
+
+Escalation: Escalate to ERP Finance Support if SAP is slow for several users or a critical finance process is blocked.","To improve SAP performance and resolve session timeouts, please follow these steps:
+1. Close any unused SAP sessions and browser tabs with Fiori apps.
+2. Clear your browser cache and sign in to the Fiori launchpad again.
+3. Try performing the same transaction in another browser.
+4. Note the time, transaction, and number of affected users.
+If SAP remains slow for several users or a critical finance process is blocked, please escalate the issue to ERP Finance Support.",
+18,C22-3,SOP-MSG-03,"# SOP-MSG-03 Add a shared mailbox or shared calendar
+
+Applies to: Microsoft Outlook / Exchange Online
+Symptoms: how to open shared mailbox, add shared calendar, access team mailbox
+
+Steps for the user:
+1. Confirm that the owner of the shared mailbox has granted you access.
+2. In Outlook, select File > Account Settings > Account Settings > Change > More Settings > Advanced > Add, and enter the mailbox name.
+3. To add a shared calendar, open Calendar > Add calendar > From address book and select the calendar.
+4. Restart Outlook if the mailbox does not appear within 30 minutes.
+
+Escalation: Escalate to Messaging & Collaboration Support if access has been granted but the mailbox still does not open after one hour.","To add a shared mailbox in Outlook, follow these steps:
+1. Open Outlook and go to the File tab.
+2. Click on Account Settings, then select Account Settings again.
+3. Choose your email account and click Change.
+4. Click on More Settings, then go to the Advanced tab.
+5. Under Mailboxes, click Add and enter the name of the shared mailbox.
+6. Click OK, then Next, and Finish.
+7. Restart Outlook, and the shared mailbox should appear in your folder list.
+If you need any further assistance, feel free to ask!",
+19,C21-1,SOP-MSG-02,"# SOP-MSG-02 Mailbox full or over quota
+
+Applies to: Microsoft Outlook / Exchange Online
+Symptoms: mailbox full, quota exceeded, cannot send because mailbox is full
+
+Steps for the user:
+1. Empty the Deleted Items and Junk Email folders.
+2. Sort the mailbox by size and delete or save large attachments to OneDrive.
+3. Turn on the Online Archive: File > Tools > Mailbox Cleanup > Archive older items.
+4. Restart Outlook and check the mailbox size in File > Info.
+
+Escalation: Escalate to Messaging & Collaboration Support if a mailbox quota increase is needed.","To resolve your mailbox full issue and be able to send your urgent offer, please follow these steps:
+1. Empty the Deleted Items and Junk Email folders to free up space.
+2. Sort your mailbox by size and delete or save large attachments to OneDrive.
+3. Turn on the Online Archive by going to File > Tools > Mailbox Cleanup > Archive older items.
+4. Restart Outlook and check your mailbox size in File > Info.
+If you still need more space after these steps, please contact Messaging & Collaboration Support to request a mailbox quota increase.",
+20,C37-1,SOP-EUC-01,"# SOP-EUC-01 Laptop is slow or the disk is full
+
+Applies to: Windows laptop / endpoint
+Symptoms: laptop slow, computer freezing, disk full, low storage
+
+Steps for the user:
+1. Restart the laptop; do not only close the lid.
+2. Install pending updates from Settings > Windows Update and restart again.
+3. Run Disk Cleanup and delete temporary files; move large personal files to OneDrive.
+4. Close applications that start automatically and are not needed (Task Manager > Startup).
+
+Escalation: Escalate to End-User Computing if the laptop is still slow after updates or the disk fails.","Hi! To help free up space on your Windows laptop and improve its performance, you can use the built-in Disk Cleanup tool. Here's how:
+
+1. Open File Explorer and right-click on your main drive (usually C:).
+2. Select 'Properties' and then click on 'Disk Cleanup.'
+3. The tool will calculate how much space you can free up. You can select the types of files to delete, such as temporary files and recycle bin contents.
+4. Click 'OK' to remove the selected files.
+
+Additionally, consider uninstalling any programs you no longer use and moving large files to an external drive or cloud storage. Let me know if you need further assistance!",
+21,C12-3,SOP-NET-02,"# SOP-NET-02 VPN slow or disconnecting
+
+Applies to: VPN / Remote Access
+Symptoms: vpn slow, vpn drops, disconnects every few minutes, unstable connection from home
+
+Steps for the user:
+1. Test the home connection without VPN (for example a speed test). If it is slow, restart the home router.
+2. Use a wired connection or move closer to the Wi-Fi router.
+3. Disconnect and reconnect the VPN, choosing the nearest gateway.
+4. Update the VPN client from the Company Portal.
+5. Close large uploads or streaming while connected to the VPN.
+
+Escalation: Escalate to Network & Remote Access if the connection drops more than three times an hour on a good home connection.","To resolve your VPN dropping issue, please try the following steps:
+1. Test your home internet connection without the VPN, for example by running a speed test. If the connection is slow, please restart your home router.
+2. Use a wired connection or move closer to your Wi-Fi router to improve signal strength.
+3. Disconnect and reconnect the VPN, making sure to choose the nearest gateway.
+4. Update your VPN client from the Company Portal to ensure you have the latest version.
+5. Avoid large uploads or streaming while connected to the VPN as these can affect stability.
+If your VPN connection continues to drop more than three times an hour despite a good home connection, please let us know so we can escalate the issue to Network & Remote Access for further assistance.",
+22,C18-3,SOP-IAM-02,"# SOP-IAM-02 Account locked or new phone for MFA
+
+Applies to: Microsoft Entra ID / single sign-on
+Symptoms: account locked, too many attempts, new phone authenticator, mfa not working
+
+Steps for the user:
+1. Wait 15 minutes; accounts unlock automatically after repeated failed attempts.
+2. Make sure that no old device is trying to sign in with an old password (for example a phone email app).
+3. For a new phone, sign in at mysignins.example with your old phone or a temporary access pass and add the new device.
+4. If you have no access to any registered method, contact the service desk to verify your identity.
+
+Escalation: Escalate to Identity & Access Management for a temporary access pass or if the account stays locked.","To set up MFA again on your new phone, please sign in at mysignins.example using your old phone or a temporary access pass and add the new device. If you do not have access to any registered method, please contact the service desk to verify your identity so we can assist you further.",
+23,C17-3,SOP-IAM-02,"# SOP-IAM-02 Account locked or new phone for MFA
+
+Applies to: Microsoft Entra ID / single sign-on
+Symptoms: account locked, too many attempts, new phone authenticator, mfa not working
+
+Steps for the user:
+1. Wait 15 minutes; accounts unlock automatically after repeated failed attempts.
+2. Make sure that no old device is trying to sign in with an old password (for example a phone email app).
+3. For a new phone, sign in at mysignins.example with your old phone or a temporary access pass and add the new device.
+4. If you have no access to any registered method, contact the service desk to verify your identity.
+
+Escalation: Escalate to Identity & Access Management for a temporary access pass or if the account stays locked.","Hi,
+
+I understand your account is locked and you can't sign in. To resolve this, please try the following steps:
+
+1. Go to the Microsoft Entra ID (Azure AD) sign-in page.
+2. Click on 'Can't access your account?'
+3. Follow the prompts to verify your identity and reset your password if necessary.
+
+If you are unable to unlock your account using these steps, please let us know, and we can assist further.
+
+Best regards,
+IT Support Team",
+24,C13-3,SOP-NET-03,"# SOP-NET-03 Install and configure the VPN client on a new laptop
+
+Applies to: VPN / Remote Access
+Symptoms: how to install vpn, set up vpn on new laptop, vpn missing
+
+Steps for the user:
+1. Open the Company Portal app and install 'Aurora VPN Client'.
+2. Start the client and enter the gateway address vpn.aurora-retail.example.
+3. Select the profile 'Aurora-Staff' and sign in with your work account and MFA.
+4. Enable 'Connect automatically' if you work remotely every day.
+
+Escalation: Escalate to End-User Computing if the Company Portal does not list the VPN client.","To install the VPN on your new PC, please follow these steps:
+1. Open the Company Portal app and install 'Aurora VPN Client'.
+2. Start the client and enter the gateway address vpn.aurora-retail.example.
+3. Select the profile 'Aurora-Staff' and sign in with your work account and MFA.
+4. Enable 'Connect automatically' if you work remotely every day.
+If you do not see the VPN client listed in the Company Portal, please let us know so we can escalate to End-User Computing for further assistance.",
+25,C37-1,SOP-EUC-01,"# SOP-EUC-01 Laptop is slow or the disk is full
+
+Applies to: Windows laptop / endpoint
+Symptoms: laptop slow, computer freezing, disk full, low storage
+
+Steps for the user:
+1. Restart the laptop; do not only close the lid.
+2. Install pending updates from Settings > Windows Update and restart again.
+3. Run Disk Cleanup and delete temporary files; move large personal files to OneDrive.
+4. Close applications that start automatically and are not needed (Task Manager > Startup).
+
+Escalation: Escalate to End-User Computing if the laptop is still slow after updates or the disk fails.","To help with your disk being almost full and the laptop running slowly, please follow these steps:
+1. Restart your laptop completely; do not just close the lid.
+2. Install any pending updates by going to Settings > Windows Update, then restart your laptop again.
+3. Run Disk Cleanup to delete temporary files and consider moving large personal files to OneDrive to free up space.
+4. Close any unnecessary applications that start automatically by opening Task Manager and going to the Startup tab.
+If your laptop remains slow after these steps or the disk issue persists, please let us know so we can escalate the issue to End-User Computing for further assistance.",
+26,C36-2,SOP-EUC-03,"# SOP-EUC-03 Printer problems
+
+Applies to: Windows laptop / endpoint
+Symptoms: cannot print, printer offline, print job stuck
+
+Steps for the user:
+1. Check that the printer is switched on and has paper and toner.
+2. Remove stuck jobs from the print queue and print again.
+3. Remove the printer in Settings > Printers and add it again from the Company Portal.
+4. Try printing to another printer to see whether the problem is the laptop or the printer.
+
+Escalation: Escalate to End-User Computing if the printer itself shows an error.","Hello! It seems the office printer is showing as offline for everyone. To resolve this, please try the following steps:
+
+1. Check that the printer is powered on and connected to the network.
+2. Restart the printer to refresh its network connection.
+3. On your Windows laptop, go to 'Devices and Printers', right-click the office printer, and select 'See what's printing'. Then click 'Printer' and ensure 'Use Printer Offline' is unchecked.
+4. If the printer still appears offline, try restarting your laptop.
+
+If these steps do not resolve the issue, please let us know, and we will assist further. Thank you!",
+27,C15-2,SOP-ERP-02,"# SOP-ERP-02 SAP is slow or times out
+
+Applies to: SAP S/4HANA Finance
+Symptoms: sap slow, fiori loading forever, timeout, session expired
+
+Steps for the user:
+1. Close unused SAP sessions and browser tabs with Fiori apps.
+2. Clear the browser cache and sign in to the Fiori launchpad again.
+3. Try the same transaction in another browser.
+4. Note the time, transaction and number of affected users.
+
+Escalation: Escalate to ERP Finance Support if SAP is slow for several users or a critical finance process is blocked.","Hello,
+
+Thank you for reporting the SAP Fiori timeout issues. To resolve this, please try the following steps:
+
+1. Clear your browser cache and cookies, then restart the browser.
+2. Ensure your internet connection is stable.
+3. If the problem persists, try accessing SAP Fiori from a different browser or device.
+
+If these steps do not resolve the issue, please let us know so we can investigate further.
+
+Best regards,
+IT Service Desk",
+28,C27-1,SOP-HR-01,"# SOP-HR-01 Workday: find payslips and record absences
+
+Applies to: Workday HR portal
+Symptoms: where is my payslip, how to request holiday, record sick leave, absence request
+
+Steps for the user:
+1. Sign in to Workday through the single sign-on portal.
+2. Payslips: open the Pay application and select Payslips.
+3. Absences: open the Absence application, select Request Absence, choose the dates and type and submit.
+4. Check the status of a request in My Absence.
+
+Escalation: Escalate to HR Applications Support if a payslip is missing or an absence balance is wrong.","To request your summer holiday in Workday, please follow these steps:
+1. Sign in to Workday through the single sign-on portal.
+2. Open the Absence application.
+3. Select Request Absence.
+4. Choose the dates and type of absence (holiday) and submit your request.
+5. You can check the status of your holiday request in My Absence.
+If you encounter any issues with your absence balance or request, please contact HR Applications Support.",
+29,C13-1,SOP-NET-03,"# SOP-NET-03 Install and configure the VPN client on a new laptop
+
+Applies to: VPN / Remote Access
+Symptoms: how to install vpn, set up vpn on new laptop, vpn missing
+
+Steps for the user:
+1. Open the Company Portal app and install 'Aurora VPN Client'.
+2. Start the client and enter the gateway address vpn.aurora-retail.example.
+3. Select the profile 'Aurora-Staff' and sign in with your work account and MFA.
+4. Enable 'Connect automatically' if you work remotely every day.
+
+Escalation: Escalate to End-User Computing if the Company Portal does not list the VPN client.","Hello! To set up the VPN on your new laptop, please follow these steps:
+
+1. Download the VPN client software recommended by your company from the official website or software portal.
+2. Install the VPN client by running the downloaded installer and following the on-screen instructions.
+3. Once installed, open the VPN client and enter your VPN credentials provided by IT.
+4. Configure any additional settings as per your company's VPN guidelines.
+5. Connect to the VPN to ensure it is working properly.
+
+If you need the specific download link or your VPN credentials, please let us know, and we'll provide them for you. Feel free to reach out if you encounter any issues during setup!",
+30,C12-2,SOP-NET-02,"# SOP-NET-02 VPN slow or disconnecting
+
+Applies to: VPN / Remote Access
+Symptoms: vpn slow, vpn drops, disconnects every few minutes, unstable connection from home
+
+Steps for the user:
+1. Test the home connection without VPN (for example a speed test). If it is slow, restart the home router.
+2. Use a wired connection or move closer to the Wi-Fi router.
+3. Disconnect and reconnect the VPN, choosing the nearest gateway.
+4. Update the VPN client from the Company Portal.
+5. Close large uploads or streaming while connected to the VPN.
+
+Escalation: Escalate to Network & Remote Access if the connection drops more than three times an hour on a good home connection.","Hello! Sorry to hear you're experiencing unstable VPN connections. To improve your VPN performance, please try the following steps:
+
+1. Restart your home router and modem to refresh your internet connection.
+2. Connect your device directly to the router via Ethernet cable if possible, as wired connections are more stable than Wi-Fi.
+3. Close any unnecessary applications that might be using bandwidth.
+4. Ensure your VPN client software is up to date.
+5. If the problem persists, try connecting to a different VPN server location.
+
+If these steps don't resolve the issue, please let us know, and we'll assist you further. Thanks for your patience!",
+31,C35-3,SOP-EUC-02,"# SOP-EUC-02 External monitor or docking station not working
+
+Applies to: Windows laptop / endpoint
+Symptoms: second screen not detected, docking station not working, monitor black
+
+Steps for the user:
+1. Disconnect and reconnect the docking station cable to the laptop.
+2. Check that the monitor is switched on and set to the correct input.
+3. Press Windows + P and select Extend.
+4. Restart the laptop while it is connected to the docking station.
+
+Escalation: Escalate to End-User Computing if the monitor or docking station appears faulty.","Hi! To resolve the issue with your external monitor not being detected via the docking station, please try the following steps:
+
+1. Ensure the docking station is properly connected to your laptop and powered on.
+2. Check that the monitor's power cable is securely connected and the monitor is turned on.
+3. Verify that the video cable (HDMI, DisplayPort, VGA, etc.) between the docking station and the monitor is firmly connected.
+4. On your Windows laptop, press Windows + P keys together and select 'Extend' or 'Duplicate' to detect the external display.
+5. If the monitor is still not detected, try unplugging and reconnecting the docking station.
+
+If these steps do not resolve the issue, please let us know for further assistance. Thank you!",
+32,C25-1,SOP-TMS-01,"# SOP-TMS-01 Teams audio or video problems in meetings
+
+Applies to: Microsoft Teams
+Symptoms: no sound, microphone not working, camera not detected, echo, others cannot hear me
+
+Steps for the user:
+1. In Teams, open Settings > Devices and select the correct speaker, microphone and camera.
+2. Make a test call from Settings > Devices > Make a test call.
+3. Close other applications that may use the camera or microphone.
+4. Unplug and reconnect the headset or docking station, then restart Teams.
+5. Check the Windows privacy settings: Settings > Privacy > Microphone and Camera must allow Teams.
+
+Escalation: Escalate to Messaging & Collaboration Support if the problem continues after a restart of the laptop.","Hi, to fix your microphone issue in Teams, please follow these steps:
+1. In Teams, go to Settings > Devices and make sure the correct microphone is selected.
+2. Make a test call from Settings > Devices > Make a test call to check if your microphone works.
+3. Close any other applications that might be using your microphone.
+4. Unplug and reconnect your headset, then restart Teams.
+5. Check your Windows privacy settings under Settings > Privacy > Microphone and ensure Teams is allowed to access the microphone.
+If the problem continues after restarting your laptop, please let us know so we can escalate it further. Good luck with your interview!",
+33,C21-1,SOP-MSG-02,"# SOP-MSG-02 Mailbox full or over quota
+
+Applies to: Microsoft Outlook / Exchange Online
+Symptoms: mailbox full, quota exceeded, cannot send because mailbox is full
+
+Steps for the user:
+1. Empty the Deleted Items and Junk Email folders.
+2. Sort the mailbox by size and delete or save large attachments to OneDrive.
+3. Turn on the Online Archive: File > Tools > Mailbox Cleanup > Archive older items.
+4. Restart Outlook and check the mailbox size in File > Info.
+
+Escalation: Escalate to Messaging & Collaboration Support if a mailbox quota increase is needed.","Hi, thanks for reaching out. To resolve the mailbox full issue, please try deleting or archiving some old emails, especially those with large attachments, to free up space. You can also empty your Deleted Items and Junk Email folders. After freeing up space, restart Outlook and try sending your email again. If you need immediate space, consider moving some emails to an archive folder or exporting them to a local file. Let me know if you need further assistance!",
+34,C22-1,SOP-MSG-03,"# SOP-MSG-03 Add a shared mailbox or shared calendar
+
+Applies to: Microsoft Outlook / Exchange Online
+Symptoms: how to open shared mailbox, add shared calendar, access team mailbox
+
+Steps for the user:
+1. Confirm that the owner of the shared mailbox has granted you access.
+2. In Outlook, select File > Account Settings > Account Settings > Change > More Settings > Advanced > Add, and enter the mailbox name.
+3. To add a shared calendar, open Calendar > Add calendar > From address book and select the calendar.
+4. Restart Outlook if the mailbox does not appear within 30 minutes.
+
+Escalation: Escalate to Messaging & Collaboration Support if access has been granted but the mailbox still does not open after one hour.","To add the customer-service shared mailbox to your Outlook, please follow these steps:
+1. Confirm that the owner of the shared mailbox has granted you access.
+2. In Outlook, go to File > Account Settings > Account Settings > Change > More Settings > Advanced > Add, and enter the mailbox name.
+3. If the mailbox does not appear within 30 minutes, please restart Outlook.
+If you still cannot access the mailbox after one hour despite having access granted, please contact Messaging & Collaboration Support for further assistance.",
+35,C27-3,SOP-HR-01,"# SOP-HR-01 Workday: find payslips and record absences
+
+Applies to: Workday HR portal
+Symptoms: where is my payslip, how to request holiday, record sick leave, absence request
+
+Steps for the user:
+1. Sign in to Workday through the single sign-on portal.
+2. Payslips: open the Pay application and select Payslips.
+3. Absences: open the Absence application, select Request Absence, choose the dates and type and submit.
+4. Check the status of a request in My Absence.
+
+Escalation: Escalate to HR Applications Support if a payslip is missing or an absence balance is wrong.","To request vacation in Workday, please follow these steps:
+1. Sign in to Workday through the single sign-on portal.
+2. Open the Absence application.
+3. Select Request Absence.
+4. Choose the dates and type of absence (vacation) and submit your request.
+5. You can check the status of your request in My Absence.
+If you encounter any issues, please let us know.",
+36,C36-2,SOP-EUC-03,"# SOP-EUC-03 Printer problems
+
+Applies to: Windows laptop / endpoint
+Symptoms: cannot print, printer offline, print job stuck
+
+Steps for the user:
+1. Check that the printer is switched on and has paper and toner.
+2. Remove stuck jobs from the print queue and print again.
+3. Remove the printer in Settings > Printers and add it again from the Company Portal.
+4. Try printing to another printer to see whether the problem is the laptop or the printer.
+
+Escalation: Escalate to End-User Computing if the printer itself shows an error.","Hello,
+
+To resolve the issue with the office printer being offline, please follow these steps:
+1. Check that the printer is switched on and has paper and toner.
+2. Remove any stuck jobs from the print queue and try printing again.
+3. Remove the printer in Settings > Printers and add it again from the Company Portal.
+4. Try printing to another printer to determine if the problem is with the laptop or the printer.
+
+If the printer itself shows an error, please escalate this to End-User Computing for further assistance.
+
+Thank you!",
+37,C35-3,SOP-EUC-02,"# SOP-EUC-02 External monitor or docking station not working
+
+Applies to: Windows laptop / endpoint
+Symptoms: second screen not detected, docking station not working, monitor black
+
+Steps for the user:
+1. Disconnect and reconnect the docking station cable to the laptop.
+2. Check that the monitor is switched on and set to the correct input.
+3. Press Windows + P and select Extend.
+4. Restart the laptop while it is connected to the docking station.
+
+Escalation: Escalate to End-User Computing if the monitor or docking station appears faulty.","To resolve the issue with your external monitor not being detected via the docking station, please follow these steps:
+1. Disconnect and reconnect the docking station cable to your laptop.
+2. Ensure that the monitor is switched on and set to the correct input.
+3. Press Windows + P on your keyboard and select Extend.
+4. Restart your laptop while it is connected to the docking station.
+If the monitor or docking station still appears faulty after these steps, please let us know so we can escalate the issue to End-User Computing for further assistance.",
+38,C32-2,SOP-CRM-01,"# SOP-CRM-01 Salesforce reports or dashboards not refreshing
+
+Applies to: Salesforce CRM
+Symptoms: dashboard shows old data, report not updating, export report
+
+Steps for the user:
+1. Select Refresh on the dashboard; dashboards do not update automatically.
+2. Check the report filters, especially the date range and 'My records' versus 'All records'.
+3. To export a report, open it and select Export > Formatted report.
+4. Clear the browser cache if the page shows layout errors.
+
+Escalation: Escalate to CRM Support if data is missing for records that exist.","Hello! To resolve the issue with your Salesforce opportunity report not updating, please try refreshing the report manually by clicking the 'Refresh' button. If the data still doesn't update, ensure that your report filters are set correctly and that the underlying data has been updated. Sometimes, Salesforce reports may take a few minutes to reflect recent changes. If the problem persists, please let us know, and we can investigate further.",
+39,C12-3,SOP-NET-02,"# SOP-NET-02 VPN slow or disconnecting
+
+Applies to: VPN / Remote Access
+Symptoms: vpn slow, vpn drops, disconnects every few minutes, unstable connection from home
+
+Steps for the user:
+1. Test the home connection without VPN (for example a speed test). If it is slow, restart the home router.
+2. Use a wired connection or move closer to the Wi-Fi router.
+3. Disconnect and reconnect the VPN, choosing the nearest gateway.
+4. Update the VPN client from the Company Portal.
+5. Close large uploads or streaming while connected to the VPN.
+
+Escalation: Escalate to Network & Remote Access if the connection drops more than three times an hour on a good home connection.","Hi! Sorry to hear your VPN keeps dropping. Please try the following steps: 1) Check your internet connection to ensure it's stable. 2) Restart your VPN client and reconnect. 3) If the problem persists, try rebooting your device. 4) Make sure your VPN client is updated to the latest version. If you continue to experience issues, please let us know and we can investigate further. Thanks!",
+40,C14-1,SOP-ERP-01,"# SOP-ERP-01 SAP: invoice posting fails
+
+Applies to: SAP S/4HANA Finance
+Symptoms: cannot post invoice, posting period closed, posting error, document not posted
+
+Steps for the user:
+1. Read the full error message and note the message number (for example F5 201 'posting period not open').
+2. Check that the posting date is in an open period; if the period is closed, change the posting date to the current period if this is allowed by the finance policy.
+3. Check that the vendor and cost centre are not blocked.
+4. Retry the posting once. Do not retry repeatedly, as this can create duplicate documents.
+
+Escalation: Escalate to ERP Finance Support with the message number if the posting still fails, or immediately if month-end closing is affected.","Hello! The error 'posting period 10 2026 is not open' means that the accounting period for October 2026 is currently closed in SAP, so you cannot post invoices for that period. To resolve this, you or your SAP finance administrator will need to open the posting period 10/2026 in the system. Once the period is open, you should be able to post the invoice without issues. If you need assistance with opening the period, please let us know!",
+41,C15-2,SOP-ERP-02,"# SOP-ERP-02 SAP is slow or times out
+
+Applies to: SAP S/4HANA Finance
+Symptoms: sap slow, fiori loading forever, timeout, session expired
+
+Steps for the user:
+1. Close unused SAP sessions and browser tabs with Fiori apps.
+2. Clear the browser cache and sign in to the Fiori launchpad again.
+3. Try the same transaction in another browser.
+4. Note the time, transaction and number of affected users.
+
+Escalation: Escalate to ERP Finance Support if SAP is slow for several users or a critical finance process is blocked.","Hello,
+
+To address the SAP Fiori timeouts you and your colleagues are experiencing, please try the following steps:
+1. Close any unused SAP sessions and browser tabs with Fiori apps.
+2. Clear your browser cache and then sign in to the Fiori launchpad again.
+3. Try performing the same transaction in another browser.
+4. Please note the time when the timeout occurs, the transaction you are trying to perform, and how many users are affected.
+
+If the issue persists for several users or is blocking a critical finance process, please escalate to ERP Finance Support.
+
+Thank you for your patience!",
+42,C36-3,SOP-EUC-03,"# SOP-EUC-03 Printer problems
+
+Applies to: Windows laptop / endpoint
+Symptoms: cannot print, printer offline, print job stuck
+
+Steps for the user:
+1. Check that the printer is switched on and has paper and toner.
+2. Remove stuck jobs from the print queue and print again.
+3. Remove the printer in Settings > Printers and add it again from the Company Portal.
+4. Try printing to another printer to see whether the problem is the laptop or the printer.
+
+Escalation: Escalate to End-User Computing if the printer itself shows an error.","Hello,
+
+It seems the printer is showing as offline for the whole team. Please try the following steps to resolve the issue:
+
+1. Check that the printer is powered on and connected to the network.
+2. Restart the printer to refresh its connection.
+3. On your Windows laptop, go to 'Devices and Printers', right-click the printer, and select 'Use Printer Online'.
+4. If the problem persists, try restarting your computer.
+
+If these steps do not resolve the issue, please let us know, and we will assist further.
+
+Best regards,
+IT Support Team",
+43,C27-3,SOP-HR-01,"# SOP-HR-01 Workday: find payslips and record absences
+
+Applies to: Workday HR portal
+Symptoms: where is my payslip, how to request holiday, record sick leave, absence request
+
+Steps for the user:
+1. Sign in to Workday through the single sign-on portal.
+2. Payslips: open the Pay application and select Payslips.
+3. Absences: open the Absence application, select Request Absence, choose the dates and type and submit.
+4. Check the status of a request in My Absence.
+
+Escalation: Escalate to HR Applications Support if a payslip is missing or an absence balance is wrong.","Hello! To request vacation in Workday, please follow these steps:
+1. Log in to your Workday HR portal.
+2. Navigate to the 'Time Off' or 'Absence' section.
+3. Select 'Request Time Off' or 'Request Vacation'.
+4. Choose the dates you wish to take off.
+5. Submit your request for approval.
+If you need any further assistance, feel free to ask. Have a great day!",
+44,C25-2,SOP-TMS-01,"# SOP-TMS-01 Teams audio or video problems in meetings
+
+Applies to: Microsoft Teams
+Symptoms: no sound, microphone not working, camera not detected, echo, others cannot hear me
+
+Steps for the user:
+1. In Teams, open Settings > Devices and select the correct speaker, microphone and camera.
+2. Make a test call from Settings > Devices > Make a test call.
+3. Close other applications that may use the camera or microphone.
+4. Unplug and reconnect the headset or docking station, then restart Teams.
+5. Check the Windows privacy settings: Settings > Privacy > Microphone and Camera must allow Teams.
+
+Escalation: Escalate to Messaging & Collaboration Support if the problem continues after a restart of the laptop.","Hello, to resolve the issue with your camera and microphone not being detected in Teams, please follow these steps:
+1. In Teams, open Settings > Devices and select the correct speaker, microphone, and camera.
+2. Make a test call from Settings > Devices > Make a test call.
+3. Close other applications that may be using the camera or microphone.
+4. Unplug and reconnect your headset or docking station, then restart Teams.
+5. Check your Windows privacy settings: go to Settings > Privacy > Microphone and Camera and ensure that Teams is allowed to access them.
+If the problem continues after restarting your laptop, please escalate to Messaging & Collaboration Support. Hope this helps and your call goes well!",
+45,C32-3,SOP-CRM-01,"# SOP-CRM-01 Salesforce reports or dashboards not refreshing
+
+Applies to: Salesforce CRM
+Symptoms: dashboard shows old data, report not updating, export report
+
+Steps for the user:
+1. Select Refresh on the dashboard; dashboards do not update automatically.
+2. Check the report filters, especially the date range and 'My records' versus 'All records'.
+3. To export a report, open it and select Export > Formatted report.
+4. Clear the browser cache if the page shows layout errors.
+
+Escalation: Escalate to CRM Support if data is missing for records that exist.","Hi! To refresh your Salesforce dashboard and see the latest data, please try clicking the 'Refresh' button on the dashboard page. If that doesn't update the data, try logging out and logging back in, or clearing your browser cache and then refreshing the dashboard again. Let me know if you continue to see old data after these steps!",
+46,C25-3,SOP-TMS-01,"# SOP-TMS-01 Teams audio or video problems in meetings
+
+Applies to: Microsoft Teams
+Symptoms: no sound, microphone not working, camera not detected, echo, others cannot hear me
+
+Steps for the user:
+1. In Teams, open Settings > Devices and select the correct speaker, microphone and camera.
+2. Make a test call from Settings > Devices > Make a test call.
+3. Close other applications that may use the camera or microphone.
+4. Unplug and reconnect the headset or docking station, then restart Teams.
+5. Check the Windows privacy settings: Settings > Privacy > Microphone and Camera must allow Teams.
+
+Escalation: Escalate to Messaging & Collaboration Support if the problem continues after a restart of the laptop.","To resolve the microphone issue in Teams, please follow these steps:
+1. In Teams, open Settings > Devices and select the correct microphone.
+2. Make a test call from Settings > Devices > Make a test call to check if the microphone works.
+3. Close other applications that may be using the microphone.
+4. Unplug and reconnect your headset or docking station, then restart Teams.
+5. Check your Windows privacy settings: go to Settings > Privacy > Microphone and ensure Teams is allowed to access the microphone.
+If the problem continues after restarting your laptop, please escalate to Messaging & Collaboration Support for further assistance.",
+47,C27-2,SOP-HR-01,"# SOP-HR-01 Workday: find payslips and record absences
+
+Applies to: Workday HR portal
+Symptoms: where is my payslip, how to request holiday, record sick leave, absence request
+
+Steps for the user:
+1. Sign in to Workday through the single sign-on portal.
+2. Payslips: open the Pay application and select Payslips.
+3. Absences: open the Absence application, select Request Absence, choose the dates and type and submit.
+4. Check the status of a request in My Absence.
+
+Escalation: Escalate to HR Applications Support if a payslip is missing or an absence balance is wrong.","To record a sick day in Workday, please follow these steps:
+1. Sign in to Workday through the single sign-on portal.
+2. Open the Absence application.
+3. Select Request Absence.
+4. Choose the dates and type (select sick leave) and submit your request.
+5. You can check the status of your request in My Absence.
+If you encounter any issues with your absence balance, please contact HR Applications Support.",
+48,C18-2,SOP-IAM-02,"# SOP-IAM-02 Account locked or new phone for MFA
+
+Applies to: Microsoft Entra ID / single sign-on
+Symptoms: account locked, too many attempts, new phone authenticator, mfa not working
+
+Steps for the user:
+1. Wait 15 minutes; accounts unlock automatically after repeated failed attempts.
+2. Make sure that no old device is trying to sign in with an old password (for example a phone email app).
+3. For a new phone, sign in at mysignins.example with your old phone or a temporary access pass and add the new device.
+4. If you have no access to any registered method, contact the service desk to verify your identity.
+
+Escalation: Escalate to Identity & Access Management for a temporary access pass or if the account stays locked.","Hello! To register your new phone for MFA, please sign in at mysignins.example using your old phone or a temporary access pass and add the new device. If you no longer have access to any registered method, please contact the service desk to verify your identity so we can assist you further.",
+49,C27-1,SOP-HR-01,"# SOP-HR-01 Workday: find payslips and record absences
+
+Applies to: Workday HR portal
+Symptoms: where is my payslip, how to request holiday, record sick leave, absence request
+
+Steps for the user:
+1. Sign in to Workday through the single sign-on portal.
+2. Payslips: open the Pay application and select Payslips.
+3. Absences: open the Absence application, select Request Absence, choose the dates and type and submit.
+4. Check the status of a request in My Absence.
+
+Escalation: Escalate to HR Applications Support if a payslip is missing or an absence balance is wrong.","Hi! To request your summer holiday in Workday, please log in to the Workday HR portal, navigate to the 'Time Off' or 'Absence' section, select 'Request Time Off,' choose the dates for your summer holiday, and submit the request for approval. If you need any help during the process, feel free to ask!",
+50,C12-2,SOP-NET-02,"# SOP-NET-02 VPN slow or disconnecting
+
+Applies to: VPN / Remote Access
+Symptoms: vpn slow, vpn drops, disconnects every few minutes, unstable connection from home
+
+Steps for the user:
+1. Test the home connection without VPN (for example a speed test). If it is slow, restart the home router.
+2. Use a wired connection or move closer to the Wi-Fi router.
+3. Disconnect and reconnect the VPN, choosing the nearest gateway.
+4. Update the VPN client from the Company Portal.
+5. Close large uploads or streaming while connected to the VPN.
+
+Escalation: Escalate to Network & Remote Access if the connection drops more than three times an hour on a good home connection.","Hello,
+
+Thank you for reaching out about the unstable VPN connection. Please try the following steps to improve your VPN performance:
+
+1. Test your home internet connection without the VPN, for example by running a speed test. If the connection is slow, please restart your home router.
+2. Use a wired connection if possible, or move closer to your Wi-Fi router to improve signal strength.
+3. Disconnect and then reconnect the VPN, making sure to select the nearest VPN gateway.
+4. Update your VPN client through the Company Portal to ensure you have the latest version.
+5. Close any large uploads or streaming services while connected to the VPN, as these can affect performance.
+
+If your VPN connection continues to drop more than three times an hour despite a good home internet connection, please let us know so we can escalate the issue to Network & Remote Access.
+
+Best regards,
+IT Service Desk",
+51,C28-1,SOP-HR-02,"# SOP-HR-02 Workday sign-in problems
+
+Applies to: Workday HR portal
+Symptoms: cannot log in to workday, workday access denied, workday page not loading
+
+Steps for the user:
+1. Open Workday only through the single sign-on portal, not through an old bookmark.
+2. Clear browser cookies for Workday or use a private browser window.
+3. Check that you can sign in to other applications; if not, follow SOP-IAM-02.
+4. Try again after 15 minutes if you are a new employee, as accounts are created overnight.
+
+Escalation: Escalate to HR Applications Support if only Workday fails after these steps.","Hi! It sounds like the bookmark might be outdated or corrupted. Please try accessing Workday by typing the URL directly into your browser instead of using the bookmark. If that works, you can update your bookmark with the correct URL. Let me know if you still face any issues!",
+52,C24-3,SOP-TMS-02,"# SOP-TMS-02 Teams sign-in loop or Teams will not start
+
+Applies to: Microsoft Teams
+Symptoms: teams keeps asking to sign in, blank white screen, teams crashes on start
+
+Steps for the user:
+1. Quit Teams completely from the system tray.
+2. Clear the Teams cache: delete the contents of %appdata%\Microsoft\Teams (classic) or reset the new Teams app in Settings > Apps.
+3. Start Teams and sign in with your work account.
+4. If the problem continues, use Teams on the web (teams.microsoft.com) while the desktop app is checked.
+
+Escalation: Escalate to Messaging & Collaboration Support if Teams on the web also fails.","Hi! It sounds like you're stuck in a login loop on Microsoft Teams. Let's try a quick fix: please clear the Teams cache on your laptop. To do this, close Teams completely, then navigate to %appdata%\Microsoft\Teams on your computer, and delete all the files in that folder. After that, restart Teams and try signing in again. This usually resolves the login loop issue. Let me know if you need further help!",
+53,C32-1,SOP-CRM-01,"# SOP-CRM-01 Salesforce reports or dashboards not refreshing
+
+Applies to: Salesforce CRM
+Symptoms: dashboard shows old data, report not updating, export report
+
+Steps for the user:
+1. Select Refresh on the dashboard; dashboards do not update automatically.
+2. Check the report filters, especially the date range and 'My records' versus 'All records'.
+3. To export a report, open it and select Export > Formatted report.
+4. Clear the browser cache if the page shows layout errors.
+
+Escalation: Escalate to CRM Support if data is missing for records that exist.","Hi! To update your Salesforce dashboard with the latest data, please try refreshing the dashboard manually by clicking the 'Refresh' button on the dashboard page. If the data still appears outdated, clearing your browser cache or trying a different browser can help. Let me know if you need further assistance!",
+54,C13-1,SOP-NET-03,"# SOP-NET-03 Install and configure the VPN client on a new laptop
+
+Applies to: VPN / Remote Access
+Symptoms: how to install vpn, set up vpn on new laptop, vpn missing
+
+Steps for the user:
+1. Open the Company Portal app and install 'Aurora VPN Client'.
+2. Start the client and enter the gateway address vpn.aurora-retail.example.
+3. Select the profile 'Aurora-Staff' and sign in with your work account and MFA.
+4. Enable 'Connect automatically' if you work remotely every day.
+
+Escalation: Escalate to End-User Computing if the Company Portal does not list the VPN client.","To install and set up the VPN client on your new laptop, please follow these steps:
+1. Open the Company Portal app and install 'Aurora VPN Client'.
+2. Start the client and enter the gateway address vpn.aurora-retail.example.
+3. Select the profile 'Aurora-Staff' and sign in with your work account and MFA.
+4. Enable 'Connect automatically' if you work remotely every day.
+If you do not see the VPN client listed in the Company Portal, please let us know so we can escalate to End-User Computing for further assistance.",
+55,C28-3,SOP-HR-02,"# SOP-HR-02 Workday sign-in problems
+
+Applies to: Workday HR portal
+Symptoms: cannot log in to workday, workday access denied, workday page not loading
+
+Steps for the user:
+1. Open Workday only through the single sign-on portal, not through an old bookmark.
+2. Clear browser cookies for Workday or use a private browser window.
+3. Check that you can sign in to other applications; if not, follow SOP-IAM-02.
+4. Try again after 15 minutes if you are a new employee, as accounts are created overnight.
+
+Escalation: Escalate to HR Applications Support if only Workday fails after these steps.","To resolve your Workday access denied issue, please follow these steps:
+1. Open Workday only through the single sign-on portal, not through an old bookmark.
+2. Clear your browser cookies for Workday or use a private browser window.
+3. Since you mentioned other apps are fine, you can skip checking other applications sign-in.
+4. If you are a new employee, please try again after 15 minutes as accounts are created overnight.
+If the problem persists after these steps, please let us know so we can escalate to HR Applications Support for further assistance.",
+56,C35-1,SOP-EUC-02,"# SOP-EUC-02 External monitor or docking station not working
+
+Applies to: Windows laptop / endpoint
+Symptoms: second screen not detected, docking station not working, monitor black
+
+Steps for the user:
+1. Disconnect and reconnect the docking station cable to the laptop.
+2. Check that the monitor is switched on and set to the correct input.
+3. Press Windows + P and select Extend.
+4. Restart the laptop while it is connected to the docking station.
+
+Escalation: Escalate to End-User Computing if the monitor or docking station appears faulty.","Hi! Let's try a couple of quick steps to get your external monitor detected. First, please ensure that the cable connecting your docking station to the monitor is securely plugged in on both ends. Next, try disconnecting and reconnecting the cable. Also, check that the monitor is powered on and set to the correct input source. On your Windows laptop, press Windows key + P and select 'Extend' or 'Duplicate' to enable the second screen. If the monitor still isn't detected, try restarting your laptop with the docking station connected. Let me know if this helps!",
+57,C18-3,SOP-IAM-02,"# SOP-IAM-02 Account locked or new phone for MFA
+
+Applies to: Microsoft Entra ID / single sign-on
+Symptoms: account locked, too many attempts, new phone authenticator, mfa not working
+
+Steps for the user:
+1. Wait 15 minutes; accounts unlock automatically after repeated failed attempts.
+2. Make sure that no old device is trying to sign in with an old password (for example a phone email app).
+3. For a new phone, sign in at mysignins.example with your old phone or a temporary access pass and add the new device.
+4. If you have no access to any registered method, contact the service desk to verify your identity.
+
+Escalation: Escalate to Identity & Access Management for a temporary access pass or if the account stays locked.","Hi! To set up MFA on your new phone, please install the Microsoft Authenticator app from your app store. Then, log in to your Microsoft Entra ID account and go to the security settings to re-register your MFA device. If you need help resetting your MFA, you can also contact the IT helpdesk to reset it for you. Let me know if you need any further assistance!",
+58,C37-2,SOP-EUC-01,"# SOP-EUC-01 Laptop is slow or the disk is full
+
+Applies to: Windows laptop / endpoint
+Symptoms: laptop slow, computer freezing, disk full, low storage
+
+Steps for the user:
+1. Restart the laptop; do not only close the lid.
+2. Install pending updates from Settings > Windows Update and restart again.
+3. Run Disk Cleanup and delete temporary files; move large personal files to OneDrive.
+4. Close applications that start automatically and are not needed (Task Manager > Startup).
+
+Escalation: Escalate to End-User Computing if the laptop is still slow after updates or the disk fails.","Hello! To resolve the low disk space warning and improve your laptop's performance, please follow these steps:
+
+1. Restart your laptop completely; do not just close the lid.
+2. Install any pending updates by going to Settings > Windows Update, then restart your laptop again.
+3. Run Disk Cleanup to delete temporary files and consider moving large personal files to OneDrive to free up space.
+4. Close unnecessary applications that start automatically by opening Task Manager and going to the Startup tab.
+
+If your laptop remains slow or you continue to experience disk issues after these steps, please let us know so we can assist further. Thank you!",
+59,C13-2,SOP-NET-03,"# SOP-NET-03 Install and configure the VPN client on a new laptop
+
+Applies to: VPN / Remote Access
+Symptoms: how to install vpn, set up vpn on new laptop, vpn missing
+
+Steps for the user:
+1. Open the Company Portal app and install 'Aurora VPN Client'.
+2. Start the client and enter the gateway address vpn.aurora-retail.example.
+3. Select the profile 'Aurora-Staff' and sign in with your work account and MFA.
+4. Enable 'Connect automatically' if you work remotely every day.
+
+Escalation: Escalate to End-User Computing if the Company Portal does not list the VPN client.","To configure the VPN on your replacement laptop, please follow these steps:
+1. Open the Company Portal app and install 'Aurora VPN Client'.
+2. Start the client and enter the gateway address vpn.aurora-retail.example.
+3. Select the profile 'Aurora-Staff' and sign in with your work account and MFA.
+4. Enable 'Connect automatically' if you work remotely every day.
+If you do not see the VPN client listed in the Company Portal, please let us know so we can escalate to End-User Computing for further assistance.",
+60,C32-3,SOP-CRM-01,"# SOP-CRM-01 Salesforce reports or dashboards not refreshing
+
+Applies to: Salesforce CRM
+Symptoms: dashboard shows old data, report not updating, export report
+
+Steps for the user:
+1. Select Refresh on the dashboard; dashboards do not update automatically.
+2. Check the report filters, especially the date range and 'My records' versus 'All records'.
+3. To export a report, open it and select Export > Formatted report.
+4. Clear the browser cache if the page shows layout errors.
+
+Escalation: Escalate to CRM Support if data is missing for records that exist.","To refresh your Salesforce dashboard and see the latest data, please select the Refresh option on the dashboard, as dashboards do not update automatically. Also, check the report filters, especially the date range and whether it is set to 'My records' versus 'All records'. If you see any layout errors, try clearing your browser cache. If data is still missing for records that exist, please let us know so we can escalate to CRM Support.",
+61,C35-2,SOP-EUC-02,"# SOP-EUC-02 External monitor or docking station not working
+
+Applies to: Windows laptop / endpoint
+Symptoms: second screen not detected, docking station not working, monitor black
+
+Steps for the user:
+1. Disconnect and reconnect the docking station cable to the laptop.
+2. Check that the monitor is switched on and set to the correct input.
+3. Press Windows + P and select Extend.
+4. Restart the laptop while it is connected to the docking station.
+
+Escalation: Escalate to End-User Computing if the monitor or docking station appears faulty.","Hello! To resolve the issue with your docking station, please try the following steps:
+
+1. Ensure that all cables between the docking station and your monitor are securely connected.
+2. Check that the docking station is properly connected to your laptop.
+3. Restart your laptop while it is connected to the docking station.
+4. Verify that the monitor is powered on and set to the correct input source.
+
+If the monitor still stays black after these steps, please let us know, and we can assist further.",
+62,C15-1,SOP-ERP-02,"# SOP-ERP-02 SAP is slow or times out
+
+Applies to: SAP S/4HANA Finance
+Symptoms: sap slow, fiori loading forever, timeout, session expired
+
+Steps for the user:
+1. Close unused SAP sessions and browser tabs with Fiori apps.
+2. Clear the browser cache and sign in to the Fiori launchpad again.
+3. Try the same transaction in another browser.
+4. Note the time, transaction and number of affected users.
+
+Escalation: Escalate to ERP Finance Support if SAP is slow for several users or a critical finance process is blocked.","Hi,
+
+To improve the SAP Fiori performance for your accounts payable team, please try the following steps:
+1. Close any unused SAP sessions and browser tabs with Fiori apps.
+2. Clear your browser cache and sign in to the Fiori launchpad again.
+3. Try accessing the same transaction in another browser.
+
+If the issue persists and affects several users or critical finance processes, please let us know so we can escalate it to ERP Finance Support.
+
+Thank you for your patience!",
+63,C22-2,SOP-MSG-03,"# SOP-MSG-03 Add a shared mailbox or shared calendar
+
+Applies to: Microsoft Outlook / Exchange Online
+Symptoms: how to open shared mailbox, add shared calendar, access team mailbox
+
+Steps for the user:
+1. Confirm that the owner of the shared mailbox has granted you access.
+2. In Outlook, select File > Account Settings > Account Settings > Change > More Settings > Advanced > Add, and enter the mailbox name.
+3. To add a shared calendar, open Calendar > Add calendar > From address book and select the calendar.
+4. Restart Outlook if the mailbox does not appear within 30 minutes.
+
+Escalation: Escalate to Messaging & Collaboration Support if access has been granted but the mailbox still does not open after one hour.","Hello! To open your team's shared mailbox and calendar in Outlook, follow these steps:
+
+1. In Outlook, go to the File tab and select Account Settings, then choose Account Settings again.
+2. Select your email account and click Change.
+3. Click More Settings, then go to the Advanced tab.
+4. Under 'Open these additional mailboxes,' click Add and enter the name of the shared mailbox.
+5. Click OK and then Next, Finish, and Close.
+
+The shared mailbox will now appear in your Outlook folder pane, and you can access the shared calendar from there. If you need any further help, feel free to ask!",
+64,C28-2,SOP-HR-02,"# SOP-HR-02 Workday sign-in problems
+
+Applies to: Workday HR portal
+Symptoms: cannot log in to workday, workday access denied, workday page not loading
+
+Steps for the user:
+1. Open Workday only through the single sign-on portal, not through an old bookmark.
+2. Clear browser cookies for Workday or use a private browser window.
+3. Check that you can sign in to other applications; if not, follow SOP-IAM-02.
+4. Try again after 15 minutes if you are a new employee, as accounts are created overnight.
+
+Escalation: Escalate to HR Applications Support if only Workday fails after these steps.","Hello, to resolve the issue with the Workday page not loading after sign-in, please follow these steps:
+1. Open Workday only through the single sign-on portal, not through an old bookmark.
+2. Clear your browser cookies for Workday or try using a private browser window.
+3. Check that you can sign in to other applications; if you cannot, please follow the steps in SOP-IAM-02.
+4. If you are a new employee, try again after 15 minutes as accounts are created overnight.
+If the problem persists and only Workday fails after these steps, please let us know so we can escalate to HR Applications Support for further assistance. Thank you!",
+65,C18-2,SOP-IAM-02,"# SOP-IAM-02 Account locked or new phone for MFA
+
+Applies to: Microsoft Entra ID / single sign-on
+Symptoms: account locked, too many attempts, new phone authenticator, mfa not working
+
+Steps for the user:
+1. Wait 15 minutes; accounts unlock automatically after repeated failed attempts.
+2. Make sure that no old device is trying to sign in with an old password (for example a phone email app).
+3. For a new phone, sign in at mysignins.example with your old phone or a temporary access pass and add the new device.
+4. If you have no access to any registered method, contact the service desk to verify your identity.
+
+Escalation: Escalate to Identity & Access Management for a temporary access pass or if the account stays locked.","Hello! To register your new phone for MFA, please follow these steps:
+1. Log in to your Microsoft Entra ID account.
+2. Go to the Security settings and select Multi-Factor Authentication.
+3. Choose the option to set up a new authenticator app or phone number.
+4. Follow the prompts to register your new phone.
+If you encounter any issues or need further assistance, feel free to reach out. We're here to help!",
+66,C17-2,SOP-IAM-02,"# SOP-IAM-02 Account locked or new phone for MFA
+
+Applies to: Microsoft Entra ID / single sign-on
+Symptoms: account locked, too many attempts, new phone authenticator, mfa not working
+
+Steps for the user:
+1. Wait 15 minutes; accounts unlock automatically after repeated failed attempts.
+2. Make sure that no old device is trying to sign in with an old password (for example a phone email app).
+3. For a new phone, sign in at mysignins.example with your old phone or a temporary access pass and add the new device.
+4. If you have no access to any registered method, contact the service desk to verify your identity.
+
+Escalation: Escalate to Identity & Access Management for a temporary access pass or if the account stays locked.","Hello! It looks like your account has been locked due to multiple failed login attempts. To resolve this quickly, I have reset your account lockout status. Please try logging in again now. If you still face issues, let me know immediately so we can assist further. Good luck with your deadline!",
+67,C13-3,SOP-NET-03,"# SOP-NET-03 Install and configure the VPN client on a new laptop
+
+Applies to: VPN / Remote Access
+Symptoms: how to install vpn, set up vpn on new laptop, vpn missing
+
+Steps for the user:
+1. Open the Company Portal app and install 'Aurora VPN Client'.
+2. Start the client and enter the gateway address vpn.aurora-retail.example.
+3. Select the profile 'Aurora-Staff' and sign in with your work account and MFA.
+4. Enable 'Connect automatically' if you work remotely every day.
+
+Escalation: Escalate to End-User Computing if the Company Portal does not list the VPN client.","Hello! To install the VPN on your new PC, please follow these steps:
+
+1. Download the VPN client software from our official website or the link provided by your IT department.
+2. Run the installer and follow the on-screen instructions to complete the installation.
+3. Once installed, open the VPN client and enter your login credentials.
+4. Connect to the VPN server as needed.
+
+If you need any help during the setup next week, feel free to reach out. Have a great day!",
+68,C25-2,SOP-TMS-01,"# SOP-TMS-01 Teams audio or video problems in meetings
+
+Applies to: Microsoft Teams
+Symptoms: no sound, microphone not working, camera not detected, echo, others cannot hear me
+
+Steps for the user:
+1. In Teams, open Settings > Devices and select the correct speaker, microphone and camera.
+2. Make a test call from Settings > Devices > Make a test call.
+3. Close other applications that may use the camera or microphone.
+4. Unplug and reconnect the headset or docking station, then restart Teams.
+5. Check the Windows privacy settings: Settings > Privacy > Microphone and Camera must allow Teams.
+
+Escalation: Escalate to Messaging & Collaboration Support if the problem continues after a restart of the laptop.","Hi! To quickly resolve the issue with Teams not detecting your camera and microphone, please try the following steps:
+
+1. Make sure your camera and microphone are properly connected to your computer.
+2. Check that no other applications are using the camera or microphone.
+3. Restart Teams and allow it to access your camera and microphone when prompted.
+4. Verify your device settings in Teams by going to Settings > Devices and selecting the correct camera and microphone.
+
+If the problem persists, try restarting your computer. This should help you get your call started. Let us know if you need further assistance!",
+69,C24-1,SOP-TMS-02,"# SOP-TMS-02 Teams sign-in loop or Teams will not start
+
+Applies to: Microsoft Teams
+Symptoms: teams keeps asking to sign in, blank white screen, teams crashes on start
+
+Steps for the user:
+1. Quit Teams completely from the system tray.
+2. Clear the Teams cache: delete the contents of %appdata%\Microsoft\Teams (classic) or reset the new Teams app in Settings > Apps.
+3. Start Teams and sign in with your work account.
+4. If the problem continues, use Teams on the web (teams.microsoft.com) while the desktop app is checked.
+
+Escalation: Escalate to Messaging & Collaboration Support if Teams on the web also fails.","Hi! To resolve the issue where Teams keeps asking you to sign in repeatedly on your laptop, please follow these steps:
+
+1. Quit Teams completely from the system tray.
+2. Clear the Teams cache by deleting the contents of %appdata%\Microsoft\Teams.
+3. Start Teams again and sign in with your work account.
+
+If the problem continues, you can use Teams on the web at teams.microsoft.com while we further investigate.
+
+Let us know if you need more help!",
+70,C14-3,SOP-ERP-01,"# SOP-ERP-01 SAP: invoice posting fails
+
+Applies to: SAP S/4HANA Finance
+Symptoms: cannot post invoice, posting period closed, posting error, document not posted
+
+Steps for the user:
+1. Read the full error message and note the message number (for example F5 201 'posting period not open').
+2. Check that the posting date is in an open period; if the period is closed, change the posting date to the current period if this is allowed by the finance policy.
+3. Check that the vendor and cost centre are not blocked.
+4. Retry the posting once. Do not retry repeatedly, as this can create duplicate documents.
+
+Escalation: Escalate to ERP Finance Support with the message number if the posting still fails, or immediately if month-end closing is affected.","Hello! The error ""posting period not open"" in SAP usually means that the accounting period for the invoice date is not open for posting. To resolve this, you or your SAP administrator need to open the relevant posting period in the system. Please check with your finance or SAP support team to open the posting period for the invoice date so you can post the invoice today. Let me know if you need further assistance!",
+71,C22-1,SOP-MSG-03,"# SOP-MSG-03 Add a shared mailbox or shared calendar
+
+Applies to: Microsoft Outlook / Exchange Online
+Symptoms: how to open shared mailbox, add shared calendar, access team mailbox
+
+Steps for the user:
+1. Confirm that the owner of the shared mailbox has granted you access.
+2. In Outlook, select File > Account Settings > Account Settings > Change > More Settings > Advanced > Add, and enter the mailbox name.
+3. To add a shared calendar, open Calendar > Add calendar > From address book and select the calendar.
+4. Restart Outlook if the mailbox does not appear within 30 minutes.
+
+Escalation: Escalate to Messaging & Collaboration Support if access has been granted but the mailbox still does not open after one hour.","Hi! To add the customer-service shared mailbox to your Outlook, please follow these steps:
+
+1. Open Outlook.
+2. Go to File > Account Settings > Account Settings.
+3. Select your email account and click Change.
+4. Click More Settings, then go to the Advanced tab.
+5. Under 'Open these additional mailboxes', click Add.
+6. Type the name of the shared mailbox (customer-service) and click OK.
+7. Click Apply and OK, then Next and Finish.
+
+The shared mailbox should now appear in your Outlook folder pane. Let me know if you need any further help!",
+72,C18-1,SOP-IAM-02,"# SOP-IAM-02 Account locked or new phone for MFA
+
+Applies to: Microsoft Entra ID / single sign-on
+Symptoms: account locked, too many attempts, new phone authenticator, mfa not working
+
+Steps for the user:
+1. Wait 15 minutes; accounts unlock automatically after repeated failed attempts.
+2. Make sure that no old device is trying to sign in with an old password (for example a phone email app).
+3. For a new phone, sign in at mysignins.example with your old phone or a temporary access pass and add the new device.
+4. If you have no access to any registered method, contact the service desk to verify your identity.
+
+Escalation: Escalate to Identity & Access Management for a temporary access pass or if the account stays locked.","Hi! To move your MFA to your new phone, please open the Microsoft Authenticator app on your new device and follow the setup process to add your account. You may need to sign in to your Microsoft Entra ID account on a computer, go to the security settings, and select the option to set up the authenticator app again. This will generate a QR code that you can scan with your new phone's app to complete the setup. If you have backup codes or alternative verification methods, keep them handy in case you need to verify your identity during the process. Let me know if you need any help with these steps!",
+73,C27-2,SOP-HR-01,"# SOP-HR-01 Workday: find payslips and record absences
+
+Applies to: Workday HR portal
+Symptoms: where is my payslip, how to request holiday, record sick leave, absence request
+
+Steps for the user:
+1. Sign in to Workday through the single sign-on portal.
+2. Payslips: open the Pay application and select Payslips.
+3. Absences: open the Absence application, select Request Absence, choose the dates and type and submit.
+4. Check the status of a request in My Absence.
+
+Escalation: Escalate to HR Applications Support if a payslip is missing or an absence balance is wrong.","Hello! To record a sick day in Workday, please follow these steps:
+1. Log in to your Workday HR portal.
+2. Navigate to the 'Absence' or 'Time Off' section.
+3. Select 'Request Absence' or 'Add Time Off'.
+4. Choose the type of absence as 'Sick Leave' or 'Sick Day'.
+5. Enter the date(s) for your sick day.
+6. Submit the request for approval.
+If you need any further assistance, feel free to ask!",
+74,C17-1,SOP-IAM-02,"# SOP-IAM-02 Account locked or new phone for MFA
+
+Applies to: Microsoft Entra ID / single sign-on
+Symptoms: account locked, too many attempts, new phone authenticator, mfa not working
+
+Steps for the user:
+1. Wait 15 minutes; accounts unlock automatically after repeated failed attempts.
+2. Make sure that no old device is trying to sign in with an old password (for example a phone email app).
+3. For a new phone, sign in at mysignins.example with your old phone or a temporary access pass and add the new device.
+4. If you have no access to any registered method, contact the service desk to verify your identity.
+
+Escalation: Escalate to Identity & Access Management for a temporary access pass or if the account stays locked.","Hi! Your account has been locked due to multiple unsuccessful login attempts. To resolve this, please wait for 15 minutes and then try logging in again. If you still cannot access your account, please contact the IT service desk to have your account manually unlocked. Let me know if you need further assistance!",
+75,C21-2,SOP-MSG-02,"# SOP-MSG-02 Mailbox full or over quota
+
+Applies to: Microsoft Outlook / Exchange Online
+Symptoms: mailbox full, quota exceeded, cannot send because mailbox is full
+
+Steps for the user:
+1. Empty the Deleted Items and Junk Email folders.
+2. Sort the mailbox by size and delete or save large attachments to OneDrive.
+3. Turn on the Online Archive: File > Tools > Mailbox Cleanup > Archive older items.
+4. Restart Outlook and check the mailbox size in File > Info.
+
+Escalation: Escalate to Messaging & Collaboration Support if a mailbox quota increase is needed.","To resolve the issue with your mailbox quota being exceeded, please follow these steps:
+1. Empty the Deleted Items and Junk Email folders.
+2. Sort your mailbox by size and delete or save large attachments to OneDrive.
+3. Turn on the Online Archive by going to File > Tools > Mailbox Cleanup > Archive older items.
+4. Restart Outlook and check your mailbox size in File > Info.
+
+If you still need more mailbox space after these steps, please contact Messaging & Collaboration Support to request a mailbox quota increase.",
+76,C14-1,SOP-ERP-01,"# SOP-ERP-01 SAP: invoice posting fails
+
+Applies to: SAP S/4HANA Finance
+Symptoms: cannot post invoice, posting period closed, posting error, document not posted
+
+Steps for the user:
+1. Read the full error message and note the message number (for example F5 201 'posting period not open').
+2. Check that the posting date is in an open period; if the period is closed, change the posting date to the current period if this is allowed by the finance policy.
+3. Check that the vendor and cost centre are not blocked.
+4. Retry the posting once. Do not retry repeatedly, as this can create duplicate documents.
+
+Escalation: Escalate to ERP Finance Support with the message number if the posting still fails, or immediately if month-end closing is affected.","The error 'posting period 10 2026 is not open' indicates that the posting date is in a closed period. Please check that the posting date of your invoice is in an open period. If the period is closed, change the posting date to the current open period if this is allowed by your finance policy. Also, ensure that the vendor and cost centre are not blocked. After making these checks and adjustments, please retry posting the invoice once. Avoid retrying repeatedly to prevent duplicate documents. If the posting still fails, please escalate to ERP Finance Support with the error message number for further assistance.",
+77,C14-2,SOP-ERP-01,"# SOP-ERP-01 SAP: invoice posting fails
+
+Applies to: SAP S/4HANA Finance
+Symptoms: cannot post invoice, posting period closed, posting error, document not posted
+
+Steps for the user:
+1. Read the full error message and note the message number (for example F5 201 'posting period not open').
+2. Check that the posting date is in an open period; if the period is closed, change the posting date to the current period if this is allowed by the finance policy.
+3. Check that the vendor and cost centre are not blocked.
+4. Retry the posting once. Do not retry repeatedly, as this can create duplicate documents.
+
+Escalation: Escalate to ERP Finance Support with the message number if the posting still fails, or immediately if month-end closing is affected.","Hello! The error message indicates that the posting period in SAP S/4HANA Finance is currently closed. To resolve this, you or your finance administrator will need to open the relevant posting period in the system. This is typically done via the Financial Accounting settings under the 'Open and Close Posting Periods' function. Once the period is open, you should be able to post your invoice without issues. If you need assistance with opening the period, please let us know!",
+78,C25-1,SOP-TMS-01,"# SOP-TMS-01 Teams audio or video problems in meetings
+
+Applies to: Microsoft Teams
+Symptoms: no sound, microphone not working, camera not detected, echo, others cannot hear me
+
+Steps for the user:
+1. In Teams, open Settings > Devices and select the correct speaker, microphone and camera.
+2. Make a test call from Settings > Devices > Make a test call.
+3. Close other applications that may use the camera or microphone.
+4. Unplug and reconnect the headset or docking station, then restart Teams.
+5. Check the Windows privacy settings: Settings > Privacy > Microphone and Camera must allow Teams.
+
+Escalation: Escalate to Messaging & Collaboration Support if the problem continues after a restart of the laptop.","Hi! Let's quickly fix your microphone issue in Teams. First, please check that your headset is properly plugged in and selected as the microphone device in Teams. To do this, click on your profile picture in Teams, go to Settings > Devices, and ensure your headset is selected under Microphone. Also, make sure the microphone is not muted and the volume is up. If that doesn't work, try restarting Teams or your computer. This should resolve the problem so you can be heard during your interview. Good luck!",
+79,C12-1,SOP-NET-02,"# SOP-NET-02 VPN slow or disconnecting
+
+Applies to: VPN / Remote Access
+Symptoms: vpn slow, vpn drops, disconnects every few minutes, unstable connection from home
+
+Steps for the user:
+1. Test the home connection without VPN (for example a speed test). If it is slow, restart the home router.
+2. Use a wired connection or move closer to the Wi-Fi router.
+3. Disconnect and reconnect the VPN, choosing the nearest gateway.
+4. Update the VPN client from the Company Portal.
+5. Close large uploads or streaming while connected to the VPN.
+
+Escalation: Escalate to Network & Remote Access if the connection drops more than three times an hour on a good home connection.","Hi, thanks for reaching out about your VPN disconnecting. Please try the following steps to improve your connection:
+
+1. Test your home internet connection without the VPN, for example by running a speed test. If it seems slow, please restart your home router.
+2. If possible, use a wired connection or move closer to your Wi-Fi router to get a stronger signal.
+3. Disconnect and reconnect the VPN, making sure to select the nearest gateway.
+4. Update your VPN client from the Company Portal to ensure you have the latest version.
+5. Avoid large uploads or streaming while connected to the VPN, as these can affect stability.
+
+If your VPN still drops more than three times an hour on a good home connection, please let us know so we can escalate to Network & Remote Access for further assistance.",
+80,C36-3,SOP-EUC-03,"# SOP-EUC-03 Printer problems
+
+Applies to: Windows laptop / endpoint
+Symptoms: cannot print, printer offline, print job stuck
+
+Steps for the user:
+1. Check that the printer is switched on and has paper and toner.
+2. Remove stuck jobs from the print queue and print again.
+3. Remove the printer in Settings > Printers and add it again from the Company Portal.
+4. Try printing to another printer to see whether the problem is the laptop or the printer.
+
+Escalation: Escalate to End-User Computing if the printer itself shows an error.","To resolve the printer offline issue, please check that the printer is switched on and has paper and toner. Then, remove any stuck jobs from the print queue and try printing again. If the problem persists, remove the printer in Settings > Printers and add it again from the Company Portal. You can also try printing to another printer to determine if the issue is with the laptop or the printer. If the printer itself shows an error, please escalate to End-User Computing for further assistance.",
+81,C14-2,SOP-ERP-01,"# SOP-ERP-01 SAP: invoice posting fails
+
+Applies to: SAP S/4HANA Finance
+Symptoms: cannot post invoice, posting period closed, posting error, document not posted
+
+Steps for the user:
+1. Read the full error message and note the message number (for example F5 201 'posting period not open').
+2. Check that the posting date is in an open period; if the period is closed, change the posting date to the current period if this is allowed by the finance policy.
+3. Check that the vendor and cost centre are not blocked.
+4. Retry the posting once. Do not retry repeatedly, as this can create duplicate documents.
+
+Escalation: Escalate to ERP Finance Support with the message number if the posting still fails, or immediately if month-end closing is affected.","Hello,
+
+The error message indicates that the posting period is not open. Please check that the posting date you are using is within an open period. If the period is closed, you can change the posting date to the current open period, provided this is allowed by your finance policy. Also, ensure that the vendor and cost centre are not blocked. After making these checks and adjustments, please try posting the invoice once more. Avoid retrying repeatedly to prevent duplicate documents.
+
+If the posting still fails, please escalate to ERP Finance Support with the error message number for further assistance.
+
+Best regards.",
+82,C12-1,SOP-NET-02,"# SOP-NET-02 VPN slow or disconnecting
+
+Applies to: VPN / Remote Access
+Symptoms: vpn slow, vpn drops, disconnects every few minutes, unstable connection from home
+
+Steps for the user:
+1. Test the home connection without VPN (for example a speed test). If it is slow, restart the home router.
+2. Use a wired connection or move closer to the Wi-Fi router.
+3. Disconnect and reconnect the VPN, choosing the nearest gateway.
+4. Update the VPN client from the Company Portal.
+5. Close large uploads or streaming while connected to the VPN.
+
+Escalation: Escalate to Network & Remote Access if the connection drops more than three times an hour on a good home connection.","Hi! Sorry to hear your VPN keeps disconnecting. This issue can often be caused by unstable internet connections or VPN client settings. Please try the following steps:
+
+1. Restart your modem/router to refresh your internet connection.
+2. Ensure your VPN client is updated to the latest version.
+3. Check if any firewall or antivirus software is interfering with the VPN connection and temporarily disable them to test.
+4. If possible, try connecting to a different network to see if the issue persists.
+
+If the problem continues after these steps, please let us know, and we can investigate further. Thanks for your patience!",
+83,C37-2,SOP-EUC-01,"# SOP-EUC-01 Laptop is slow or the disk is full
+
+Applies to: Windows laptop / endpoint
+Symptoms: laptop slow, computer freezing, disk full, low storage
+
+Steps for the user:
+1. Restart the laptop; do not only close the lid.
+2. Install pending updates from Settings > Windows Update and restart again.
+3. Run Disk Cleanup and delete temporary files; move large personal files to OneDrive.
+4. Close applications that start automatically and are not needed (Task Manager > Startup).
+
+Escalation: Escalate to End-User Computing if the laptop is still slow after updates or the disk fails.","Hello! The low disk space warning is likely causing your laptop to slow down. To resolve this, please try deleting unnecessary files or uninstalling unused programs to free up space. You can also empty the Recycle Bin and clear temporary files. If you need help with these steps, feel free to ask!",
+84,C35-1,SOP-EUC-02,"# SOP-EUC-02 External monitor or docking station not working
+
+Applies to: Windows laptop / endpoint
+Symptoms: second screen not detected, docking station not working, monitor black
+
+Steps for the user:
+1. Disconnect and reconnect the docking station cable to the laptop.
+2. Check that the monitor is switched on and set to the correct input.
+3. Press Windows + P and select Extend.
+4. Restart the laptop while it is connected to the docking station.
+
+Escalation: Escalate to End-User Computing if the monitor or docking station appears faulty.","To resolve the issue with your second screen not being detected, please try the following steps:
+1. Disconnect and reconnect the docking station cable to your laptop.
+2. Ensure that the external monitor is switched on and set to the correct input source.
+3. Press Windows + P on your keyboard and select the 'Extend' option.
+4. Restart your laptop while it remains connected to the docking station.
+If the problem persists and the monitor or docking station appears faulty, please let us know so we can escalate the issue to End-User Computing for further assistance.",
+85,C14-3,SOP-ERP-01,"# SOP-ERP-01 SAP: invoice posting fails
+
+Applies to: SAP S/4HANA Finance
+Symptoms: cannot post invoice, posting period closed, posting error, document not posted
+
+Steps for the user:
+1. Read the full error message and note the message number (for example F5 201 'posting period not open').
+2. Check that the posting date is in an open period; if the period is closed, change the posting date to the current period if this is allowed by the finance policy.
+3. Check that the vendor and cost centre are not blocked.
+4. Retry the posting once. Do not retry repeatedly, as this can create duplicate documents.
+
+Escalation: Escalate to ERP Finance Support with the message number if the posting still fails, or immediately if month-end closing is affected.","The error 'posting period not open' means the posting date is in a closed period. Please check that the posting date for your invoice is in an open period. If the period is closed, change the posting date to the current open period if this is allowed by your finance policy. Also, ensure the vendor and cost centre are not blocked. After making these checks and changes, please retry posting the invoice once. If the posting still fails, escalate to ERP Finance Support with the error message number for further assistance.",
+86,C36-1,SOP-EUC-03,"# SOP-EUC-03 Printer problems
+
+Applies to: Windows laptop / endpoint
+Symptoms: cannot print, printer offline, print job stuck
+
+Steps for the user:
+1. Check that the printer is switched on and has paper and toner.
+2. Remove stuck jobs from the print queue and print again.
+3. Remove the printer in Settings > Printers and add it again from the Company Portal.
+4. Try printing to another printer to see whether the problem is the laptop or the printer.
+
+Escalation: Escalate to End-User Computing if the printer itself shows an error.","Hi,
+
+Please check that the printer on the second floor is switched on and has paper and toner. If it is, try removing any stuck jobs from the print queue and then print again. If the problem persists, remove the printer in Settings > Printers and add it again from the Company Portal. You can also try printing to another printer to see whether the problem is with your laptop or the printer itself.
+
+If the printer shows an error, please let us know so we can escalate to End-User Computing.
+
+Best regards,",
+87,C24-1,SOP-TMS-02,"# SOP-TMS-02 Teams sign-in loop or Teams will not start
+
+Applies to: Microsoft Teams
+Symptoms: teams keeps asking to sign in, blank white screen, teams crashes on start
+
+Steps for the user:
+1. Quit Teams completely from the system tray.
+2. Clear the Teams cache: delete the contents of %appdata%\Microsoft\Teams (classic) or reset the new Teams app in Settings > Apps.
+3. Start Teams and sign in with your work account.
+4. If the problem continues, use Teams on the web (teams.microsoft.com) while the desktop app is checked.
+
+Escalation: Escalate to Messaging & Collaboration Support if Teams on the web also fails.",Hi! It sounds like Teams is stuck in a sign-in loop on your laptop. Let's try a few quick steps to fix this: 1) Sign out of Teams completely and close the app. 2) Clear the Teams cache by navigating to %appdata%\Microsoft\Teams on your laptop and deleting the contents of the Cache folder. 3) Restart your laptop. 4) Open Teams and sign in again. This usually resolves the issue. Let me know if you need further help!,
+88,C36-1,SOP-EUC-03,"# SOP-EUC-03 Printer problems
+
+Applies to: Windows laptop / endpoint
+Symptoms: cannot print, printer offline, print job stuck
+
+Steps for the user:
+1. Check that the printer is switched on and has paper and toner.
+2. Remove stuck jobs from the print queue and print again.
+3. Remove the printer in Settings > Printers and add it again from the Company Portal.
+4. Try printing to another printer to see whether the problem is the laptop or the printer.
+
+Escalation: Escalate to End-User Computing if the printer itself shows an error.","Hi,
+
+Thank you for reaching out. To resolve the printer showing offline on the second floor, please try the following steps:
+
+1. Check if the printer is powered on and connected to the network.
+2. Restart the printer to refresh its connection.
+3. On your Windows laptop, go to 'Devices and Printers', right-click the printer, and select 'Use Printer Online'.
+4. If the issue persists, try restarting your laptop.
+
+If these steps do not resolve the issue, please let us know, and we will assist further.
+
+Best regards,
+IT Support Team",
+89,C17-3,SOP-IAM-02,"# SOP-IAM-02 Account locked or new phone for MFA
+
+Applies to: Microsoft Entra ID / single sign-on
+Symptoms: account locked, too many attempts, new phone authenticator, mfa not working
+
+Steps for the user:
+1. Wait 15 minutes; accounts unlock automatically after repeated failed attempts.
+2. Make sure that no old device is trying to sign in with an old password (for example a phone email app).
+3. For a new phone, sign in at mysignins.example with your old phone or a temporary access pass and add the new device.
+4. If you have no access to any registered method, contact the service desk to verify your identity.
+
+Escalation: Escalate to Identity & Access Management for a temporary access pass or if the account stays locked.","It looks like your account is locked due to too many failed sign-in attempts. Please wait 15 minutes as accounts unlock automatically after repeated failed attempts. Also, make sure that no old device is trying to sign in with an old password, such as a phone email app. If you still cannot access your account after this, please contact the service desk to verify your identity so we can assist you further.",
+90,C15-1,SOP-ERP-02,"# SOP-ERP-02 SAP is slow or times out
+
+Applies to: SAP S/4HANA Finance
+Symptoms: sap slow, fiori loading forever, timeout, session expired
+
+Steps for the user:
+1. Close unused SAP sessions and browser tabs with Fiori apps.
+2. Clear the browser cache and sign in to the Fiori launchpad again.
+3. Try the same transaction in another browser.
+4. Note the time, transaction and number of affected users.
+
+Escalation: Escalate to ERP Finance Support if SAP is slow for several users or a critical finance process is blocked.","Hi,
+
+Thank you for reporting the slow performance with SAP Fiori. We recommend first checking your network connection to ensure it is stable and has sufficient bandwidth. Sometimes, slow SAP performance can be due to network issues. Additionally, clearing your browser cache and cookies can help improve loading times. If the problem persists, please let us know so we can investigate server-side performance or any ongoing maintenance affecting SAP S/4HANA Finance.
+
+Best regards,
+IT Service Desk",
+91,C22-3,SOP-MSG-03,"# SOP-MSG-03 Add a shared mailbox or shared calendar
+
+Applies to: Microsoft Outlook / Exchange Online
+Symptoms: how to open shared mailbox, add shared calendar, access team mailbox
+
+Steps for the user:
+1. Confirm that the owner of the shared mailbox has granted you access.
+2. In Outlook, select File > Account Settings > Account Settings > Change > More Settings > Advanced > Add, and enter the mailbox name.
+3. To add a shared calendar, open Calendar > Add calendar > From address book and select the calendar.
+4. Restart Outlook if the mailbox does not appear within 30 minutes.
+
+Escalation: Escalate to Messaging & Collaboration Support if access has been granted but the mailbox still does not open after one hour.","To add a shared mailbox in Outlook, please follow these steps:
+1. Confirm that the owner of the shared mailbox has granted you access.
+2. In Outlook, go to File > Account Settings > Account Settings > Change > More Settings > Advanced > Add, and enter the mailbox name.
+3. If the mailbox does not appear within 30 minutes, please restart Outlook.
+If you still cannot access the shared mailbox after one hour despite having access granted, please contact Messaging & Collaboration Support for further assistance.",
+92,C28-3,SOP-HR-02,"# SOP-HR-02 Workday sign-in problems
+
+Applies to: Workday HR portal
+Symptoms: cannot log in to workday, workday access denied, workday page not loading
+
+Steps for the user:
+1. Open Workday only through the single sign-on portal, not through an old bookmark.
+2. Clear browser cookies for Workday or use a private browser window.
+3. Check that you can sign in to other applications; if not, follow SOP-IAM-02.
+4. Try again after 15 minutes if you are a new employee, as accounts are created overnight.
+
+Escalation: Escalate to HR Applications Support if only Workday fails after these steps.","Hi! It sounds like you're having trouble accessing Workday while other apps are working fine. Please try clearing your browser cache and cookies, then attempt to log in again. If that doesn't work, ensure you're using the correct username and password for Workday. If you still can't access it, please let us know, and we'll assist you further.",
+93,C21-2,SOP-MSG-02,"# SOP-MSG-02 Mailbox full or over quota
+
+Applies to: Microsoft Outlook / Exchange Online
+Symptoms: mailbox full, quota exceeded, cannot send because mailbox is full
+
+Steps for the user:
+1. Empty the Deleted Items and Junk Email folders.
+2. Sort the mailbox by size and delete or save large attachments to OneDrive.
+3. Turn on the Online Archive: File > Tools > Mailbox Cleanup > Archive older items.
+4. Restart Outlook and check the mailbox size in File > Info.
+
+Escalation: Escalate to Messaging & Collaboration Support if a mailbox quota increase is needed.","Hello! The error message indicates that your mailbox has exceeded its storage quota, which is why you cannot send emails. To resolve this quickly, please delete or archive some old emails, especially those with large attachments, to free up space. You can also empty your Deleted Items and Junk Email folders. After freeing up space, try sending your email again. If you need assistance with this or if the problem persists, please let us know immediately so we can help you meet your tender deadline.",
+94,C24-2,SOP-TMS-02,"# SOP-TMS-02 Teams sign-in loop or Teams will not start
+
+Applies to: Microsoft Teams
+Symptoms: teams keeps asking to sign in, blank white screen, teams crashes on start
+
+Steps for the user:
+1. Quit Teams completely from the system tray.
+2. Clear the Teams cache: delete the contents of %appdata%\Microsoft\Teams (classic) or reset the new Teams app in Settings > Apps.
+3. Start Teams and sign in with your work account.
+4. If the problem continues, use Teams on the web (teams.microsoft.com) while the desktop app is checked.
+
+Escalation: Escalate to Messaging & Collaboration Support if Teams on the web also fails.","To resolve the sign-in loop issue in Teams, please follow these steps:
+1. Quit Teams completely from the system tray.
+2. Clear the Teams cache by deleting the contents of %appdata%\Microsoft\Teams.
+3. Start Teams again and sign in with your work account.
+4. If the problem continues, you can use Teams on the web at teams.microsoft.com while we further investigate.
+
+If the issue persists even on the web version, please let us know so we can escalate to Messaging & Collaboration Support.",
+95,C21-3,SOP-MSG-02,"# SOP-MSG-02 Mailbox full or over quota
+
+Applies to: Microsoft Outlook / Exchange Online
+Symptoms: mailbox full, quota exceeded, cannot send because mailbox is full
+
+Steps for the user:
+1. Empty the Deleted Items and Junk Email folders.
+2. Sort the mailbox by size and delete or save large attachments to OneDrive.
+3. Turn on the Online Archive: File > Tools > Mailbox Cleanup > Archive older items.
+4. Restart Outlook and check the mailbox size in File > Info.
+
+Escalation: Escalate to Messaging & Collaboration Support if a mailbox quota increase is needed.","Hi! It looks like your mailbox is full, which is why you're unable to send emails. To resolve this quickly, please try deleting some old or large emails, especially those with attachments, from your Inbox and Sent Items folders. Also, empty your Deleted Items folder to free up space. After that, restart Outlook and try sending your contract again. If you need immediate assistance or can't free up enough space, please let us know, and we can help increase your mailbox quota temporarily.",
+96,C37-3,SOP-EUC-01,"# SOP-EUC-01 Laptop is slow or the disk is full
+
+Applies to: Windows laptop / endpoint
+Symptoms: laptop slow, computer freezing, disk full, low storage
+
+Steps for the user:
+1. Restart the laptop; do not only close the lid.
+2. Install pending updates from Settings > Windows Update and restart again.
+3. Run Disk Cleanup and delete temporary files; move large personal files to OneDrive.
+4. Close applications that start automatically and are not needed (Task Manager > Startup).
+
+Escalation: Escalate to End-User Computing if the laptop is still slow after updates or the disk fails.","To help with your disk full warning and slow laptop, please follow these steps:
+1. Restart your laptop completely; do not just close the lid.
+2. Install any pending updates by going to Settings > Windows Update, then restart your laptop again.
+3. Run Disk Cleanup to delete temporary files and consider moving large personal files to OneDrive to free up space.
+4. Close any unnecessary applications that start automatically by opening Task Manager and going to the Startup tab.
+If your laptop remains slow or the disk issue persists after these steps, please let us know so we can escalate the issue to End-User Computing for further assistance.",
