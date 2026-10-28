@@ -1,10 +1,10 @@
-"""Build the controlled benchmark D2 from the scenario cards (thesis chapter 3.3.5, Appendix 3).
+"""Build the controlled benchmark D3 from the scenario cards (thesis chapter 3.3.5, Appendix 3).
 
-Writes data/d2/benchmark.jsonl and one .eml file per email to data/d2/emails/. Priority and resolver
+Writes data/d3/benchmark.jsonl and one .eml file per email to data/d3/emails/. Priority and resolver
 group are derived from the gold impact, urgency, category and application with the same rules as the
 labelling guide (impact x urgency matrix; security incidents -> P1 and Security Operations).
 
-    python -m src.data_prep.build_d2
+    python -m src.data_prep.build_d3
 """
 from __future__ import annotations
 
@@ -14,9 +14,10 @@ from email.message import EmailMessage
 
 from ..servicedesk.config import ROOT, load_catalogue
 from ..servicedesk.rules import compute_priority, route
-from .d2_cards import CARDS, CHALLENGE
+from .d3_cards import ATTACKS, CALIBRATION_ADDED, CARDS, CHALLENGE
 
-OUT = ROOT / "data" / "d2"
+OUT = ROOT / "data" / "d3"
+SPLITS = ("dev", "test", "challenge", "attack")
 
 # Key steps of each SOP with keywords used to score key-step coverage (any keyword = step covered).
 STEP_KEYS = {
@@ -60,22 +61,26 @@ STEP_KEYS = {
 
 
 def build() -> dict:
-    cat = load_catalogue("d2")
+    cat = load_catalogue("d3")
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "emails").mkdir(exist_ok=True)
     rows = []
-    for card in CARDS:
+    for card in CARDS + CALIBRATION_ADDED:
         for i, (subject, body) in enumerate(card["emails"], 1):
             rows.append({"id": f"{card['id']}-{i}", "card": card["id"], "split": card["split"], "type": "normal",
                          "subject": subject, "body": body, **{k: card[k] for k in ("category", "application", "impact", "urgency", "answerable", "sop")}})
     for x in CHALLENGE:
         rows.append({"id": x["id"], "card": x["id"], "split": "challenge", "type": x["type"], "subject": x["subject"], "body": x["body"],
                      **{k: x[k] for k in ("category", "application", "impact", "urgency", "answerable", "sop")}})
+    for x in ATTACKS:
+        rows.append({"id": x["id"], "card": x["id"], "split": "attack", "type": "embedded_injection", "subject": x["subject"],
+                     "body": x["body"], "markers": x["markers"],
+                     **{k: x[k] for k in ("category", "application", "impact", "urgency", "answerable", "sop")}})
     for r in rows:
         r["priority"], _ = compute_priority(r["impact"], r["urgency"], r["category"], cat)
         r["group"], _ = route(r["application"], r["category"], cat)
         r["expected_steps"] = STEP_KEYS.get(r["sop"], []) if r["answerable"] else []
-        r["expected_route"] = "human" if (r["split"] == "challenge" or r["priority"] == "P1" or not r["answerable"]
+        r["expected_route"] = "human" if (r["split"] in ("challenge", "attack") or r["priority"] == "P1" or not r["answerable"]
                                           or r["category"] not in cat.auto_categories) else "auto"
         msg = EmailMessage()
         msg["From"] = f"user.{r['card'].lower()}@aurora-retail.example"
@@ -86,12 +91,13 @@ def build() -> dict:
     with open(OUT / "benchmark.jsonl", "w", encoding="utf-8") as fh:
         for r in rows:
             fh.write(json.dumps(r, ensure_ascii=False) + "\n")
-    stats = {s: len([r for r in rows if r["split"] == s]) for s in ("dev", "test", "challenge")}
-    stats["priority_by_split"] = {s: dict(Counter(r["priority"] for r in rows if r["split"] == s)) for s in ("dev", "test", "challenge")}
-    stats["answerable_by_split"] = {s: sum(r["answerable"] for r in rows if r["split"] == s) for s in ("dev", "test", "challenge")}
-    stats["expected_auto_by_split"] = {s: sum(r["expected_route"] == "auto" for r in rows if r["split"] == s) for s in ("dev", "test", "challenge")}
+    stats = {s: len([r for r in rows if r["split"] == s]) for s in SPLITS}
+    stats["cards_by_split"] = {s: len({r["card"] for r in rows if r["split"] == s}) for s in SPLITS}
+    stats["priority_by_split"] = {s: dict(Counter(r["priority"] for r in rows if r["split"] == s)) for s in SPLITS}
+    stats["answerable_by_split"] = {s: sum(r["answerable"] for r in rows if r["split"] == s) for s in SPLITS}
+    stats["expected_auto_by_split"] = {s: sum(r["expected_route"] == "auto" for r in rows if r["split"] == s) for s in SPLITS}
     stats["sops_in_kb"] = len(list((ROOT / "kb" / "sops").glob("*.md")))
-    (ROOT / "results" / "d2_build.json").write_text(json.dumps(stats, indent=2))
+    (ROOT / "results" / "d3_build.json").write_text(json.dumps(stats, indent=2))
     print(json.dumps(stats, indent=2))
     return stats
 

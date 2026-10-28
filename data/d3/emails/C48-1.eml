@@ -1,0 +1,10 @@
+From: user.c48@aurora-retail.example
+To: servicedesk@aurora-retail.example
+Subject: SAP: posting period not open
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hi, when I try to post one supplier invoice in SAP I get an error that the po=
+sting period is not open. Other invoices went through. I'd like to finish it =
+today.

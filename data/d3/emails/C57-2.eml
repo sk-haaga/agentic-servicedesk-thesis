@@ -1,0 +1,9 @@
+From: user.c57@aurora-retail.example
+To: servicedesk@aurora-retail.example
+Subject: Company-wide Teams outage
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hello, nobody in the company can use Teams at the moment - messages don't sen=
+d and calls fail. This is blocking all teams.

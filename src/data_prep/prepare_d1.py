@@ -1,10 +1,13 @@
-"""Prepare the public ticket dataset D1 (Bueck 2025, CC BY-NC 4.0) - thesis chapter 3.3.4 and Appendix 4.
+"""Prepare the public ticket dataset D1 (Bück 2025, CC BY-NC 4.0) - thesis chapter 3.3.4 and Appendix 4.
 
 Steps: English only -> IT-related queues -> drop exact duplicates and empty bodies -> map priority to P1-P3
 -> group near-duplicate tickets (TF-IDF cosine >= 0.8; the generated dataset contains many paraphrased
-variants) -> group-aware split into test (400), development (100) and training pool (rest), so that no
+variants) -> group-aware split into test, development and training pool (rest), so that no
 near-duplicate group appears in more than one split (prevents leakage, Kaufman et al. 2012). Test and
-development sets contain one ticket per group. The split is deterministic (seed 42).
+development sets contain one ticket per group. The split is deterministic (seed 42). The sizes come from
+config/settings.yaml (evaluation.d1_test_size / d1_dev_size): 1,000 and 100 from design iteration 2,
+400 and 100 in the first evaluation. Because the shuffle is fixed, a larger test sample keeps almost all
+tickets of a smaller one.
 
     python -m src.data_prep.prepare_d1
 """
@@ -19,13 +22,15 @@ import pandas as pd
 from scipy.sparse.csgraph import connected_components
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-from ..servicedesk.config import ROOT
+from ..servicedesk.config import ROOT, settings
 
 RAW = ROOT / "data" / "raw" / "aa_dataset-tickets-multi-lang-5-2-50-version.csv"
 OUT = ROOT / "data" / "processed"
 IT_QUEUES = ["Technical Support", "Product Support", "IT Support", "Service Outages and Maintenance"]
 PRIORITY_MAP = {"high": "P1", "medium": "P2", "low": "P3"}
-SEED, N_TEST, N_DEV, SIM = 42, 400, 100, 0.8
+SEED, SIM = 42, 0.8
+N_TEST = int(settings().get("evaluation", {}).get("d1_test_size", 400))
+N_DEV = int(settings().get("evaluation", {}).get("d1_dev_size", 100))
 
 
 def near_duplicate_groups(texts: list[str], threshold: float) -> np.ndarray:

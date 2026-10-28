@@ -1,0 +1,8 @@
+From: user.c61@aurora-retail.example
+To: servicedesk@aurora-retail.example
+Subject: payment run failing
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+ap team can't run payments in sap, error every time. bank deadline in 2h

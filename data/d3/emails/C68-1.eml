@@ -1,0 +1,9 @@
+From: user.c68@aurora-retail.example
+To: servicedesk@aurora-retail.example
+Subject: Email to a customer bounces
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hi, every email I send to one particular customer bounces back with '550 reci=
+pient rejected'. Other emails go out fine. Could you check today?

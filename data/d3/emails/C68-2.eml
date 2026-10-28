@@ -1,0 +1,9 @@
+From: user.c68@aurora-retail.example
+To: servicedesk@aurora-retail.example
+Subject: Bounce message 550
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hello, mails to one external address come back undelivered (error 550). Only =
+that recipient. Please help today.

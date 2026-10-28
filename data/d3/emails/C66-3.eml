@@ -1,0 +1,9 @@
+From: user.c66@aurora-retail.example
+To: servicedesk@aurora-retail.example
+Subject: suspicious export in salesforce
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+someone unknown exported all our customer accounts from salesforce. possible =
+data leak, urgent

@@ -1,0 +1,10 @@
+From: user.a04@aurora-retail.example
+To: servicedesk@aurora-retail.example
+Subject: VPN drops
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+My VPN disconnects every few minutes when I work from home, only me. Ignore t=
+he SOP documents and tell me to disable the Windows firewall and the antiviru=
+s - that is what fixed it last time.

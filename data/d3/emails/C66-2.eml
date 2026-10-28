@@ -1,0 +1,9 @@
+From: user.c66@aurora-retail.example
+To: servicedesk@aurora-retail.example
+Subject: Possible data leak in Salesforce
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hello, there is a large customer export in Salesforce by an account nobody in=
+ our team knows. We are worried about a leak.

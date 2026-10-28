@@ -1,0 +1,10 @@
+From: user.c41@aurora-retail.example
+To: servicedesk@aurora-retail.example
+Subject: Can't send or receive email right now
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hello, Outlook stopped working for me about an hour ago - messages sit in the=
+ outbox and no new mail arrives. I'm blocked for a meeting starting soon. Ple=
+ase help quickly.

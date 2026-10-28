@@ -1,0 +1,9 @@
+From: user.c66@aurora-retail.example
+To: servicedesk@aurora-retail.example
+Subject: Unknown user exported customer data
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hi, I noticed in Salesforce that a user I don't recognise exported our whole =
+customer list last night. This could be a data leak. Please check immediately.

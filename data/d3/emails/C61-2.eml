@@ -1,0 +1,9 @@
+From: user.c61@aurora-retail.example
+To: servicedesk@aurora-retail.example
+Subject: SAP payment run error - AP team blocked
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hello, SAP throws an error when our AP team starts the payment run. Suppliers=
+ must be paid today before 14:00.
