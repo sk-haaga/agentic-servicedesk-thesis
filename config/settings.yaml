@@ -1,14 +1,32 @@
-# Prototype settings. Thresholds were chosen on the development set (experiment E5, final Azure run 2026-10-15)
-# and frozen: tau_1 = 0.90, tau_2 = 0.769.
+# Prototype settings.
+# gate: thresholds used by the prototype itself (CLI, console). The experiment runner chooses its own
+# thresholds on the D3 calibration set with the rule under `selection` and reports them in the run's
+# summary; copy the chosen values here after the final evaluation.
+# First evaluation (2026-10-15): tau_1 = 0.90, tau_2 = 0.769.
 prompt_version: v1
 temperature: 0
+seed: 42
 max_tool_steps: 3
 retrieval_top_k: 3
 gate:
   tau_confidence: 0.90     # tau_1: classifier confidence threshold
-  tau_similarity: 0.769     # tau_2: top SOP similarity threshold
+  tau_similarity: 0.769    # tau_2: top SOP similarity threshold
   auto_priorities: [P2, P3]
 hitl_mode: queue            # queue = park ticket for the review console; interrupt = LangGraph interrupt
 retries:
   llm_attempts: 3
   schema_repairs: 1
+
+# ---- experiment settings (design iteration 2) -------------------------------------------------
+evaluation:
+  runs: 10                 # repetitions of every LLM configuration
+  d1_test_size: 1000       # D1 test sample (first evaluation: 400)
+  d1_dev_size: 100
+  bootstrap_samples: 5000
+selection:                 # how tau_1 / tau_2 are chosen on the D3 calibration set (all runs pooled)
+  target_accuracy: 0.95    # required accuracy of the automatically handled tickets
+  min_accepted: 10         # a setting must accept at least this many tickets per run on average
+  criterion: point         # point = observed accuracy >= target; lower_bound = Clopper-Pearson lower bound >= target
+  alpha: 0.05              # for the Clopper-Pearson interval
+  fallback: assistive      # if no setting meets the target: assistive = no automatic handling;
+                           # highest_lower_bound = the setting with the most convincing evidence

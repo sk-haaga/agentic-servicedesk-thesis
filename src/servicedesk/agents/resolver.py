@@ -9,7 +9,7 @@ import json
 
 from ..config import settings
 from ..guard import delimit
-from ..prompts import RESOLVER_SYSTEM, RESOLVER_SYSTEM_NORAG, RESOLVER_USER
+from ..prompts import RESOLVER_SYSTEM, RESOLVER_SYSTEM_NORAG, RESOLVER_SYSTEM_UNDEFENDED, RESOLVER_USER
 from ..schemas import Resolution
 from ..tools import RESOLVER_TOOL_SPECS
 
@@ -25,11 +25,12 @@ def format_sops(sops) -> str:
     return "\n\n".join(f"[{s.sop_id}] (similarity {s.similarity:.2f})\n{s.text}" for s in sops)
 
 
-def resolve(llm, ticket_text: str, classification, priority: str, sops, runner, use_tools: bool = True, norag: bool = False):
-    """Return (Resolution, list_of_llm_results)."""
+def resolve(llm, ticket_text: str, classification, priority: str, sops, runner, use_tools: bool = True, norag: bool = False,
+            defended: bool = True):
+    """Return (Resolution, list_of_llm_results). defended=False removes the prompt-level defences (security experiment only)."""
     user = RESOLVER_USER.format(category=classification.category, application=classification.application,
-                                priority=priority, ticket=delimit(ticket_text), sops=format_sops(sops))
-    system = RESOLVER_SYSTEM_NORAG if norag else RESOLVER_SYSTEM
+                                priority=priority, ticket=delimit(ticket_text) if defended else ticket_text, sops=format_sops(sops))
+    system = RESOLVER_SYSTEM_NORAG if norag else RESOLVER_SYSTEM if defended else RESOLVER_SYSTEM_UNDEFENDED
     if norag:
         user = user.split("Retrieved SOPs:")[0].strip()
     messages = [{"role": "system", "content": system}, {"role": "user", "content": user}]

@@ -58,9 +58,10 @@ class TicketState(TypedDict, total=False):
 
 
 class ServiceDeskWorkflow:
-    def __init__(self, llm=None, catalogue: Catalogue | str = "d2", store: Store | None = None, kb: KnowledgeBase | None = None,
+    def __init__(self, llm=None, catalogue: Catalogue | str = "d3", store: Store | None = None, kb: KnowledgeBase | None = None,
                  *, use_rag: bool = True, use_tools: bool = True, triage_only: bool = False, hitl_mode: str | None = None,
-                 tau1: float | None = None, tau2: float | None = None, run_id: str | None = None, checkpoint_db=None):
+                 tau1: float | None = None, tau2: float | None = None, run_id: str | None = None, checkpoint_db=None,
+                 defences: bool = True):
         self.llm = llm or get_llm()
         self.catalogue = load_catalogue(catalogue) if isinstance(catalogue, str) else catalogue
         self.store = store or Store()
@@ -68,6 +69,9 @@ class ServiceDeskWorkflow:
         self.use_rag, self.use_tools, self.triage_only = use_rag, use_tools, triage_only
         self.hitl_mode = hitl_mode or settings()["hitl_mode"]
         self.tau1, self.tau2 = tau1, tau2
+        # defences=False switches off the injection screen, the prompt-level defences and the gate's injection
+        # condition. It exists ONLY for the security experiment (attack success rate without defences).
+        self.defences = defences
         self.run_id = run_id or uuid.uuid4().hex[:8]
         checkpointer = None
         if self.hitl_mode == "interrupt":
@@ -98,7 +102,7 @@ class ServiceDeskWorkflow:
     def intake_guard(self, state: TicketState) -> dict:
         raw = f"Subject: {state.get('subject', '')}\n\n{state.get('body', '')}".strip()
         text = mask_personal_data(raw)
-        hits = screen_injection(raw)
+        hits = screen_injection(raw) if self.defences else []
         out = {"text": text, "injection_hits": hits, "errors": [], "started": time.perf_counter(), "llm_calls": 0,
                "tokens_in": 0, "tokens_out": 0, "blocked_tools": []}
         self._audit(state, "intake_guard", output={"injection_hits": hits}, input_text=raw,
@@ -121,7 +125,7 @@ class ServiceDeskWorkflow:
 
     def classify(self, state: TicketState) -> dict:
         try:
-            res = classify(self.llm, state["text"], self.catalogue)
+            res = classify(self.llm, state["text"], self.catalogue, defended=self.defences)
         except SchemaError as exc:
             self._audit(state, "classify", reason=f"schema_error:{exc}"[:200])
             return {"errors": state.get("errors", []) + ["classification_schema"]}
@@ -175,7 +179,7 @@ class ServiceDeskWorkflow:
         runner = ToolRunner(self.kb, lambda step, **kw: self._audit(state, step, **kw))
         try:
             resolution, results = resolve(self.llm, state["text"], _obj(state["classification"]), state["priority"], sops, runner,
-                                          use_tools=self.use_tools, norag=not self.use_rag)
+                                          use_tools=self.use_tools, norag=not self.use_rag, defended=self.defences)
         except SchemaError as exc:
             self._audit(state, "resolve", reason=f"schema_error:{exc}"[:200])
             return {"errors": state.get("errors", []) + ["resolution_schema"]}
@@ -203,7 +207,8 @@ class ServiceDeskWorkflow:
         decision = gate_mod.decide(priority=state.get("priority", "P1"), category=c.get("category", ""),
                                    confidence=float(c.get("confidence", 0.0)), top_similarity=top, resolution=resolution,
                                    injection=bool(state.get("injection_hits")) or bool(c.get("injection_suspected")),
-                                   errors=errors, catalogue=self.catalogue, tau1=self.tau1, tau2=self.tau2)
+                                   errors=errors, catalogue=self.catalogue, tau1=self.tau1, tau2=self.tau2,
+                                   disabled=frozenset() if self.defences else frozenset({"injection"}))
         self._audit(state, "gate", output=decision.model_dump(), reason=";".join(decision.reasons))
         return {"gate": decision.model_dump()}
 

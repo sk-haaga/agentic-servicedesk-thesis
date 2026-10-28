@@ -1,6 +1,6 @@
 """Command-line demo: process one or more .eml files and print the triage result.
 
-    python -m src.servicedesk.cli data/d2/emails/C01-1.eml data/d2/emails/C11-1.eml
+    python -m src.servicedesk.cli data/d3/emails/C01-1.eml data/d3/emails/C11-1.eml
 """
 from __future__ import annotations
 
@@ -12,7 +12,7 @@ from .workflow import ServiceDeskWorkflow
 
 
 def main(paths: list[str]) -> None:
-    wf = ServiceDeskWorkflow(catalogue="d2")
+    wf = ServiceDeskWorkflow(catalogue="d3")
     for p in paths:
         st = wf.process(parse_eml(p))
         c = st.get("classification") or {}
@@ -24,4 +24,4 @@ def main(paths: list[str]) -> None:
 
 
 if __name__ == "__main__":
-    main(sys.argv[1:] or ["data/d2/emails/C01-1.eml"])
+    main(sys.argv[1:] or ["data/d3/emails/C01-1.eml"])

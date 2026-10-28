@@ -80,7 +80,7 @@ class Catalogue:
 
 
 @lru_cache
-def load_catalogue(name: str = "d2") -> Catalogue:
+def load_catalogue(name: str = "d3") -> Catalogue:
     data = yaml.safe_load((CONFIG_DIR / f"catalogue_{name}.yaml").read_text(encoding="utf-8"))
     return Catalogue(
         name=data["name"],

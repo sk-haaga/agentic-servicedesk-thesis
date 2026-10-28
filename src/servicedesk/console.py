@@ -26,18 +26,18 @@ st.set_page_config(page_title="Agentic Service Desk – Review Console", layout=
 
 @st.cache_resource
 def workflow():
-    return ServiceDeskWorkflow(catalogue="d2", hitl_mode="interrupt")
+    return ServiceDeskWorkflow(catalogue="d3", hitl_mode="interrupt")
 
 
 wf = workflow()
 store: Store = wf.store
-catalogue = load_catalogue("d2")
+catalogue = load_catalogue("d3")
 page = st.sidebar.radio("Page", ["Inbox", "Review queue", "All tickets"])
 st.sidebar.caption(f"LLM: {wf.llm.name} · model: {wf.llm.chat_model}")
 
 if page == "Inbox":
     st.header("Inbox – submit a user email")
-    samples = sorted((Path(__file__).resolve().parents[2] / "data" / "d2" / "emails").glob("*.eml"))
+    samples = sorted((Path(__file__).resolve().parents[2] / "data" / "d3" / "emails").glob("*.eml"))
     pick = st.selectbox("Load a benchmark email (optional)", ["—"] + [p.stem for p in samples])
     subject, body = "", ""
     if pick != "—":

@@ -1,6 +1,6 @@
-# Service catalogue of the fictional client Aurora Retail Oy (controlled benchmark D2).
+# Service catalogue of the fictional client Aurora Retail Oy (controlled benchmark D3).
 # Keywords are used only by the keyword baseline; descriptions are given to the LLM.
-name: d2
+name: d3
 security_category: Security Incident
 security_group: Security Operations
 auto_categories:            # categories that may be resolved automatically if all gate conditions hold

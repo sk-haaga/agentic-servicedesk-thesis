@@ -41,9 +41,12 @@ class Usage:
     embed_tokens: int = 0
     retries: int = 0
     repairs: int = 0
+    models: dict = field(default_factory=dict)        # model versions reported by the API -> number of calls
+    embed_models: dict = field(default_factory=dict)
 
     def add(self, r: LLMResult):
         self.calls += 1
+        self.models[r.model] = self.models.get(r.model, 0) + 1
         self.tokens_in += r.tokens_in
         self.tokens_out += r.tokens_out
         self.repairs += r.repairs
@@ -62,6 +65,7 @@ class OpenAICompatibleLLM:
     """Shared implementation for Azure OpenAI and OpenAI (same SDK)."""
 
     is_fake = False
+    api_version = None
 
     def __init__(self, client, chat_model: str, embed_model: str, name: str):
         self.client = client
@@ -70,7 +74,7 @@ class OpenAICompatibleLLM:
         self.name = name
         self.usage = Usage()
         self._attempts = int(settings()["retries"]["llm_attempts"])
-        self.sampling = {"temperature": settings()["temperature"], "seed": 42}
+        self.sampling = {"temperature": settings()["temperature"], "seed": int(settings().get("seed", 42))}
 
     def _sampled(self, fn, **kwargs):
         """Call with temperature/seed; reasoning models (e.g. gpt-5-mini) reject them, so drop them once and remember."""
@@ -113,7 +117,8 @@ class OpenAICompatibleLLM:
                 parsed = resp.choices[0].message.parsed
                 if parsed is None:
                     raise SchemaError(resp.choices[0].message.refusal or "empty parse")
-                res = LLMResult(parsed, self.chat_model, (time.perf_counter() - t0) * 1000, total_in, total_out, attempt, retries)
+                res = LLMResult(parsed, getattr(resp, "model", None) or self.chat_model, (time.perf_counter() - t0) * 1000,
+                                total_in, total_out, attempt, retries)
                 self.usage.add(res)
                 return res
             except (ValidationError, SchemaError, json.JSONDecodeError) as exc:
@@ -126,7 +131,7 @@ class OpenAICompatibleLLM:
         t0 = time.perf_counter()
         resp, r = self._sampled(self.client.chat.completions.create, model=self.chat_model, messages=messages, tools=tools,
                                 tool_choice="auto")
-        res = LLMResult(None, self.chat_model, (time.perf_counter() - t0) * 1000,
+        res = LLMResult(None, getattr(resp, "model", None) or self.chat_model, (time.perf_counter() - t0) * 1000,
                         resp.usage.prompt_tokens if resp.usage else 0, resp.usage.completion_tokens if resp.usage else 0, 0, r)
         self.usage.add(res)
         return resp.choices[0].message, res
@@ -135,6 +140,8 @@ class OpenAICompatibleLLM:
         resp, _ = self._call(self.client.embeddings.create, model=self.embed_model, input=texts)
         if resp.usage:
             self.usage.embed_tokens += resp.usage.prompt_tokens
+        m = getattr(resp, "model", None) or self.embed_model
+        self.usage.embed_models[m] = self.usage.embed_models.get(m, 0) + 1
         return [d.embedding for d in resp.data]
 
 
@@ -162,7 +169,9 @@ def azure_llm() -> OpenAICompatibleLLM:
     from openai import AzureOpenAI
     client = AzureOpenAI(azure_endpoint=azure_endpoint(), api_key=env("AZURE_OPENAI_API_KEY").strip(),
                          api_version=env("AZURE_OPENAI_API_VERSION", "2024-10-21"), timeout=60)
-    return OpenAICompatibleLLM(client, env("AZURE_OPENAI_CHAT_DEPLOYMENT"), env("AZURE_OPENAI_EMBEDDING_DEPLOYMENT"), "azure")
+    llm = OpenAICompatibleLLM(client, env("AZURE_OPENAI_CHAT_DEPLOYMENT"), env("AZURE_OPENAI_EMBEDDING_DEPLOYMENT"), "azure")
+    llm.api_version = env("AZURE_OPENAI_API_VERSION", "2024-10-21")
+    return llm
 
 
 def openai_llm() -> OpenAICompatibleLLM:

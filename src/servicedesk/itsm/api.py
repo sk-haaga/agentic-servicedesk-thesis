@@ -43,7 +43,7 @@ def update_incident(number: str, fields: dict):
 
 
 @app.get("/api/catalogue/{name}")
-def catalogue(name: str = "d2"):
+def catalogue(name: str = "d3"):
     c = load_catalogue(name)
     return {"categories": c.category_names, "applications": c.applications, "groups": c.groups}
 
