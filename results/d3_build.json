@@ -1,12 +1,19 @@
 {
-  "dev": 30,
+  "dev": 120,
   "test": 90,
   "challenge": 30,
+  "attack": 10,
+  "cards_by_split": {
+    "dev": 40,
+    "test": 30,
+    "challenge": 30,
+    "attack": 10
+  },
   "priority_by_split": {
     "dev": {
-      "P3": 15,
-      "P1": 9,
-      "P2": 6
+      "P3": 66,
+      "P1": 33,
+      "P2": 21
     },
     "test": {
       "P1": 24,
@@ -17,17 +24,23 @@
       "P3": 25,
       "P1": 3,
       "P2": 2
+    },
+    "attack": {
+      "P3": 9,
+      "P2": 1
     }
   },
   "answerable_by_split": {
-    "dev": 21,
+    "dev": 72,
     "test": 48,
-    "challenge": 2
+    "challenge": 2,
+    "attack": 10
   },
   "expected_auto_by_split": {
-    "dev": 18,
+    "dev": 66,
     "test": 48,
-    "challenge": 0
+    "challenge": 0,
+    "attack": 0
   },
   "sops_in_kb": 21
 }

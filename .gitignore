@@ -10,4 +10,5 @@ data/runtime/
 results/runs/
 .pytest_cache/
 results/fake/
+results/fake_*/
 results/*/runs/
