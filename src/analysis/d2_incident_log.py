@@ -1,13 +1,13 @@
-"""Problem analysis of the public ServiceNow incident log (Amaral et al. 2018, UCI, CC BY 4.0).
+"""Problem analysis of the public ServiceNow incident log D2 (Amaral et al. 2018, UCI, CC BY 4.0).
 
-Uses the last recorded event of each incident and writes summary indicators to results/d3_summary.json.
+Uses the last recorded event of each incident and writes summary indicators to results/d2_summary.json.
 """
 import json, sys
 from pathlib import Path
 import pandas as pd
 
 RAW = Path(sys.argv[1] if len(sys.argv) > 1 else "data/raw/incident_event_log.csv")
-OUT = Path("results/d3_summary.json")
+OUT = Path("results/d2_summary.json")
 
 df = pd.read_csv(RAW)
 last = df.sort_values(["number", "sys_mod_count"]).groupby("number").tail(1)
