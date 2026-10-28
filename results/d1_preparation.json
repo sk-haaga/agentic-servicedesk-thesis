@@ -5,9 +5,9 @@
   "after_cleaning": 10416,
   "near_duplicate_groups": 7662,
   "tickets_in_groups_of_2_or_more": 4607,
-  "train": 9553,
+  "train": 8576,
   "dev": 100,
-  "test": 400,
+  "test": 1000,
   "queue_distribution": {
     "Technical Support": 4737,
     "Product Support": 3073,
@@ -20,8 +20,8 @@
     "P3": 1394
   },
   "test_priority_distribution": {
-    "P1": 195,
-    "P2": 151,
-    "P3": 54
+    "P1": 486,
+    "P2": 379,
+    "P3": 135
   }
 }
