@@ -14,7 +14,7 @@ gate:
   auto_priorities: [P2, P3]
 hitl_mode: queue            # queue = park ticket for the review console; interrupt = LangGraph interrupt
 retries:
-  llm_attempts: 3
+  llm_attempts: 6
   schema_repairs: 1
 
 # ---- experiment settings (design iteration 2) -------------------------------------------------
