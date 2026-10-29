@@ -1,0 +1,80 @@
+{
+  "results_folder": "azure_2026-10-29-10-35",
+  "started": "2026-10-29 10:35:28",
+  "finished": "2026-10-29 13:03:00",
+  "git_commit": "9543f0fdc55386bf4d976afe72e3dd91623e822e",
+  "git_uncommitted_changes": false,
+  "python": "3.11.9",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "packages": {
+    "openai": "3.31.0",
+    "langgraph": "1.2.15",
+    "chromadb": "1.5.9",
+    "pydantic": "2.13.5",
+    "scikit-learn": "1.9.1",
+    "pandas": "3.0.6",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1"
+  },
+  "provider": "azure",
+  "chat_deployment": "gpt-4.1-mini",
+  "embedding_deployment": "text-embedding-3-small",
+  "api_version": "2024-10-21",
+  "model_versions_reported_by_api": {
+    "gpt-4.1-mini-2025-04-14": 20898
+  },
+  "embedding_versions_reported_by_api": {
+    "text-embedding-3-small": 2707
+  },
+  "prompt_version": "v1",
+  "settings": {
+    "prompt_version": "v1",
+    "temperature": 0,
+    "seed": 42,
+    "max_tool_steps": 3,
+    "retrieval_top_k": 3,
+    "gate": {
+      "tau_confidence": 0.9,
+      "tau_similarity": 0.769,
+      "auto_priorities": [
+        "P2",
+        "P3"
+      ]
+    },
+    "hitl_mode": "queue",
+    "retries": {
+      "llm_attempts": 6,
+      "schema_repairs": 1
+    },
+    "evaluation": {
+      "runs": 10,
+      "d1_test_size": 1000,
+      "d1_dev_size": 100,
+      "bootstrap_samples": 5000
+    },
+    "selection": {
+      "target_accuracy": 0.95,
+      "min_accepted": 10,
+      "criterion": "point",
+      "alpha": 0.05,
+      "fallback": "assistive"
+    }
+  },
+  "arguments": {
+    "runs": 10,
+    "workers": 4,
+    "limit": null,
+    "skip_e1": false
+  },
+  "price_basis_per_million_tokens": {
+    "PRICE_INPUT_PER_M": "0.37",
+    "PRICE_OUTPUT_PER_M": "1.47",
+    "PRICE_EMBED_PER_M": "0.02"
+  },
+  "data_sha256": {
+    "d3_benchmark": "65e826e1f8f694081514e4c49d96f3c3c8f204d06ff033736b2a8036b0abe6f0",
+    "d1_test_ids": "cf40e8d475a2c4a07381a7358ec268ee521bb6f3736f8c69314b7858f08d9b01",
+    "d1_train_ids": "f7c2be11128baac8d1f49ed200245dff9e818f68c88b865e467329b0ecfcd8c1"
+  },
+  "sops_in_kb": 21
+}
