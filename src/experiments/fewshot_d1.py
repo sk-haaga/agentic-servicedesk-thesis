@@ -1,7 +1,7 @@
 """Experiment E9 (added after the main evaluation): few-shot triage on the public ticket dataset D1.
 
     python -m src.experiments.fewshot_d1 --provider azure --dry-run     # prompt sizes and cost estimate, no LLM calls
-    python -m src.experiments.fewshot_d1 --provider azure               # k = 1 and k = 3, three runs each
+    python -m src.experiments.fewshot_d1 --provider azure               # k = 1 and k = 3, ten runs each
     python -m src.experiments.fewshot_d1 --provider fake --runs 2 --limit 20    # offline smoke test
 
 Question: how much of the gap between the prototype without examples (E1: zero-shot) and the supervised
@@ -14,7 +14,7 @@ Design, fixed before the experiment is run:
   near-duplicate of a test ticket (group-aware split of prepare_d1), so no test ticket can leak into a prompt.
 * Everything else is as in E1: the same 1,000 test tickets, model, temperature, seed, prompt, schema and
   priority matrix. Only the block of examples is appended to the catalogue description in the system prompt.
-* Each condition is run three times. Scores, intervals and McNemar tests against the two baselines are computed
+* Each condition is run ten times, as in E1 (evaluation.runs in settings.yaml). Scores, intervals and McNemar tests against the two baselines are computed
   with the E1 analysis code. The few-shot conditions are compared with the stored zero-shot predictions of the
   main evaluation by a paired bootstrap over tickets and an exact McNemar test on the first runs.
 
@@ -165,7 +165,7 @@ def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--provider", default=None, help="azure | openai | fake (default: LLM_PROVIDER from .env)")
     ap.add_argument("--k", type=int, nargs="+", default=[1, 3], help="examples per combination of queue and priority")
-    ap.add_argument("--runs", type=int, default=3)
+    ap.add_argument("--runs", type=int, default=None, help="repetitions (default: evaluation.runs in settings.yaml)")
     ap.add_argument("--workers", type=int, default=4)
     ap.add_argument("--limit", type=int, default=None, help="limit the test tickets (smoke test)")
     ap.add_argument("--max-chars", type=int, default=600, help="longest example text in characters")
@@ -173,6 +173,7 @@ def main(argv=None):
     ap.add_argument("--dry-run", action="store_true", help="print prompt sizes and a cost estimate; no LLM calls")
     a = ap.parse_args(argv)
     a.skip_e1 = False
+    a.runs = a.runs or int(_cfg("evaluation").get("runs", 10))
 
     test, train = load_d1("test"), load_d1("train")
     if a.limit:
