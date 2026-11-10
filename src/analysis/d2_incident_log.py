@@ -1,6 +1,8 @@
 """Problem analysis of the public ServiceNow incident log D2 (Amaral et al. 2018, UCI, CC BY 4.0).
 
 Uses the last recorded event of each incident and writes summary indicators to results/d2_summary.json.
+It also compares the first and the last recorded event of each incident, to show how often priority,
+impact and urgency were changed during the incident's life (re-prioritisation).
 """
 import json, sys
 from pathlib import Path
@@ -26,6 +28,18 @@ res = {
     "priority_confirmed": round(float(last["u_priority_confirmation"].astype(str).str.lower().eq("true").mean()), 4),
     "reopened_at_least_once": round(float((last["reopen_count"] > 0).mean()), 4),
 }
+# changes during the incident's life: first vs last recorded event, and any change at any event
+ordered = df.sort_values(["number", "sys_mod_count"])
+first = ordered.groupby("number").head(1).set_index("number")
+lastx = last.set_index("number").loc[first.index]
+RANK = {"1 - Critical": 1, "2 - High": 2, "3 - Moderate": 3, "4 - Low": 4}
+for f in ("priority", "impact", "urgency"):
+    res[f"{f}_first_event_share"] = {k: round(v, 4) for k, v in first[f].value_counts(normalize=True).sort_index().items()}
+    res[f"{f}_changed_first_to_last"] = round(float((first[f] != lastx[f]).mean()), 4)
+    res[f"{f}_changed_at_any_event"] = round(float((ordered.groupby("number")[f].nunique() > 1).mean()), 4)
+fr, lr = first["priority"].map(RANK), lastx["priority"].map(RANK)
+res["priority_raised_first_to_last"] = round(float((lr < fr).mean()), 4)
+res["priority_lowered_first_to_last"] = round(float((lr > fr).mean()), 4)
 # mean reassignments by priority
 res["mean_reassignments_by_priority"] = {k: round(v, 2) for k, v in last.groupby("priority")["reassignment_count"].mean().items()}
 OUT.parent.mkdir(exist_ok=True)

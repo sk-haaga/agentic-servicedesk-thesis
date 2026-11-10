@@ -24,6 +24,30 @@
   "made_sla": 0.6342,
   "priority_confirmed": 0.7682,
   "reopened_at_least_once": 0.011,
+  "priority_first_event_share": {
+    "1 - Critical": 0.0074,
+    "2 - High": 0.0125,
+    "3 - Moderate": 0.9504,
+    "4 - Low": 0.0297
+  },
+  "priority_changed_first_to_last": 0.0148,
+  "priority_changed_at_any_event": 0.0154,
+  "impact_first_event_share": {
+    "1 - High": 0.0115,
+    "2 - Medium": 0.9594,
+    "3 - Low": 0.0291
+  },
+  "impact_changed_first_to_last": 0.0117,
+  "impact_changed_at_any_event": 0.0126,
+  "urgency_first_event_share": {
+    "1 - High": 0.0159,
+    "2 - Medium": 0.9571,
+    "3 - Low": 0.0271
+  },
+  "urgency_changed_first_to_last": 0.0114,
+  "urgency_changed_at_any_event": 0.012,
+  "priority_raised_first_to_last": 0.011,
+  "priority_lowered_first_to_last": 0.0038,
   "mean_reassignments_by_priority": {
     "1 - Critical": 1.16,
     "2 - High": 1.46,
